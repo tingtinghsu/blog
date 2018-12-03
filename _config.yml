@@ -1,22 +1,24 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# permalink:           pretty
 # relative_permalinks: true //Remove this line or it will deprecate the lastest version of Jekyll theme.
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
+title:               Ting's Square
+tagline:             '寫作與程式之路'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 http://lanyon.getpoole.com
 baseurl:             '/blog'
 paginate:            5
+paginate_path:      "/blog/page:num/"
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Ting Ting Hsu
+  url:               https://twitter.com/tingtingtour
+  email:             tingtinghsu.tw@gmail.com
 
 # Custom vars
 version:             1.0.0
+plugins: [jekyll-paginate]
