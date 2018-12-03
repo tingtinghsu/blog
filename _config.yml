@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+# relative_permalinks: true //Remove this line or it will deprecate the lastest version of Jekyll theme.
 
 # Setup
 title:               Lanyon
