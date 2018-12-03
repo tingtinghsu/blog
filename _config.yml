@@ -7,8 +7,8 @@
 # Setup
 title:               Ting's Square
 tagline:             '寫作與程式之路'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+description:         'Tings Square: <a href="https://twitter.com/tingtingtour" target="_blank">@tingtingtour</a>的2018生活新專案'
+url:                 https://github.com/tingtinghsu
 baseurl:             '/blog'
 paginate:            5
 paginate_path:      "/blog/page:num/"
