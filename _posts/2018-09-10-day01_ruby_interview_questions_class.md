@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "30天修煉Ruby面試精選30題 - Day01 用Class類別寫個參賽宣言吧！"
+title:  "Ruby面試精選30題 - Day01 用Class類別寫個參賽宣言吧！"
 date:   2018-09-10 09:40:00 +1000
 categories: interview
 ---

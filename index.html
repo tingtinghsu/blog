@@ -19,25 +19,21 @@ title: Home
     <a href="{{ site.baseurl }}{{ post.url }}">
     Read the Article →
     </a>
-
   </div>
   {% endfor %}
 </div>
 
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
   {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
+    <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}" class="previous">Previous | </a>
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="previous">Previous |
+    </span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}/page{{ paginator.next_page }}" class="next"> Next</a>
+  {% else %}
+    <span class="next ">Next</span>
   {% endif %}
 </div>
-

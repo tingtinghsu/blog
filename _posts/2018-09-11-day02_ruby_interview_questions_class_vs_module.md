@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "30天修煉Ruby面試精選30題 - Day02 Module模組與Class類別比一比"
+title:  "Ruby面試精選30題 - Day02 Module模組與Class類別比一比"
 date:   2018-09-11 09:40:00 +1000
 categories: interview
 ---

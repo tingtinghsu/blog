@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "30天修煉Ruby面試精選30題 - Day30 Ruby的duck type + 完賽感言！"
+title:  "Ruby面試精選30題 - Day30 Ruby的duck type + 完賽感言！"
 date:   2018-11-02 13:58:00 +1000
 categories: interview
 ---
@@ -141,7 +141,6 @@ I love running!
 Ref:
 
 * [松本行弘談程式世界的未來(電子書)](https://books.google.com.au/books?id=uYvpBgAAQBAJ&pg=PA109&lpg=PA109&dq=ruby+鴨子型別)
-
 * [【演講稿】Understanding Typing. Understanding Ruby.](http://www.codedata.com.tw/social-coding/understanding-typing-understanding-ruby/)
 * [Ruby語言的Duck Typing](http://reader.roodo.com/sholfen/archives/8667217.html)
 * [強弱類型、動靜態類型語言嚴格定義](https://hk.saowen.com/a/68faaaa3a965bf21a6bd715fd4f6e41a14a9279d2c22e1854e4732b183909673)

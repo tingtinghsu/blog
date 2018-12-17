@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "30天修煉Ruby面試精選30題 - Day05 Ruby中的self物件與singleton method"
+title:  "Ruby面試精選30題 - Day05 Ruby中的self物件與singleton method"
 date:   2018-09-14 13:08:00 +1000
 categories: interview
 ---
