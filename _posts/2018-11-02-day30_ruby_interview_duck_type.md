@@ -7,6 +7,8 @@ categories: interview
 
 感動流淚中！沒想到完賽這天Day30終於到來～～。寫IT文章原來可以是這麼有趣的事呢！
 
+<!-- more -->
+
 # Ruby經典面試題目 #30
 
 `Day30 請解釋Ruby的鴨子型別(duck type)?  What is duck type?`
@@ -16,6 +18,8 @@ categories: interview
 > 如果你看到一隻鳥走起來像鴨子；游泳起來像鴨子；叫起來也像鴨子；那麼這隻鳥就可以被稱為鴨子。
 
 參考發明Ruby的Yukihiro Matsumoto所寫的[松本行弘談程式世界的未來(電子書)](https://books.google.com.au/books?id=uYvpBgAAQBAJ&pg=PA109&lpg=PA109&dq=ruby+鴨子型別)：**如果只關心物件具備的方法，而不用考慮一個物件究竟是哪個類別的實體，就是鴨子型別。**
+
+
 
 `Duck type`是一種用來譬喻`動態型別語言(Dynamically Typed Language)`的設計風格。這種主要根據`特徵`判斷的哲學，可以提供強大的靈活性，實現運行時的`多型(polymorphism)`。
 

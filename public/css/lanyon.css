@@ -150,8 +150,8 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
-  color: rgba(255,255,255,.6);
-  background-color: #202020;
+  color: rgb(245, 207, 207);
+  background-color: rgb(245, 207, 207);
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
@@ -217,7 +217,7 @@ a.sidebar-nav-item:focus {
   display: block;
   padding: .25rem .75rem;
   color: #505050;
-  background-color: #c78;
+  background-color: rgb(198,117,126);
   border-radius: .25rem;
   cursor: pointer;
 }
@@ -227,26 +227,26 @@ a.sidebar-nav-item:focus {
   width: 1rem;
   height: .75rem;
   content: "";
-  background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff 60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff 60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff 60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
 }
 
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
-  background-color: #555;
+  background-color: rgb(245, 207, 207);
 }
 
 .sidebar-toggle:active:before,
 #sidebar-checkbox:focus ~ .sidebar-toggle:before,
 #sidebar-checkbox:checked ~ .sidebar-toggle:before {
-  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
 }
 
 @media (min-width: 30.1em) {
@@ -316,7 +316,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: rgb(172, 8, 131);
 }
 .page-title,
 .post-title {
@@ -522,7 +522,7 @@ a.pagination-item:hover {
 .theme-base-0e .container a,
 .theme-base-0e .sidebar-toggle,
 .theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
+  color: #68255a;
 }
 
 /* Brown */

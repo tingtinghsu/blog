@@ -49,7 +49,7 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
 }
 @media (min-width: 38em) {
@@ -88,15 +88,16 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  margin-top: 2rem;  
+  font-size: 1.5rem;
 }
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
@@ -212,9 +213,9 @@ pre code {
 
 /* Quotes */
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
+  padding: .2rem 1rem;
+  margin: 2rem 0;
+  color: #aa8bbd;
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -337,7 +338,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #da3f3f;
 }
 .page-title,
 .post-title {
