@@ -21,22 +21,25 @@ categories: interview
 
 ## B. 設定工作環境
 
-有可以實作測試程式碼的地方是很重要的！
+有可以實作測試程式碼的地方是很重要的。
 
- * [Github帳號](https://github.com/tingtinghsu)
- * [自己的技術筆記blog](https://tingtinghsu.github.io/blog/)
- * [可Deploy動態功能的網站](http://tingsrailsdemo.herokuapp.com/)
+* [Github帳號](https://github.com/tingtinghsu)
+* [自己的技術筆記blog](https://tingtinghsu.github.io/blog/)
+* [可Deploy動態功能的網站](http://tingsrailsdemo.herokuapp.com/)
 
 ## C. 固定技術寫作的時間與習慣
- 1. 寫文章的生活規律化
-  08:00AM - 12:20PM
-  13:20PM - 17:20PM
- 
- 2. 熟練文章發布流程! 
-  VS code -> localhost預覽 -> git commit -> git push
 
- 3. 立馬開始，堅持到底。
- 
+1.寫文章的生活規律化
+
+  08:00AM - 12:30PM (4.5hr)
+  14:00PM - 17:30PM (3.5hr)
+
+2.熟練文章發布流程
+
+VS code -> localhost預覽 -> git commit -> git push
+
+3.立馬開始，堅持到底。
+
 用行動證明一切：）我們來解題吧！
 
 ---
@@ -50,15 +53,16 @@ categories: interview
 以上概念對於程式新手來說，應該會很模糊。我們要了解`類別(Class)`，就必須知道Ruby是一款`物件導向程式語言(Object-Oriented Programming, OOP)`。
 
 而Ruby的世界裡，幾乎所有東西都是`物件(Object)`，包含了：
- * `數值`(Numeric，整數與浮點數)
- * `布林值`(True or False)
- * `字串`(String)
- * `符號`(Symbol，代表固定值)
- * `陣列`(Array)
- * `雜湊`(Hash) 
- * `範圍`(Range)
- * `類別`(class)
- * `模組`(Module)...etc
+
+* `數值`(Numeric，整數與浮點數)
+* `布林值`(True or False)
+* `字串`(String)
+* `符號`(Symbol，代表固定值)
+* `陣列`(Array)
+* `雜湊`(Hash)
+* `範圍`(Range)
+* `類別`(class)
+* `模組`(Module)...etc
 
 每個`物件`就像一台小型機器一樣，可以「接收資料」、「處理資料」，並「傳遞資料」給其他的物件。
 
@@ -68,7 +72,8 @@ categories: interview
 
 寫個class的例子試試看，我想用`.superclass`查詢父類別，了解`繼承`關係：
 
-<script src="https://gist.github.com/tingtinghsu/f7b604327ac31896e4aff735675952ad.js"></script>
+<script src="https://gist.github.com/tingtinghsu/f7b604327ac31896e4aff735675952ad.js">
+</script>
 
 雖然程式碼好像繞口令，但如果以蓋大樓為例就會很直觀了：
 
@@ -82,7 +87,6 @@ categories: interview
 
 這就是Ruby的世界觀：）
 
-
 把以上的程式碼用`irb`跑出結果：
 
 ```ruby
@@ -92,8 +96,6 @@ Country #tw的類別：顯示為Country
 World   #Country的父類別：顯示為World
 Object  #World的父類別：顯示為Object
 ```
-
-
 
 就算到了頂樓層Object，我們還可以繼續下樓梯，用`.class`往回推實驗下去，了解Contry的類別：
 

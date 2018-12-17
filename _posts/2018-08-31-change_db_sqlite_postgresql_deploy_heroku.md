@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "在部署到Heroku之前，將Rails專案從SQLite設定為PostgreSQL "
+title:  "Deploy到Heroku前，將Rails專案從SQLite設定為PostgreSQL "
 date:   2018-08-31 10:31:00 +1000
 categories: heroku
 ---

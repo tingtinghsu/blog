@@ -7,7 +7,7 @@
 # Setup
 title:               Ting's Square
 tagline:             '寫作與程式之路'
-description:         'Tings Square: <a href="https://twitter.com/tingtingtour" target="_blank">@tingtingtour</a>的2018生活新專案'
+description:         '@tingtingtour 2018 Life Project: Ruby on Rails'
 url:                 https://github.com/tingtinghsu
 baseurl:             '/blog'
 paginate:           5
