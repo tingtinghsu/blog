@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day14 each, map 和 collect 比較 "
-date:   2018-09-22 08:30:00 +1000
+date:   2018-09-22 08:30:00 -0800
 categories: interview
 ---
 

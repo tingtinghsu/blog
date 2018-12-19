@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day22 and 和 or 比較"
-date:   2018-10-16 07:51:00 +1000
+date:   2018-10-16 07:51:00 -0800
 categories: interview
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day11 Ruby 的 block, proc, lamdba方法比較"
-date:   2018-09-20 11:57:00 +1000
+date:   2018-09-20 11:57:00 -0800
 categories: interview
 ---
 

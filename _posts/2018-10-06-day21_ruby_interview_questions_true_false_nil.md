@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day21 Ruby的true，false和nil"
-date:   2018-10-06 13:39:00 +1000
+date:   2018-10-06 13:39:00 -0800
 categories: interview
 ---
 

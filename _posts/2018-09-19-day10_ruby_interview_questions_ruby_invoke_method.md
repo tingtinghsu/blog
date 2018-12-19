@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day10 Ruby invoke method調用方法? "
-date:   2018-09-19 10:57:00 +1000
+date:   2018-09-19 10:57:00 -0800
 categories: interview
 ---
 

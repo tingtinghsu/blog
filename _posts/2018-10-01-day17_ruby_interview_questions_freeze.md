@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day17 Ruby裡的freeze和frozen? "
-date:   2018-10-01 08:15:00 +1000
+date:   2018-10-01 08:15:00 -0800
 categories: interview
 ---
 

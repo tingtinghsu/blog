@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day27 Ruby裡的Hash預設值"
-date:   2018-10-30 20:58:00 +1000
+date:   2018-10-30 20:58:00 -0800
 categories: interview
 ---
 

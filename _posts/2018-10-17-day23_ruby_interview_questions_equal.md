@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day23 Ruby的'=='，'===' 'eql?' 'equal?'"
-date:   2018-10-17 09:39:00 +1000
+date:   2018-10-17 09:39:00 -0800
 categories: interview
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby面試精選30題 - Day28 Ruby的 ** (double splat) operator"
-date: 2018-10-31 10:58:00 +1000
+date: 2018-10-31 10:58:00 -0800
 categories: interview
 ---
 
