@@ -26,19 +26,19 @@ title: Home
 <div class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a href="{{ site.baseurl }}/" class="previous"> < < Previous 1 | </a> 
+      <a href="{{ site.baseurl }}/" class="previous"> << Previous 1 ||</a> 
     {% else %}
-      <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}/" class="previous"> < < Previous | </a>
+      <a href="{{ site.baseurl }}/page{{ paginator.previous_page }}/" class="previous"> < < Previous ||</a>
     {% endif %}  
   {% else %}
-    <span class="previous"> Previous \</span>
+    <span class="previous"> Previous </span>
   {% endif %}
 
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span class="page_number">Page: {{ paginator.page }} of <a href="{{ site.baseurl }}/page{{ paginator.total_pages }}/" class="total">{{ paginator.total_pages }}</a> </span>
 
   {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}/page{{ paginator.next_page }}" class="next">| Next > > </a>
+    <a href="{{ site.baseurl }}/page{{ paginator.next_page }}" class="next">|| Next >> </a>
   {% else %}
-    <span class="next ">\ Next</span>
+    <span class="next">|| Next</span>
   {% endif %}
 </div>

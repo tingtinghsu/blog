@@ -96,15 +96,15 @@ end
 
 （指的是某物件實體「的單例類別」的實體方法，而不是某個物件的實體方法，中間多夾了一層「單例類別」）
 
-* singleton methods of an object are not instance methods of the class of the object;
+* singleton methods of an object are not instance methods of the class of the object;
 
-* they are instance methods of the `singleton class` of the object.
+* they are instance methods of the `singleton class` of the object.
 
 當我們講到 `Singleton Method`，就會提到`Singleton Pattern`單例模式，這個在物件導向語言(如：Java)共同的觀念。
 
-* 如果我們能保證某一個類別只產生一個物件實體，而且提供存取該物件的統一方法。這種設計模式就稱為單例模式。
+* 如果我們能保證某一個類別只產生一個物件實體，而且提供存取該物件的統一方法。這種設計模式就稱為單例模式。
 
-* 我們可以直接存取，而不需要實體化此類別的物件。
+* 我們可以直接存取，而不需要實體化此類別的物件。
 
 ## 使用`Singleton Method`的時機
 
@@ -147,7 +147,7 @@ IronmanList.find(1)
 
 # 實體方法
 
-實體已在類別裡定義好了。如果你需要將實體方法，運用在某個特定的實體，記得要在類別裡定義好這個實體。
+實體已在類別裡定義好了。如果你需要將實體方法，運用在某個特定的實體，記得要在類別裡定義好這個實體。
 > 舉例:"每個人(物件實體)都能贏得鐵人賽"的方法
 
 # 類別方法

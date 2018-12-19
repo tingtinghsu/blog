@@ -88,11 +88,11 @@ IronmanList.find(1)
 
 我們把 `class << self ... end` 這部分都用註解消掉，直接使用self這個class method，讓 `self.find(id)`與之前呈現出一樣的結果！
 
-## 使用class method的情況
+## 使用class method的情況
 
 當我們要寫class method時，如果此方法並不會和某個特定的實例變數綁在一起，就該使用類別方法！
 
-# 實體方法（instance method)
+# 實體方法（instance method)
 
 把鐵人賽名單類別擴充一下，除了`find方法`，還有`ironmanwinner方法`：
 

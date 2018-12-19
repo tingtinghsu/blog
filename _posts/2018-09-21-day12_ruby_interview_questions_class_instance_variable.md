@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ruby面試精選30題 - Day12 千變萬化的變數: class variable 與 class instance variable 與 instance variable"
+title:  "Ruby面試精選30題 - Day12 千變萬化的變數: class variable, class instance variable 與 instance variable"
 date:   2018-09-21 08:57:00 +1000
 categories: interview
 ---
@@ -20,7 +20,7 @@ categories: interview
 
 ## 實體變數 instance variable
 
-實體變數是一個比較好理解的概念，來舉個🌰例子吧：
+實體變數是一個比較好理解的概念，來舉個例子吧：
 我想把每天跑步的好習慣`RunDaily`寫成class，為了維持好習慣，方法有兩個：早上跑`morning_run`或者晚上跑`evening_run`。今天是第12天`day12`了~如果想早上跑，會存實體變數5km，晚上跑則存10km。
 
 ```ruby
@@ -148,7 +148,7 @@ p IronmanDairy.instance_methods(false) #=> [:title=, :title]
 
 ## [持續改良:version2]
 
-有沒有發現上面的程式碼中，大量出現這個`@title`實體變數呢？那我們想要簡化一下，可以用`attr_accessor`方式改寫。假設我們要創一個Day13鐵人賽文章物件，直接把實體的屬性存取器`attr_accessor :title`，指定給symbol`:title`，加在類別的開頭即可：
+有沒有發現上面的程式碼中，大量出現這個`@title`實體變數呢？那我們想要簡化一下，可以用`attr_accessor`方式改寫。假設我們要創一個Day13鐵人賽文章物件，直接把實體的屬性存取器`attr_accessor :title`，指定給symbol`:title`，加在類別的開頭即可：
 
 ```ruby
 class IronmanDairy

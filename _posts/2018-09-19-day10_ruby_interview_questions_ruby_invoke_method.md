@@ -7,9 +7,8 @@ categories: interview
 
 不知不覺到了第10天囉！
 
-<!-- more -->
-
 鐵人賽進度1/3（挺胸！）接下來應該會進入學習的深水區，但是我會越戰越勇。路遙知馬力，日久見人心！🏃‍♀️
+<!-- more -->
 
 ---
 
@@ -106,5 +105,5 @@ Ref：
 * [Top 10 Essential Ruby Interview Questions](https://blog.bater.gq/ruby/2018/02/02/top-10-essential-ruby-interview-questions.html)
 * [Ruby on Rails Technical Interview Questions](https://github.com/timurcatakli/ruby-on-rails-interview-questions-answers)
 * [Ruby-Core](https://ruby-doc.com/core/index.html)
-* [Please explain nuances of ||=](https://groups.google.com/forum/#!topic/comp.lang.ruby/y1Maaqk_Q7c)
-* [A short-circuit (||=) edge case](http://davidablack.net/dablog.html#2008/3/25/a-short-circuit-edge-case)
+* [Please explain nuances of \|\|=](https://groups.google.com/forum/#!topic/comp.lang.ruby/y1Maaqk_Q7c)
+* [A short-circuit (\|\|=) edge case](http://davidablack.net/dablog.html#2008/3/25/a-short-circuit-edge-case)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "30天修煉Ruby面試精選30題 - Day03 Module模組: include與extend"
+title:  "Ruby面試精選30題 - Day03 Module模組: include與extend"
 date:   2018-09-12 09:00:00 +1000
 categories: interview
 ---

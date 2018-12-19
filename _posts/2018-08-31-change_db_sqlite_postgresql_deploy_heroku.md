@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deploy到Heroku前，將Rails專案從SQLite設定為PostgreSQL "
-date:   2018-08-31 10:31:00 +1000
+date: 2018-08-31 10:31:00 +1000
 categories: heroku
 ---
 
@@ -42,7 +42,7 @@ development environment:開發模式，用在你的開發的時候
 test environment: 測試模式，用在執行測試程式時
 production environment: 正式上線模式，用在實際的上線運作環境
 
-```ruby
+```ruby
 group :production do
   gem 'pg'
 end
