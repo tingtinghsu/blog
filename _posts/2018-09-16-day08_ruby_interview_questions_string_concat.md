@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day08 Sting的concat串接"
-date:   2018-09-17 09:18:00 +1000
+date:   2018-09-16 09:18:00 +1000
 categories: interview
 ---
 

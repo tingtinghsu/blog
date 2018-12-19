@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day25 初探 Rails: .present? 和 .exists?比較"
-date:   2018-10-24 08:51:00 +1000
+date:   2018-10-23 08:51:00 +1000
 categories: interview
 ---
 

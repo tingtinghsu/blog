@@ -16,19 +16,19 @@ categories: interview
 
 `什麼是類別？What is a Class?`
 
-[原文](../../09/10/day01_ruby_interview_questions_class.html#ruby經典面試題目-01)
+[原文](../../09/09/day01_ruby_interview_questions_class.html#ruby經典面試題目-01)
 
 ## 02
 
 `類別與模組有什麼不同? What's the Difference Between a Class and a Module?`
 
-[原文](../../09/11/day02_ruby_interview_questions_class_vs_module.html#ruby經典面試題目-02)
+[原文](../../09/10/day02_ruby_interview_questions_class_vs_module.html#ruby經典面試題目-02)
 
 ## 03
 
 `包含與延伸有什麼不同? What's the Difference Between Include and Extend?`
 
-[原文](../../09/12/day03_ruby_interview_questions_include_vs_extend.html#ruby經典面試題目-03)
+[原文](../../09/11/day03_ruby_interview_questions_include_vs_extend.html#ruby經典面試題目-03)
 
 ## 04
 
@@ -52,19 +52,19 @@ categories: interview
 
 `符號和字串有什麼不同? What’s difference between symbol and string?`
 
-[原文](../../09/16/day07_ruby_interview_questions_symbol_vs_string.html#ruby經典面試題目-07)
+[原文](../../09/15/day07_ruby_interview_questions_symbol_vs_string.html#ruby經典面試題目-07)
 
 ## 08
 
 `+=和concat有什麼不同? What’s difference between concat and += ?`
 
-[原文](../../09/17/day08_ruby_interview_questions_string_concat.html#ruby經典面試題目-08)
+[原文](../../09/16/day08_ruby_interview_questions_string_concat.html#ruby經典面試題目-08)
 
 ## 09
 
 `請解釋 Explain this ruby idiom (or-equals) : a ||= b?`
 
-[原文](../../09/18/day09_ruby_interview_questions_ruby_idiom_or_equals.html#ruby經典面試題目-09)
+[原文](../../09/17/day09_ruby_interview_questions_ruby_idiom_or_equals.html#ruby經典面試題目-09)
 
 ## 10
 
@@ -82,43 +82,43 @@ categories: interview
 
 `Ruby 的 類別變數與類別實體變數，與實體變數有何不同? What is difference between class variable, class instance variable and instance variable?`
 
-[原文](../../09/21/day12_ruby_interview_questions_class_instance_variable.html#ruby經典面試題目-12)
+[原文](../../09/20/day12_ruby_interview_questions_class_instance_variable.html#ruby經典面試題目-12)
 
 ## 13
 
 `instance_eval 和 class_eval 的差別 ? What's the difference between instance_eval and class_eval?`
 
-[原文](../../09/22/day13_ruby_interview_questions_class_instance_eval.html#ruby經典面試題目-13)
+[原文](../../09/21/day13_ruby_interview_questions_class_instance_eval.html#ruby經典面試題目-13)
 
 ## 14
 
 `each, map 和 collect 比較? What's the difference between each, map and collect?`
 
-[原文](../../09/23/day14_ruby_interview_questions_each_map_collect.html#ruby經典面試題目-14)
+[原文](../../09/22/day14_ruby_interview_questions_each_map_collect.html#ruby經典面試題目-14)
 
 ## 15
 
 `alias 和 alias_method比較? What's the difference between alias和 alias_method?`
 
-[原文](../../09/24/day15_ruby_interview_questions_alias_method.html#ruby經典面試題目-15)
+[原文](../../09/23/day15_ruby_interview_questions_alias_method.html#ruby經典面試題目-15)
 
 ## 16
 
 `什麼是迭代器? 請解釋Ruby裡面有哪幾種迭代器? What's Iterator? How many iterators are there in Ruby?`
 
-[原文](../../10/01/day16_ruby_interview_questions_iterator.html#ruby經典面試題目-16)
+[原文](../../09/30/day16_ruby_interview_questions_iterator.html#ruby經典面試題目-16)
 
 ## 17
 
 `解釋Ruby裡的freeze和?frozen。Explan when to use freeze and frozen in Ruby?`
 
-[原文](../../10/02/day17_ruby_interview_questions_freeze.html#ruby經典面試題目-17)
+[原文](../../10/01/day17_ruby_interview_questions_freeze.html#ruby經典面試題目-17)
 
 ## 18
 
 `如何在Ruby寫下多行字串? How to write multiline string in Ruby?`
 
-[原文](../../10/03/day18_ruby_interview_questions_multiline_string.html#ruby經典面試題目-18)
+[原文](../../10/02/day18_ruby_interview_questions_multiline_string.html#ruby經典面試題目-18)
 
 ## 19
 
@@ -142,25 +142,25 @@ categories: interview
 
 `[and], [or] 和 [&&], [||] 比較? What is the difference between [and]`, `[or]` and `[&&]`, `[||]` ?`
 
-[原文](../../10/17/day22_ruby_interview_questions_and_or.html#ruby經典面試題目-22)
+[原文](../../10/16/day22_ruby_interview_questions_and_or.html#ruby經典面試題目-22)
 
 ## 23
 
 `解釋Ruby裡的 ==, ===, eql?, equal。 Explain each of the following operators  ==, ===, eql?, equal?`
 
-[原文](../../10/18/day23_ruby_interview_questions_equal.html#ruby經典面試題目-23)
+[原文](../../10/17/day23_ruby_interview_questions_equal.html#ruby經典面試題目-23)
 
 ## 24
 
 `nil?, empty? 和, blank? present? 比較。 what's the difference between nil?, empty?blank? and present?`
 
-[原文](../../10/19/day24_ruby_interview_questions_nil_empty_blank.html#ruby經典面試題目-24)
+[原文](../../10/18/day24_ruby_interview_questions_nil_empty_blank.html#ruby經典面試題目-24)
 
 ## 25
 
 `Day25 .present? 和.exists?  比較? What is the difference between .present? and .exists?`
 
-[原文](../../10/24/day25_ruby_interview_questions_rails_exists_present.html#ruby經典面試題目-25)
+[原文](../../10/23/day25_ruby_interview_questions_rails_exists_present.html#ruby經典面試題目-25)
 
 ## 26
 
