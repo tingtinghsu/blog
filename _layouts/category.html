@@ -1,0 +1,44 @@
+--- 
+layout: default 
+---
+{% assign rawcats = "" %}
+{% for post in site.posts %}
+  {% assign tcats = post.category | join:'|' | append:'|' %}
+  {% assign rawcats = rawcats | append:tcats %}
+{% endfor %}
+
+{% assign rawcats = rawcats | split:'|' | sort %}
+{% assign cats = "" %}
+{% for cat in rawcats %}
+  {% if cat != "" %}
+  {% if cats == "" %}
+    {% assign cats = cat | split:'|' %}
+  {% endif %}
+  {% unless cats contains cat %}
+    {% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+  {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<div class="row">
+  <div class="col-md-9">
+    <div class="list-group">
+        {% assign date_format = site.minima.date_format | default: "%Y-%m-%d %H:%M:%S" %}
+        {% for ct in cats %}
+            <li class="list-group-item list-group-item-info" id="{{ ct | slugify }}"><strong>{{ ct }}</strong></li>
+            {% for post in site.posts %}
+                {% if post.category contains ct %}
+                  <a href="{{ post.url | relative_url }}" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">{{ post.title | escape }}</h5>
+                      <small>{{ post.date | date: date_format }}</small>
+                    </div>
+                  </a>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>

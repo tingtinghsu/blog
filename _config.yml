@@ -23,3 +23,8 @@ author:
 # Custom vars
 version:             1.0.0
 plugins: [jekyll-paginate]
+
+# Social links
+github_username:      tingtinghsu
+wordpress_username: tingtingtour
+twitter_username:     tingtingtour
