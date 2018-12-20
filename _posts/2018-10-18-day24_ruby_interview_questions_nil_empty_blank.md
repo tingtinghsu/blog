@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day24 nil?, empty? 和, blank? present? 比較?"
-date:   2018-10-18 09:51:00 -0800
+date:   2018-10-18 09:51:00
 categories: interview
 ---
 

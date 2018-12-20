@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day18 Ruby裡的多行字串"
-date:   2018-10-02 08:15:00 -0800
+date:   2018-10-02 08:15:00
 categories: interview
 ---
 

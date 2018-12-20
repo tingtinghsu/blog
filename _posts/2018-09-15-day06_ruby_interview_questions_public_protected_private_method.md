@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day06 Ruby三種存取限制Public, Protected, Private"
-date:   2018-09-15 14:50:00 -0800
+date:   2018-09-15 14:50:00
 categories: interview
 ---
 

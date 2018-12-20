@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day12 千變萬化的變數: class variable, class instance variable 與 instance variable"
-date:   2018-09-20 14:57:00 -0800
+date:   2018-09-20 14:57:00
 categories: interview
 ---
 

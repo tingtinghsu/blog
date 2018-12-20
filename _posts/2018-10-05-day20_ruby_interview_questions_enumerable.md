@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day20 Ruby的Enumerable列舉"
-date:   2018-10-05 13:38:00 -0800
+date:   2018-10-05 13:38:00
 categories: interview
 ---
 

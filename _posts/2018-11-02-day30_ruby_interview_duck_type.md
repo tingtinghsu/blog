@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day30 Ruby的duck type+完賽感言"
-date:   2018-11-02 12:38:00 -0800
+date:   2018-11-02 12:38:00
 categories: interview
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day05 Ruby中的self物件與singleton method"
-date:   2018-09-14 13:08:00 -0800
+date:   2018-09-14 13:08:00
 categories: interview
 ---
 

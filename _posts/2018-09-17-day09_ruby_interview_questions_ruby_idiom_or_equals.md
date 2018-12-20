@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day09 Ruby的 or-equals 是什麼意思呢? "
-date:   2018-09-17 09:18:00 -0800
+date:   2018-09-17 09:18:00
 categories: interview
 ---
 

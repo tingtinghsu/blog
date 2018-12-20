@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day03 Module模組: include與extend"
-date:   2018-09-11 09:00:00 -0800
+date:   2018-09-11 09:00:00
 categories: interview
 ---
 

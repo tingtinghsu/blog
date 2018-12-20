@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - 題目大綱"
-date:   2018-12-19 10:38:00 +1000
+date:   2018-12-19 10:38:00
 categories: interview
 ---
 

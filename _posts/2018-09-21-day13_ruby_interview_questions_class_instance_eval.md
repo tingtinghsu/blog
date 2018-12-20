@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day13 instance_eval 和 class_eval 的差別 "
-date:   2018-09-21 08:15:00 -0800
+date:   2018-09-21 08:15:00
 categories: interview
 ---
 

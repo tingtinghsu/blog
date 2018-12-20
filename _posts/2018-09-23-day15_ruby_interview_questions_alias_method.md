@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day15 alias和alias_method比較"
-date:   2018-09-23 08:56:00 -0800
+date:   2018-09-23 08:56:00
 categories: interview
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day16 iterator 和 loop 比較"
-date:   2018-09-30 08:29:00 -0800
+date:   2018-09-30 08:29:00
 categories: interview
 ---
 

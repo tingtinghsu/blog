@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day19 Ruby裡的yield"
-date:   2018-10-04 10:58:00 -0800
+date:   2018-10-04 10:58:00
 categories: interview
 ---
 

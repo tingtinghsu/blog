@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day07 Symbol符號與String字串比較"
-date:   2018-09-15 14:18:00 -0800
+date:   2018-09-15 14:18:00
 categories: interview
 ---
 
