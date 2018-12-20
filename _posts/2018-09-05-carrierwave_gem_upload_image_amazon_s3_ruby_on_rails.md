@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[RubyGems] carrierwave (2) 利用Amazon S3 架設圖片伺服器"
-date: 2018-09-05 10:31:00 +1000
+date: 2018-09-05 10:31:00
 categories: rubygems
 ---
 

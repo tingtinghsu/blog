@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[RubyGems] carrierwave (3) Deploy 圖片上傳功能到 Heroku網站"
-date: 2018-09-08 10:31:00 +1000
+date: 2018-09-08 10:31:00
 categories: heroku
 ---
 

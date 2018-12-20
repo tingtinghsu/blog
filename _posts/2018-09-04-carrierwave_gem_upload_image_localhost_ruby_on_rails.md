@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[RubyGems] carrierwave (1) 在Rails實現圖片上傳功能"
-date: 2018-09-04 10:31:00 +1000
+date: 2018-09-04 10:31:00
 categories: rubygems
 ---
 

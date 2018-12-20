@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[RubyGems] Carrierwave (4) 使用Imagemagick修改圖片大小"
-date:   2018-09-09 13:34:00 +1000
+date:   2018-09-09 13:34:00
 categories: rubygems
 ---
 
