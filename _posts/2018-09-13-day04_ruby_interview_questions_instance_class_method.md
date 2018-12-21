@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby面試精選30題 - Day04 玩弄Ruby的方法: instance method與class method"
-date:   2018-09-13 15:50:00
+date:   2018-09-13 14:59:00
 categories: interview
 ---
 
