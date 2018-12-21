@@ -9,6 +9,10 @@ categories: heroku
 
 <!-- more -->
 
+重點摘要:
+* abstact
+{:toc}
+
 話說我在這一天[[Ting's筆記Day4] 將Ruby on Rails專案部署到Heroku](https://ithelp.ithome.com.tw/articles/10199014)架好了站，並在此篇[[Ting's筆記Day7] 活用套件carrierwave gem: (2) 利用Amazon S3架設圖片伺服器](https://ithelp.ithome.com.tw/articles/10199103/edit)完成我的餐廳資料庫網站的圖片上傳功能。接著就要把功能發佈到Heroku啦！
 
 # 1. 修改`image_uploader.rb`
@@ -100,7 +104,8 @@ Run heroku logs --app tingsrailsdemo --dyno run.2219 to view the output.
   
 ![https://ithelp.ithome.com.tw/upload/images/20180908/20111177zR1v7NGgyF.png](https://ithelp.ithome.com.tw/upload/images/20180908/20111177zR1v7NGgyF.png)
 
-系列文章
-[將Ruby on Rails專案部署到Heroku](https://ithelp.ithome.com.tw/articles/10199014) |
-[活用套件carrierwave gem: (1)在Rails實現圖片上傳功能](https://ithelp.ithome.com.tw/articles/10199035) |
-[活用套件carrierwave gem: (2)利用Amazon S3架設圖片伺服器](https://ithelp.ithome.com.tw/articles/10199103)
+`carrierwave`全系列文章:  
+
+[活用套件carrierwave gem: (1)在Rails實現圖片上傳功能](https://ithelp.ithome.com.tw/articles/10199035)  
+[活用套件carrierwave gem: (2)利用Amazon S3架設圖片伺服器](https://ithelp.ithome.com.tw/articles/10199103)  
+[將Ruby on Rails專案部署到Heroku](https://ithelp.ithome.com.tw/articles/10199014)  

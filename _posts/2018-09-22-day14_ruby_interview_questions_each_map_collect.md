@@ -10,6 +10,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #14
 
 `Day14 each, map 和 collect 比較? What's the difference between each, map and collect?`

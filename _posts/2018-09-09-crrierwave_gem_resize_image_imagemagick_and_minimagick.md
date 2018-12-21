@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[RubyGems] Carrierwave (4) 使用Imagemagick修改圖片大小"
-date:   2018-09-09 13:34:00
+date:   2018-09-09 09:34:00
 categories: rubygems
 ---
 
@@ -14,7 +14,11 @@ categories: rubygems
 解法很簡單！看了[Carrierwave]((https://github.com/carrierwaveuploader/carrierwave#adding-versions))關於`image resizing`的說明，只要安裝[imagemagick](http://cactuslab.com/imagemagick/)和
 [minimagick](https://github.com/minimagick/minimagick)就行了。
 
-> [注意]文中提到 You must have Imagemagick and MiniMagick installed to do image resizing. MiniMagick is a Ruby interface for Imagemagick which is a C program. This is why MiniMagick fails on 'bundle install' without Imagemagick installed.所以我們的順序是：先裝imagemagick，再裝MiniMagick。
+> [注意!] 文中提到 You must have Imagemagick and MiniMagick installed to do image resizing. MiniMagick is a Ruby interface for Imagemagick which is a C program. This is why MiniMagick fails on 'bundle install' without Imagemagick installed.所以我們的順序是：先裝imagemagick，再裝MiniMagick。
+
+重點摘要:
+* abstact
+{:toc}
 
 # A. imagemagick
 

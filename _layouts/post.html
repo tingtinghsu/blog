@@ -5,11 +5,12 @@ layout: default
 <div class="post">
   <h3 class="post-title">{{ page.title }}</h3>
   <span class="post-date">{{ page.date | date_to_string }}</span>
+  <small> Total : {{ page.content | number_of_words }} words. </small> <br> <br>
   {{ content }}
-</div>
+</div>  
 
 <div class="related">
-  <h4>Related Posts</h4>
+  <h5>Related Posts</h5>
   <ul class="related-posts">
     {% for post in site.related_posts limit:5 %}
       <li>
@@ -22,4 +23,24 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+</div>
+
+<div class="foot" align="center">
+    {% if site.wordpress_username %}
+      <a href="https://{{ site.wordpress_username }}.wordpress.com/">
+        <i class="fa fa-wordpress"></i>
+      </a>
+    {% endif %}
+  
+    {% if site.github_username %}
+      <a href="https://github.com/{{ site.github_username }}">
+        <i class="fa fa-github"></i>
+      </a>       
+    {% endif %}
+        
+    {% if site.twitter_username %}
+      <a href="https://twitter.com/{{ site.twitter_username }}">
+        <i class="fa fa-twitter"></i>
+      </a>
+    {% endif %}
 </div>

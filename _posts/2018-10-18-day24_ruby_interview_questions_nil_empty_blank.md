@@ -10,6 +10,11 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
 # Ruby經典面試題目 #24
 
 `Day24 nil?, empty? 和, blank? present? 比較。 what's the difference between nil?, empty?blank? and present? `

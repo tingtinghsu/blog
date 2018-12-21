@@ -10,6 +10,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #20
 
 `Day20 說明Ruby裡Enumerable的實用之處? Why Is Enumerable So Useful?`

@@ -5,12 +5,17 @@ date: 2018-09-04 10:31:00
 categories: rubygems
 ---
 
-[carrierwave](https://github.com/carrierwaveuploader/carrierwave)是一款經典的圖片上傳套件，本篇的目標是先在本地端(development)的rails專案試成功gem。
+[carrierwave](https://github.com/carrierwaveuploader/carrierwave)是一款經典的圖片上傳套件。
 
-（中集會練習怎麼利用Amazone S3架設圖片上傳Host，
-下集遠端(production)實作上傳。）
+本篇的目標是先在本地端(development)的rails專案試成功gem。  
+中集會練習怎麼利用Amazone S3架設圖片上傳Host，  
+下集遠端(production)實作上傳。
 
 <!-- more -->
+
+重點摘要:
+* abstact
+{:toc}
 
 ![https://ithelp.ithome.com.tw/upload/images/20180904/20111177jA3W9YiK5l.png](https://ithelp.ithome.com.tw/upload/images/20180904/20111177jA3W9YiK5l.png)
 

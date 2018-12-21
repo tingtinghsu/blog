@@ -5,11 +5,19 @@ date: 2018-08-31 10:31:00
 categories: heroku
 ---
 
+
+
 Paas（平台及服務）公司Heroku是個可以把我們寫好的App部署到網際網路的好地方。而本篇是我從自己的[上一篇文章：將Ruby on Rails專案部署到Heroku](https://ithelp.ithome.com.tw/articles/10199014)遇到的問題，當時困擾了快兩小時，好在搜尋完解法搞定完後，就興奮地延伸為一篇文章了！
 
 <!-- more -->
 
-~~找到點子寫文章果然是遇到bug的最佳副產品~~
+~~找到點子寫文章果然是遇到bug的最佳副產品!~~
+
+重點摘要:
+* abstact
+{:toc}
+
+內文:
 
 > Heroku的資料庫是使用[PostgreSQL](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup)，而這篇文章有說明[為什麼不用SQLite在Heroku](https://devcenter.heroku.com/articles/sqlite3)。
 但Rails框架在我們的電腦本機`rails new app`設定時，為了初學者快速理解學習，預設是SQLite。

@@ -5,6 +5,7 @@ _site
 .editorconfig
 
 # Numerous always-ignore extensions
+*.yml
 *.diff
 *.err
 *.orig

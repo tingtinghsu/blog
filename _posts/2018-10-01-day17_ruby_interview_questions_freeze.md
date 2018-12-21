@@ -10,6 +10,12 @@ freeze照字面解釋就是凍結的意思。`.frozen?`可以傳回`true`或`fal
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #17
 
 `Day17 解釋Ruby裡的freeze和?frozen。Explan when to use freeze and frozen in Ruby?`

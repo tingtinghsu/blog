@@ -10,6 +10,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #13
 
 `instance_eval 和 class_eval 的差別 ? What's the difference between instance_eval and class_eval?`
@@ -22,7 +28,7 @@ categories: interview
 
 讓我們把昨天的`attr_accessor`概念引入，馬上來寫程式碼實驗`instance_eval`：
 
-### [instance_eval案例1:attr_accessor]
+### instance_eval案例1 :attr_accessor
 
 ```ruby
 class RunMarathon
@@ -60,7 +66,7 @@ p RunMarathon.instance_methods(false) #[:km=, :km]
 
 很好！成功用`instance_eval`印出值了！
 
-### [instance_eval案例2: 只用initialize()方法]
+### instance_eval案例2: 只用initialize()方法
 
 如果我們把程式碼改為在`RunMarathon`類別加入`initialize()`方法，讓我們在new出物件的同時傳入公里數，程式碼變成如下：
 
@@ -101,7 +107,7 @@ p RunMarathon.instance_methods(false) #[:km]
 
 以上觀念是把昨天+今天的一起整合複習。
 
-### [instance_eval案例3: 只用initialize()方法，但將`def km`方法刪除]
+### instance_eval案例3: 只用initialize()方法，但將`def km`方法刪除  
 
 如果，我們把`RunMarathon`class的定義公里變數方法:
 

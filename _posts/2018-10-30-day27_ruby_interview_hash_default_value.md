@@ -8,6 +8,14 @@ categories: interview
 在[第14天](https://ithelp.ithome.com.tw/articles/10202250)的時候，我們曾經提到`Hash(雜湊)`是一對`key(鍵)`與`value(值)`的集合。今天的大哉問是，我們要如何設定預設值呢？
 <!-- more -->
 
+---
+
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #27
 
 `Day27 如何設定Ruby的Hash預設值? How to set default value in hash?`

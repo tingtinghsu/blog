@@ -10,7 +10,13 @@ categories: interview
 趕快來看看今天的題目！
 
 <!-- more -->
+---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
 # Ruby經典面試題目 #23
 
 `Day23 解釋Ruby裡的 ==, ===, eql?, equal。 Explain each of the following operators  ==, ===, eql?, equal?`

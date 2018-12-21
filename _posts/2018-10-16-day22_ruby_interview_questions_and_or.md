@@ -9,6 +9,14 @@ categories: interview
 
 <!-- more -->
 
+---
+
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #22
 
 `Day22 [and], [or] 和 [&&], [||] 比較? What is the difference between [and]`, `[or]` and `[&&]`, `[||]` ?`

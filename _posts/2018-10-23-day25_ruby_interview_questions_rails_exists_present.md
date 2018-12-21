@@ -12,6 +12,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #25
 
 `Day25 .present? 和.exists?  比較? What is the difference between .present? and .exists?`

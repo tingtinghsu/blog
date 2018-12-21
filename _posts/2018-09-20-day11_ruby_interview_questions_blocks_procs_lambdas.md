@@ -10,6 +10,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #11
 
 `Ruby 的 block, proc, lamdba方法比較? What’s difference between blocks, procs and lambdas?`

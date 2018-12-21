@@ -10,6 +10,11 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
 # Ruby經典面試題目 #12
 
 `Ruby 的 類別變數與類別實體變數，與實體變數有何不同? What is difference between class variable, class instance variable and instance variable?`
@@ -107,7 +112,7 @@ p day11
 #<IronmanDairy:0x000055d4f44e2748 @title="Explain the difference between block, proc, lamdba.">
 ```
 
-## [持續改良:version1]
+### 持續改良:version1
 
 `set_dairy`和`get_dairy`方法雖然讓我們易於了解屬性的寫入與讀取方式，但把細節拆解開來的程式碼卻顯得過於冗長。所以我們想看看有沒有更簡化的寫法（沒錯，只要仔細找一找手冊，Ruby裡通常都有的！）
 
@@ -146,7 +151,7 @@ p day12.title
 p IronmanDairy.instance_methods(false) #=> [:title=, :title]
 ```
 
-## [持續改良:version2]
+### 持續改良:version2
 
 有沒有發現上面的程式碼中，大量出現這個`@title`實體變數呢？那我們想要簡化一下，可以用`attr_accessor`方式改寫。假設我們要創一個Day13鐵人賽文章物件，直接把實體的屬性存取器`attr_accessor :title`，指定給symbol`:title`，加在類別的開頭即可：
 

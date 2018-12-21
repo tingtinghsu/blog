@@ -14,6 +14,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #21
 
 `Day21 解釋Ruby裡的True, False與Nil? Explan True and False vs. "Truthy" and "Falsey / Falsy" in Ruby?`

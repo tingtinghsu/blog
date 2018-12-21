@@ -10,6 +10,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #19
 
 `Day19 描述Ruby裡的yield用法? What is yield statement in Ruby?`

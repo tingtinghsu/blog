@@ -10,6 +10,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #26
 
 `Day26 Ruby的錯誤處理機制 Rescue. Explain Error Handling in Ruby.`

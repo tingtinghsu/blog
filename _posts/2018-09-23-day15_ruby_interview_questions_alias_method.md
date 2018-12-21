@@ -10,6 +10,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #15
 
 `Day15 alias 和 alias_method比較? What's the difference between alias和 alias_method?`

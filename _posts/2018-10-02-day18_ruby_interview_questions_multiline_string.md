@@ -10,6 +10,12 @@ categories: interview
 
 ---
 
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #18
 
 `Day18 如何在Ruby寫下多行字串? How to write multiline string in Ruby?`

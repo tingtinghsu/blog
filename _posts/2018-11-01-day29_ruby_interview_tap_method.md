@@ -9,6 +9,14 @@ categories: interview
 話不多說，趕緊進入正文：
 <!-- more -->
 
+---
+
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #29
 
 `Day29 請解釋Ruby的tap method?  What is tap method in Ruby?`

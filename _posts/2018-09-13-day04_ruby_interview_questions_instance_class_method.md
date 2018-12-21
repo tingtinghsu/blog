@@ -41,7 +41,13 @@ ExtendRuby.IThelp
 # IThelp helps me!
 ```
 
-話不多說，進入今天的章節：
+話不多說，進入今天的章節!
+
+---
+
+重點摘要:
+* abstact
+{:toc}
 
 ---
 

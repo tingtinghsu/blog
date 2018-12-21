@@ -8,6 +8,14 @@ categories: interview
 今天要了解無敵星星`single splat`和`double splat`的用法！
 <!-- more -->
 
+---
+
+重點摘要:
+* abstact
+{:toc}
+
+---
+
 # Ruby經典面試題目 #28
 
 `Day28 Ruby的**運算子是啥米碗糕? What does ** double splat) operator do?`
