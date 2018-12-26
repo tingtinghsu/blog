@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day02 Module模組與Class類別比一比"
+preview: "Ruby interview question: What's the Difference Between a Class and a Module?"
+permalink: "/articles/2018-09-10-day02_ruby_interview_questions_class_vs_module"
 date:   2018-09-10 09:40:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 在第一天裡，小妹我很激昂地用Ruby的`類別`、`物件`、`方法`，寫了開賽宣言！

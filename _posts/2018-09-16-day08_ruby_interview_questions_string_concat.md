@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day08 Sting的concat串接"
+preview: "Ruby interview question: What’s difference between concat and += ?"
+permalink: "/articles/2018-09-16-day08_ruby_interview_questions_string_concat"
 date:   2018-09-16 09:18:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 在第七天我們透過比較`Symbol`和`String`，發現字串的方法比符號多了許多！為了活用更多字串的方法，今天我們接續前文，來探討一題跟字串有關的題目。

@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "[RubyGems] Carrierwave (4) 使用Imagemagick修改圖片大小"
+preview: "Resize image by using imagemagick and minimagick"
+permalink: "/articles/2018-09-09-crrierwave_gem_resize_image_imagemagick_and_minimagick"
 date:   2018-09-09 09:34:00
-categories: rubygems
+
+layout: post
+tags: 
+  - "rubygem"
 ---
 
 這幾天我都在實驗[Carrierwave](https://github.com/carrierwaveuploader)這套圖片上傳套件，也順利部署到Heroku架站正式環境了。：）

@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day30 Ruby的duck type+完賽感言"
+preview: "Ruby interview question: Explain What is duck type in Ruby"
+permalink: "/articles/2018-11-02-day30_ruby_interview_duck_type"
 date:   2018-11-02 12:38:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 完賽這天終於到來！寫IT文章原來是這麼有趣的事呢！經過這30天內持續的努力，我的心態變得更強壯：）

@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day27 Ruby裡的Hash預設值"
+preview: "Ruby interview question: How to set default value in hash?"
+permalink: "/articles/2018-10-30-day27_ruby_interview_hash_default_value"
 date:   2018-10-30 14:58:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 在[第14天](https://ithelp.ithome.com.tw/articles/10202250)的時候，我們曾經提到`Hash(雜湊)`是一對`key(鍵)`與`value(值)`的集合。今天的大哉問是，我們要如何設定預設值呢？

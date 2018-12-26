@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day20 Ruby的Enumerable列舉"
+preview: "Ruby interview question: Why Is Enumerable So Useful?"
+permalink: "/articles/2018-10-05-day20_ruby_interview_questions_enumerable"
 date:   2018-10-05 13:38:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 30天挑戰已經進入2/3的里程盃了。可喜可賀，恭喜老爺，賀喜夫人！

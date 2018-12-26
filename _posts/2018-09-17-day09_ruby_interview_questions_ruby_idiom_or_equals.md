@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "Ruby面試精選30題 - Day09 Ruby的 or-equals 是什麼意思呢? "
+title:  "Ruby面試精選30題 - Day09 Ruby的 or-equals 是什麼意思呢?"
+preview: "Ruby interview question: Explain this ruby idiom (or-equals) : a ||= b?"
+permalink: "/articles/2018-09-17-day09_ruby_interview_questions_ruby_idiom_or_equals"
 date:   2018-09-17 09:18:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 寫了這一系列下來，發現Ruby有許多特別的方法。前幾天講了關於String字串，在第八天我們了解串接(concatenate)與插入interpolation`#{}`方法，就連加號`+`也是方法之一呢。今天要來研究新的字串與數值比較的條件指定運算式(conditional assignment operator)囉！

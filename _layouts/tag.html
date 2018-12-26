@@ -1,0 +1,17 @@
+--- 
+layout: default
+---
+
+<div class="blog list">
+  <div>Tag:<br><br> 
+  <h3>Tags <small>#{{ page.tag }}</small> </h3>
+  {% for post in site.tags[page.tag] %}
+    {{ page.title }}<br>
+  {% endfor %}
+
+  <small>{{ post.date | date: date_format }}</small>
+</div>
+
+
+
+

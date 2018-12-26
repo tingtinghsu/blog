@@ -1,8 +1,12 @@
 ---
-layout: post
 title: "Ruby面試精選30題 - Day28 Ruby的 ** (double splat) operator"
+preview: "Ruby interview question: What does double splat operator do?"
+permalink: "/articles/2018-10-31-day28_ruby_interview_double_splat"
 date: 2018-10-31 10:58:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 今天要了解無敵星星`single splat`和`double splat`的用法！

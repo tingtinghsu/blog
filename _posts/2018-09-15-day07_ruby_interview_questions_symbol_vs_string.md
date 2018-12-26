@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day07 Symbol符號與String字串比較"
+preview: "Ruby interview question: What does self mean?"
+permalink: "/articles/2018-09-15-day07_ruby_interview_questions_symbol_vs_string"
 date:   2018-09-15 14:18:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 在第六天我們透過程式碼練習`public`，`protected`和`private`method時，發現冒號在前面的參數，`:mydraft`，`:myspace`，這些就是符號`Symbol`。在今天我們就來解釋`Symbol`吧。

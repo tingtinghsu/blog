@@ -1,8 +1,14 @@
 ---
 layout: post
 title:  "[RubyGems] carrierwave (3) Deploy 圖片上傳功能到 Heroku網站"
+preview: "Deploy image-uploading function on Heroku server"
+permalink: "/articles/2018-09-08-upload_image_function_deploy_heroku"
 date: 2018-09-08 10:31:00
-categories: heroku
+
+layout: post
+tags: 
+  - "rubygem"
+  - "heroku"
 ---
 
 身為Ruby新手村民，創造穩定且持續的學習步調很重要，我用的方法就是一週寫三篇筆記，希望藉由寫筆記將遇到的bug記錄下來的過程，能幫助到未來想用Ruby on Rails架站的新手。：）

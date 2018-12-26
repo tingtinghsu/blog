@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day15 alias和alias_method比較"
+preview: "Ruby interview question: What's the difference between alias和 alias_method?"
+permalink: "/articles/2018-09-23-day15_ruby_interview_questions_alias_method"
 date:   2018-09-23 08:56:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 昨天的文章在研究map和collect的時候，有一句話提到map是collect的別名 (map is an alias for collect)。除了讓我學到alias這個英文單字之外，也意外發現，ruby裡面還有alias方法！今天就來研究alias吧～

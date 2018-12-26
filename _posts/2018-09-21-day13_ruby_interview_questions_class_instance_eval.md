@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day13 instance_eval 和 class_eval 的差別 "
+preview: "Ruby interview question: What's the difference between instance_eval and class_eval?"
+permalink: "/articles/2018-09-21-day13_ruby_interview_questions_class_instance_eval"
 date:   2018-09-21 08:15:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 第13天! 昨天談到了class variable, class instance variable和instance variable，也發現在實務上，類別實體變數和實體變數才是主流。今天我們要多談兩個跟前一篇的變數有關的方法:`instance_eval`和`class_eval`。讓每天都主題都環環相扣。

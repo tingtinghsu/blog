@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day21 Ruby的true，false和nil"
+preview: "Ruby interview question: Explan True and False vs. Truthy and Falsey / Falsy in Ruby"
+permalink: "/articles/2018-10-06-day21_ruby_interview_questions_true_false_nil"
 date:   2018-10-06 13:39:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 話說這個世界上有許多真假難分的東西...

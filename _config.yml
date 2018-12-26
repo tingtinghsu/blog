@@ -27,6 +27,12 @@ encoding: "utf-8"
 version:             1.0.0
 plugins: [jekyll-paginate]
 
+# Social links
+github_username:      tingtinghsu
+twitter_username:     tingtingtour
+wordpress_username:   tingtingtour
+instagram_username:   tingtingtour
+
 # Conversation
 markdown: kramdown
 highligher: rouge
@@ -41,8 +47,15 @@ kramdown:
   entity_output: as_char
   hard_wrap: false
 
-# Social links
-github_username:      tingtinghsu
-twitter_username:     tingtingtour
-wordpress_username:   tingtingtour
+# Tag: generate pages for each tag where we can list posts
+collections:
+  tag:
+    output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: tag
+    values:
+      layout: "tag"

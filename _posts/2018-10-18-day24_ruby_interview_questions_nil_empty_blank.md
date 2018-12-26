@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day24 nil?, empty? 和, blank? present? 比較?"
+preview: "Ruby interview question: What's the difference between nil?, empty?blank? and present?"
+permalink: "/articles/2018-10-18-day24_ruby_interview_questions_nil_empty_blank"
 date:   2018-10-18 09:51:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 這一系列`精選面試題`寫下來，我發現新手工程師對於相似、接近的method或概念都會比較困惑，也難怪熱門面試要考這些題目了！這樣才能鑑別出面試候選人真的有弄懂程式觀念。也希望我整理好的這30篇鐵人賽文章，未來能幫助到許多想學Ruby、進而想找相關工作的新手們！
@@ -17,7 +21,7 @@ categories: interview
 ---
 # Ruby經典面試題目 #24
 
-`Day24 nil?, empty? 和, blank? present? 比較。 what's the difference between nil?, empty?blank? and present? `
+`Day24 nil?, empty? 和, blank? present? 比較。 What's the difference between nil?, empty?blank? and present? `
 
 # 1. `nil?`
 

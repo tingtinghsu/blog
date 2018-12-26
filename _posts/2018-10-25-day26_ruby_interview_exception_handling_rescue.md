@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day26 Ruby的錯誤處理機制 Rescue"
+preview: "Ruby interview question: Explain Error Handling in Ruby."
+permalink: "/articles/2018-10-25-day26_ruby_interview_exception_handling_rescue"
 date:   2018-10-25 12:58:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 有一句話說得好，「不怕一萬，只怕萬一」，如何檢查程式上的錯誤是一件重要的議題。好的工程師會懂得防範於未來。現在我們就來用Ruby練習一下錯誤與例外處理吧！

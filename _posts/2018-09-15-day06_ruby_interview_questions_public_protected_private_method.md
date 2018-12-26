@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day06 Ruby三種存取限制Public, Protected, Private"
+preview: "Ruby interview question: What does self mean?"
+permalink: "/articles/2018-09-15-day06_ruby_interview_questions_public_protected_private_method"
 date:   2018-09-15 14:50:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 在第五天的最後，我們提到了一句話"相同的class的實體也無法使用別人的singleton method"。

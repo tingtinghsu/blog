@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "Ruby面試精選30題 - Day10 Ruby invoke method調用方法? "
+title:  "Ruby面試精選30題 - Day10 Ruby invoke method調用方法?"
+preview: "Ruby interview question: Explain how Ruby looks up a method to invoke?"
+permalink: "/articles/2018-09-19-day10_ruby_interview_questions_ruby_invoke_method"
 date:   2018-09-19 10:57:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 不知不覺到了第10天囉！
@@ -14,7 +18,7 @@ categories: interview
 
 # Ruby經典面試題目 #10
 
-`Ruby如何引入方法? Please explain how Ruby looks up a method to invoke?`
+`Ruby如何引入方法? Explain how Ruby looks up a method to invoke?`
 
 每當不知從何下筆時，我的起手式是開始回顧之前的文章，盤點我已經走了多遠、以及基礎觀念到底掌握了多少：
 

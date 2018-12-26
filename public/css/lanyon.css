@@ -51,6 +51,21 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+.tag {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  width: 15%;
+  color: rgb(122, 54, 9);
+  background-color: rgb(199, 196, 202);
+  letter-spacing: 2;
+}
+
+.home {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  width: 15%;
+  color: rgb(125, 144, 146);
+  background-color: rgb(229, 239, 248);
+  letter-spacing: 2;
+}
 
 /*
  * Wrapper

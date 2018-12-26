@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day03 Module模組: include與extend"
+preview: "Ruby interview question: What's the Difference Between Include and Extend?"
+permalink: "/articles/2018-09-11-day03_ruby_interview_questions_include_vs_extend"
 date:   2018-09-11 09:00:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 在第一天裡，我們很激昂地用Ruby的`類別`、`物件`、`方法`，寫了開賽宣言！

@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "[RubyGems] carrierwave (2) 利用Amazon S3 架設圖片伺服器"
+preview: "Using carrierwave gem to upload images on Amazon S3"
+permalink: "/articles/2018-09-05-carrierwave_gem_upload_image_amazon_s3_ruby_on_rails"
 date: 2018-09-05 10:31:00
-categories: rubygems
+
+layout: post
+tags: 
+  - "rubygem"
 ---
 
 在我的上一篇文章[Ruby套件carrierwave gem: (上) 在Rails實現圖片上傳功能](https://ithelp.ithome.com.tw/articles/10199035) ，上傳圖片功能已經完成啦！但是目前圖片僅能上傳在自己的本地資料夾內孤芳自賞。

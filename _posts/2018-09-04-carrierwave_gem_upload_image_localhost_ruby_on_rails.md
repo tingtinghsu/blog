@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "[RubyGems] carrierwave (1) 在Rails實現圖片上傳功能"
+preview: "Using carrierwave gem to upload image in localhost"
+permalink: "/articles/2018-09-04-carrierwave_gem_upload_image_localhost_ruby_on_rails"
 date: 2018-09-04 10:31:00
-categories: rubygems
+
+layout: post
+tags: 
+  - "rubygem"
 ---
 
 [carrierwave](https://github.com/carrierwaveuploader/carrierwave)是一款經典的圖片上傳套件。

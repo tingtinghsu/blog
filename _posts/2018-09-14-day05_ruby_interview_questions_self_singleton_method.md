@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day05 Ruby中的self物件與singleton method"
+preview: "Ruby interview question: What does self mean?"
+permalink: "/articles/2018-09-14-day05_ruby_interview_questions_self_singleton_method"
 date:   2018-09-14 13:08:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 在第四天裡，我們用鐵人賽參賽者的例子解說實例方法與類別方法。

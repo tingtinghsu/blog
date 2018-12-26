@@ -1,8 +1,12 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day29 Ruby的tap method"
+preview: "Ruby interview question: What is tap method in Ruby?"
+permalink: "/articles/2018-11-01-day29_ruby_interview_tap_method"
 date:   2018-11-01 13:58:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 倒數第。二。篇！成功就在不遠處，可喜可賀！（翹腳捻鬍鬚～～）

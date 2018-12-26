@@ -1,13 +1,17 @@
 ---
-layout: post
 title:  "Ruby面試精選30題 - Day01 用Class類別寫個參賽宣言吧！"
+preview: "Ruby interview question: What is a Class?"
+permalink: "/articles/2018-09-09-day01_ruby_interview_questions_class"
 date:   2018-09-09 13:40:00
-categories: interview
+
+layout: post
+tags: 
+  - "interview"
 ---
 
 30天修煉Ruby面試精選30題 (December 2018 Version)
 
-距離2018年結束，倒數兩週！在閱讀了Mihaly Csikszentmihalyi的書籍Flow: The Psychology of Optimal Experience後，我決定按照書中的精神，建立在早晨工作時能快速進入心流狀態、屬於自己的Discipline，整個工作天能夠有效率地達成所設定的專案目標，這樣的話～每個日子都會變成積累成就感與幸福感的好日子。([有興趣的讀者，請參考`米哈里·契克森米哈賴的`TED Talk](https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=zh-tw))
+距離2018年結束，倒數兩週！在閱讀了Mihaly Csikszentmihalyi的書籍`Flow: The Psychology of Optimal Experience`後，我決定按照書中的精神，建立在早晨工作時能快速進入心流狀態、屬於自己的Discipline，整個工作天能夠有效率地達成所設定的專案目標，這樣的話～每個日子都會變成積累成就感與幸福感的好日子。([有興趣的讀者，請參考`米哈里·契克森米哈賴的`TED Talk](https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=zh-tw))
 
 <!-- more -->
 
@@ -15,9 +19,9 @@ categories: interview
 
 ## A. 尋找靈感，決定文章目的
 
- 1. 主題系列（eg:30天修煉Ruby面試精選30題）
- 2. 新功能系列（eg: [想為文章加入gist片段]()）
- 3. 偵錯系列 (eg: [修改版型筆記] ())
+ 1. 主題系列（eg:[30天修煉Ruby面試精選30題](./2018-12-19-ruby_interview_syllabus)）
+ 2. 偵錯系列 (eg:[修改版型筆記](./2018-12-26-change_them_for_jekyll_blog))
+ 3. 新功能系列（eg: [想為文章加入gist片段]）
 
 ## B. 設定工作環境
 

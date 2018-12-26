@@ -5,42 +5,39 @@ layout: default
 <div class="post">
   <h3 class="post-title">{{ page.title }}</h3>
   <span class="post-date">{{ page.date | date_to_string }}</span>
-  <small> Total : {{ page.content | number_of_words }} words. </small> <br> <br>
-  {{ content }}
-</div>  
+  <div class="tags">
+      {% assign sortedTags = page.tags | sort %}
+      <small>Tags: </small>
+      {% for tag in sortedTags %}
+        <span class="tag">
+          <small> <a href="{{ site.baseurl }}/tag/{{ tag }}">&nbsp;#{{ tag }}</a></small>
+        </span>&nbsp;
+      {% endfor %}
+      <br>
+    </div>
+  <small> Total : {{ page.content | number_of_words }} words. </small> <br>
 
+  {{ content }}
+
+</div>  
+<div class="home" align="center"><a href="{{ site.baseurl }}/">Home</a></div><br>
 <div class="related">
   <h5>Related Posts</h5>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:5 %}
-      <li>
-        <h4>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h4>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+  <div class="related-posts">
+    <ul>  
+    {% assign firstTag = page.tags | first %}
+    {% assign relatedCount = 0 %}
+    {% for related in site.tags[firstTag] %}
 
-<div class="foot" align="center">
-    {% if site.wordpress_username %}
-      <a href="https://{{ site.wordpress_username }}.wordpress.com/">
-        <i class="fa fa-wordpress"></i>
-      </a>
-    {% endif %}
-  
-    {% if site.github_username %}
-      <a href="https://github.com/{{ site.github_username }}">
-        <i class="fa fa-github"></i>
-      </a>       
-    {% endif %}
+    {% unless page.permalink == related.permalink %}
+       {% assign relatedCount = relatedCount | plus: 1 %}
+       <a href="{{ site.baseurl }}{{related.permalink}}">{{ related.title }}</a><br>
+      {% endunless %}
         
-    {% if site.twitter_username %}
-      <a href="https://twitter.com/{{ site.twitter_username }}">
-        <i class="fa fa-twitter"></i>
-      </a>
-    {% endif %}
+      {% if relatedCount == 4 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+ 
+  </div>
 </div>
