@@ -6,6 +6,7 @@ date:   2018-12-26 12:23:00 +1000
 layout: post
 tags: 
   - "jekyll"
+comments: true
 ---
 
 一直以來對於jekyll預設版型不甚滿意。此篇文章紀錄從tingtinghsu.github.io換到[https://tingtinghsu.github.io/blog](https://tingtinghsu.github.io/blog) 的工程，修改版型[(*註1*)](#註1)遇到的問題。
