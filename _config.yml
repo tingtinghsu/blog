@@ -10,14 +10,12 @@ tagline:             '程式寫作之路'
 description:         '@tingtingtour 2018-2019 My Ruby on Rails Project'
 url:                 https://github.com/tingtinghsu
 baseurl:             '/blog'
-paginate:           10
-paginate_path:      "page:num"
 excerpt_separator:  '<!-- more -->'
 
 # About/contact
 author:
   name:              Ting Ting Hsu
-  url:               https://twitter.com/tingtingtour
+  url:               https://tingtinghsu.github.io/blog/
   email:             tingtinghsu.tw[at]gm
 
 # Handling reading
@@ -26,6 +24,8 @@ encoding: "utf-8"
 # Custom vars
 version:             1.0.0
 plugins: [jekyll-paginate]
+paginate:           10
+paginate_path:      "page:num"
 
 # Social links
 github_username:      tingtinghsu
@@ -60,20 +60,11 @@ defaults:
     values:
       layout: "tag"
 
-# Tag:
+# Comments:
 comments :
   provider : disqus    # default
   disqus :
     short_name : tingtingtour    # disqus site name
-  livefyre :
-    site_id : 123
-  intensedebate :
-    account : 123abc
-  facebook :
-    appid : 123
-    num_posts: 5
-    width: 580
-    colorscheme: light
 
 #RSS settings
 rss: true

@@ -19,50 +19,49 @@ comments: true
   <small> Total : {{ page.content | number_of_words }} words. </small> <br>
 
   {{ content }}
-
 </div>  
-<div class="home" align="center"><a href="{{ site.baseurl }}/">Home</a></div><br>
-<div class="related">
-  <h5>Related Posts</h5>
-  <div class="related-posts">
-    <ul>  
-    {% assign firstTag = page.tags | first %}
-    {% assign relatedCount = 0 %}
-    {% for related in site.tags[firstTag] %}
 
-    {% unless page.permalink == related.permalink %}
-       {% assign relatedCount = relatedCount | plus: 1 %}
-       <a href="{{ site.baseurl }}{{related.permalink}}">{{ related.title }}</a><br>
-      {% endunless %}
-        
-      {% if relatedCount == 4 %}
-        {% break %}
-      {% endif %}
-    {% endfor %}
- 
-  </div>
+<div class="home" align="center"><a href="{{ site.baseurl }}/">Home</a></div><br>
+  <div class="related">
+    <h5>Related Posts</h5>
+    <div class="related-posts">
+      <ul>  
+      {% assign firstTag = page.tags | first %}
+      {% assign relatedCount = 0 %}
+      {% for related in site.tags[firstTag] %}
+
+      {% unless page.permalink == related.permalink %}
+        {% assign relatedCount = relatedCount | plus: 1 %}
+        <a href="{{ site.baseurl }}{{related.permalink}}">{{ related.title }}</a><br>
+        {% endunless %}
+          
+        {% if relatedCount == 4 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    </div>
 </div>
 
 <div>
-  {% if page.comments %} 
-  <div id="disqus_thread"></div>
-  <script>
-  /**
-  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  
-  var disqus_config = function () {
-  this.page.url = '{{content.permalink}}';  // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = '{{content.permalink}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  
-  (function() { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
-  s.src = 'https://tingtingtour.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  {% endif %}
+    {% if post.comments %} 
+      <div id="disqus_thread"></div>
+      <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      
+        var disqus_config = function () {
+        this.page.url = '{{post.permalink}}';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = '{{post.permalink}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://tingtingtour.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      {% endif %}
 </div>
