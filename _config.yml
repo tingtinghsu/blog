@@ -74,3 +74,6 @@ comments :
     num_posts: 5
     width: 580
     colorscheme: light
+
+#RSS settings
+rss: true
