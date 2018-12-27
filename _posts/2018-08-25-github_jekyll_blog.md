@@ -6,6 +6,7 @@ date:   2018-08-25 12:23:00
 layout: post
 tags: 
   - "jekyll"
+  - "git"  
 ---
 
 前幾天IT邦有一篇熱門文章「哪個blog寫技術文章最好用？」  
@@ -22,7 +23,7 @@ https://tingtinghsu.github.io/jekyll/update/2018/08/25/github_jekyll_blog.html
 * abstact
 {:toc}
 
-## A.在你自己的Github帳號建立新資料夾 github.io
+## A.在Github帳號內建立新資料夾 github.io
 
 *名稱必須是你的`username.github.io`*
 ![https://ithelp.ithome.com.tw/upload/images/20180824/20111177JLQCXuETDs.png](https://ithelp.ithome.com.tw/upload/images/20180824/20111177JLQCXuETDs.png)
@@ -58,9 +59,10 @@ https://tingtinghsu.github.io/jekyll/update/2018/08/25/github_jekyll_blog.html
 </html>
 ```
 
-這時候貓貓工程師在我耳朵旁邊OS打廣告:[VS code](https://code.visualstudio.com/) 好用！
+改好後，重點來了！
 
-改好後，重點來了！先 `git commit` to Master（儲存修改到本機），再`git push`（上傳將你要發佈的網頁到Github的資料夾上）
+1. 先 `git commit` to Master（儲存修改到本機），
+2. 再`git push`（上傳將你要發佈的網頁到Github的資料夾上）
 
 給Git新新手的連結：
 常用Git指令，網路上資源非常豐富，我參考[這裡]( https://blog.gogojimmy.net/2012/02/29/git-scenario/)部落格，
@@ -74,13 +76,14 @@ https://tingtinghsu.github.io/jekyll/update/2018/08/25/github_jekyll_blog.html
 
 成功！
 
-## C.在本機上裝Jekyll
+## C. 在本機上裝Jekyll
 
 [Jekyll](http://jekyllcn.com/docs/posts/)是base on ruby開發的部落格網站生成器，需要的版本要ruby2.0以上。
-在termimal輸入`ruby -v`確定一下版本：
+在termimal輸入`ruby -v`確定一下版本：  
+  
 ![https://ithelp.ithome.com.tw/upload/images/20180825/20111177OspMdSGx4z.png](https://ithelp.ithome.com.tw/upload/images/20180825/20111177OspMdSGx4z.png)
 
-Ruby版本沒問題，就可以輸入以下的Jekyll指令們。
+Ruby版本沒問題，就可以繼續輸入以下的Jekyll指令。
 
 ### c.1 在本地安裝Jekyll
 
@@ -102,23 +105,22 @@ jekyll serve
 ```
 
 在網址列輸入http://localhost:4000/
-應該會出現這樣的畫面：
+應該會出現這樣的畫面：  
+  
+**網站預設頁面**
+
 ![https://ithelp.ithome.com.tw/upload/images/20180825/20111177JpBt2TiYL7.png](https://ithelp.ithome.com.tw/upload/images/20180825/20111177JpBt2TiYL7.png)
+  
+接下我們就可以在本地端進行完修改網頁，再用git上傳。  
+輸入你的網誌連結就可以看到改好的頁面了！[這是我的Github Blog](https://tingtinghsu.github.io/blog/)
+  
+## D. 常用的Git指令整理
 
-接下我們就可以在本地端進行完修改網頁，再用git上傳。
-到你的網誌連結：http://tingtinghsu.github.io/
-![https://ithelp.ithome.com.tw/upload/images/20180825/20111177CyDdUoadop.png](https://ithelp.ithome.com.tw/upload/images/20180825/20111177CyDdUoadop.png)
+安裝Git這部分我卡住了一段時間，因為以前沒有相關的觀念。在此列出常用指令：
 
-就可以看到改好的頁面了～～
+> 1 每次上傳前的好習慣是要輸入 `git status` ：先用git看看哪些資料夾還沒有merged
 
-[後記：]
-安裝Git這部分我卡住了一段時間，因為以前沒有相關的觀念。
-
-感謝貓貓工程師教學：
-
-1. 每次上傳前的好習慣是要輸入 `git status` ：先用git看看哪些資料夾還沒有merged
-
-2. 如果出現了`Unmerged paths`，代表本地曾經新建過的新檔案，Github上還沒備份:
+> 2 如果出現了`Unmerged paths`，代表本地曾經新建過的新檔案，Github上還沒備份:
 
 ```bash
   (use "git add <file>..." to mark resolution)
@@ -128,7 +130,7 @@ jekyll serve
         both modified:   _site/jekyll/update/2018/08/24/my_first_jekyll_page.html
 ```
 
-3. `git add .`:把所有更改過的所有網頁加入暫存變更
+> 3 `git add .`:把所有更改過的所有網頁加入暫存變更
 
 如果只要加入某個特定網頁，就在`git add`後加上網頁路徑
 
@@ -136,18 +138,20 @@ jekyll serve
 git add _site/jekyll/update/2018/08/24/my_first_jekyll_page.html
 ```
 
-4. `git status`: 確定一下剛剛是否已經存入暫存變更
+> 4 `git status`: 確定一下剛剛是否已經存入暫存變更
 
-綠色的字就是已經存入：
+綠色的字就是已經存入：  
+  
 ![https://ithelp.ithome.com.tw/upload/images/20180825/2011117784pHVbSogs.png](https://ithelp.ithome.com.tw/upload/images/20180825/2011117784pHVbSogs.png)
 
-5. `git log`：commit過的動作會進log做紀錄，`-m ""`加上自己的註解：commit過什麼事情
+> 5 `git log`：commit過的動作會進log做紀錄，`-m ""`加上自己的註解：commit過什麼事情  
+  
 ![https://ithelp.ithome.com.tw/upload/images/20180825/20111177KatlWjvZCF.png](https://ithelp.ithome.com.tw/upload/images/20180825/20111177KatlWjvZCF.png)
 
-6. `git push`：記得要先commit後再push。
+> 6 `git push`：記得要先commit後再push。
+
+> 7 `git pull` ：如果和其他人協同作一個部落格/專案，有可能GitHub上的變更會比較新，此時要先Pull下來，再push上去，才會確保是最新版本喔！
+
+看到持續增加的blog文章頁面，成就感也不少呢！：）
 
 ![https://ithelp.ithome.com.tw/upload/images/20180825/20111177xHVSTLH6hm.png](https://ithelp.ithome.com.tw/upload/images/20180825/20111177xHVSTLH6hm.png)
-
-7. `git pull` ：如果和其他人協同作一個部落格/專案，有可能GitHub上的變更會比較新，此時要先Pull下來，再push上去，才會確保是最新版本喔！
-
-看到持續新增的blog文章頁面，很有成就感呢！：）

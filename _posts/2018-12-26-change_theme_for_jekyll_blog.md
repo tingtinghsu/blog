@@ -8,11 +8,11 @@ tags:
   - "jekyll"
 ---
 
-一直以來對於jekyll預設版型不甚滿意。此篇文章紀錄從tingtinghsu.github.io換到[https://tingtinghsu.github.io/blog](https://tingtinghsu.github.io/blog) 的工程，修改版型[(*註1*)](####[註1])遇到的問題。
+一直以來對於jekyll預設版型不甚滿意。此篇文章紀錄從tingtinghsu.github.io換到[https://tingtinghsu.github.io/blog](https://tingtinghsu.github.io/blog) 的工程，修改版型[(*註1*)](#註1)遇到的問題。
 
 <!-- more -->
 
-## Jekyll資料夾結構
+# Jekyll資料夾結構
 
 在倒數計時2018年的12月陸陸續續修改各處程式碼並加上自己想要的需求，現在對於資料夾內結構還算熟悉：
 
@@ -61,26 +61,36 @@ tags:
 |-- about.html   #作者簡介 (render)
 |-- about.md     #作者簡介
 |-- Atom.xml   #RSS (render)
-|-- LICENSE.md #版權頁 (render)
+|-- LICENSE.md #版權頁 (render)
 |-- README.md  # (render)
 ```
 
-## 我的舊版blog與新版blog差異
+# 我的舊版blog與新版blog差異
 
 | 比較 | 舊版 | 新版|
 |---|---|---|
 |遠端|[https://tingtinghsu.github.io](https://tingtinghsu.github.io)| [https://tingtinghsu.github.io/blog](https://tingtinghsu.github.io/blog)|
-| local | `/本機Github/tingtinghsu.github` | `/本機Github/blog`
-啟動server| jekyll server  | jekyll serve --port 4001
-本機網址| http://127.0.0.1:4000/  |  http://127.0.0.1:4001/blog/ *([註2](####[註2]))*
+| local | `/本機Github/tingtinghsu.github` | `/本機Github/blog`
+啟動server| jekyll serve  | jekyll serve --port 4001
+本機網址| http://127.0.0.1:4000/  |  http://127.0.0.1:4001/blog/ [(*註2*)](#註2)
+
+經過了整個12月的改版工程，目前對於版型還挺滿意的！(27-Dec 2018)
+
+**舊版型**: [minima](https://github.com/jekyll/minima)
+  
+![https://ithelp.ithome.com.tw/upload/images/20181227/20111177DkmAzqdvQ9.png](https://ithelp.ithome.com.tw/upload/images/20181227/20111177DkmAzqdvQ9.png)
+  
+**新版型**: [lanyon](https://github.com/poole/lanyon)
+  
+![https://ithelp.ithome.com.tw/upload/images/20181227/20111177sGo5iGHe4p.png](https://ithelp.ithome.com.tw/upload/images/20181227/20111177sGo5iGHe4p.png)
 
 ---
 
-### 編按
+## 編按
 
-#### [註1]
+### [註1]
 
-版型修改途中遇到大量問題，例如`push`之後收到Github的警告訊息：
+版型修改途中遇到大量問題，例如`push`之後收到Github的警告訊息：
 
 ```bash
 
@@ -106,8 +116,12 @@ Jekyll through 3.6.2, 3.7.x through 3.7.3, and 3.8.x through 3.8.3 allows attack
 
 其原因主要來自於[Jekyll官方支援的版型](https://pages.github.com/themes/)其Jekyll版本為3.8.4，與穩定的`blog版本3.8.5`不相容。
 
-解法：在搬移內容的過程為了保留舊版本做對照(舊版僅供自己參考)，我將版型改為`Jekyll3.8.5`的[lanyon](http://lanyon.getpoole.com/)(by [@mdo](https://github.com/poole/lanyon/commits?author=mdo))，並按照[此教學影片: How to Install Jekyll Themes?](https://www.youtube.com/watch?v=bty7LHm14CA)**更改blog網址**。
+解法：在搬移內容的過程為了保留舊版本做對照(舊版僅供自己參考)，我將版型改為`Jekyll3.8.5`的[lanyon](http://lanyon.getpoole.com/)(by [@mdo](https://github.com/poole/lanyon/commits?author=mdo))，並按照[此教學影片: How to Install Jekyll Themes?](https://www.youtube.com/watch?v=bty7LHm14CA)**更改blog網址**。
 
-#### [註2]
+### [註2]
 
-如何在本機run多個 Jekyll server，我參考了[Jekyll官網](https://jekyllrb.com/docs/configuration/options/#serve-command-options)與[StackOverflow問題]((https://stackoverflow.com/questions/25650749/is-it-possible-to-serve-multiple-jekyll-sites-locally/25650755))。
+如何在本機run多個 Jekyll server，我參考了[Jekyll官網](https://jekyllrb.com/docs/configuration/options/#serve-command-options)與[StackOverflow問題]((https://stackoverflow.com/questions/25650749/is-it-possible-to-serve-multiple-jekyll-sites-locally/25650755))，在不同的`port` run server。
+
+```bash
+jekyll serve –port 4001
+```
