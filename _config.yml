@@ -61,10 +61,11 @@ defaults:
       layout: "tag"
 
 # Comments:
-comments :
-  provider : disqus    # default
-  disqus :
-    short_name : tingtingtour    # disqus site name
-
+# comments :
+#   provider : disqus    # default
+#   disqus :
+#     short_name : tingtingtour    # disqus site name
+disqus:
+  shortname: tingtingtour
 #RSS settings
 rss: true
