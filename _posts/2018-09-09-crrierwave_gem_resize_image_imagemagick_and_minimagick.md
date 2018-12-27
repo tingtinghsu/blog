@@ -1,5 +1,5 @@
 ---
-title:  "[RubyGems] Carrierwave (4) 使用Imagemagick修改圖片大小"
+title:  "[RubyGems] carrierwave (4) 使用Imagemagick修改圖片大小"
 preview: "Resize image by using imagemagick and minimagick"
 permalink: "/articles/2018-09-09-crrierwave_gem_resize_image_imagemagick_and_minimagick"
 date:   2018-09-09 09:34:00
