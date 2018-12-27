@@ -71,7 +71,7 @@ tags:
 |---|---|---|
 |遠端|[https://tingtinghsu.github.io](https://tingtinghsu.github.io)| [https://tingtinghsu.github.io/blog](https://tingtinghsu.github.io/blog)|
 | local | `/本機Github/tingtinghsu.github` | `/本機Github/blog`
-啟動server| jekyll serve  | jekyll serve --port 4001
+啟動server| jekyll server  | jekyll server --port 4001
 本機網址| http://127.0.0.1:4000/  |  http://127.0.0.1:4001/blog/ [(*註2*)](#註2)
 
 經過了整個12月的改版工程，目前對於版型還挺滿意的！(27-Dec 2018)
