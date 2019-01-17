@@ -2,7 +2,7 @@
 title:  "在jekyll blog加入新tag"
 preview: "Add new tag"
 permalink: "/articles/2019-01-16-add_new_tag_in_jekyll_blog"
-date:   2019-01-16 08:55:00 +1000
+date:   2019-01-16 08:55:00
 layout: post
 tags: 
   - "jekyll"

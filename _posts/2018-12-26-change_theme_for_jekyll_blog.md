@@ -2,7 +2,7 @@
 title:  "更換Jekyll版型記錄"
 preview: "Change Jekyll Template"
 permalink: "/articles/2018-12-26-change_them_for_jekyll_blog"
-date:   2018-12-26 12:23:00 +1000
+date:   2018-12-26 12:23:00
 layout: post
 tags: 
   - "jekyll"
