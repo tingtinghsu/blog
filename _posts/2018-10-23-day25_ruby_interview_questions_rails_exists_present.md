@@ -3,10 +3,11 @@ title:  "Ruby面試精選30題 - Day25 初探 Rails: .present? 和 .exists?比�
 preview: "Ruby interview question: What is the difference between .present? and .exists?"
 permalink: "/articles/2018-10-23-day25_ruby_interview_questions_rails_exists_present"
 date:   2018-10-23 08:51:00
-
 layout: post
 tags: 
   - "interview"
+  - "rails"  
+comments: true
 ---
 
 [昨天]的鐵人賽裡，我們提到了`.present?`方法，第一次把腳跨進`Rails`的領域，這是一種從`Ruby`幼幼班畢業的架勢！

@@ -3,10 +3,10 @@ title:  "Ruby面試精選30題 - Day04 玩弄Ruby的方法: instance method與cl
 preview: "Ruby interview question: Explain instance method and class method."
 permalink: "/articles/2018-09-13-day04_ruby_interview_questions_instance_class_method"
 date:   2018-09-13 14:59:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 在第三天裡，我們解說了如何在class裡用include與extend使用module的method。

@@ -5,7 +5,8 @@ permalink: "/articles/2018-08-21-install_ruby_rails_on_MacOS"
 date:   2018-08-21 12:23:00
 layout: post
 tags: 
-  - "interview"
+  - "rails"
+comments: true
 ---
 千里之行，始於足下。喊了要學Ruby on Rails好久，今天終於要來邁向第一步：安裝了！
 

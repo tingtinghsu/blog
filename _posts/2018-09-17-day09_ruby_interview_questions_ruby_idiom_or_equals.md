@@ -3,7 +3,6 @@ title:  "Ruby面試精選30題 - Day09 Ruby的 or-equals 是什麼意思呢?"
 preview: "Ruby interview question: Explain this ruby idiom (or-equals) : a ||= b?"
 permalink: "/articles/2018-09-17-day09_ruby_interview_questions_ruby_idiom_or_equals"
 date:   2018-09-17 09:18:00
-
 layout: post
 tags: 
   - "interview"
@@ -118,6 +117,6 @@ Ref：
 
 * [Top 10 Essential Ruby Interview Questions](https://blog.bater.gq/ruby/2018/02/02/top-10-essential-ruby-interview-questions.html)
 * [Ruby on Rails Technical Interview Questions](https://github.com/timurcatakli/ruby-on-rails-interview-questions-answers)
-* [What does ||= (or-equals) mean in Ruby?](https://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby)
+* [What does (or-equals) mean in Ruby?](https://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby)
 * [Please explain nuances of ||=](https://groups.google.com/forum/#!topic/comp.lang.ruby/y1Maaqk_Q7c)
-* [A short-circuit (||=) edge case](http://davidablack.net/dablog.html#2008/3/25/a-short-circuit-edge-case)
+* [A short-circuit edge case](http://davidablack.net/dablog.html#2008/3/25/a-short-circuit-edge-case)

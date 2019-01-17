@@ -3,10 +3,10 @@ title:  "Ruby面試精選30題 - Day16 iterator 和 loop 比較"
 preview: "Ruby interview question: What's Iterator? How many iterators are there in Ruby?"
 permalink: "/articles/2018-09-30-day16_ruby_interview_questions_iterator"
 date:   2018-09-30 08:29:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 話說工程師們是一群創新又偷懶的人，能夠只寫一行程式碼，就不用寫兩行。迭代器就是一個能幫助我們達成這個目標的好東西，能把做重複的事情的情況減少到最低，這樣我們就可以省下更多時間去享受人生啦～

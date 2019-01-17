@@ -3,10 +3,10 @@ title:  "Ruby面試精選30題 - Day18 Ruby裡的多行字串"
 preview: "Ruby interview question: How to write multiline string in Ruby?"
 permalink: "/articles/2018-10-02-day18_ruby_interview_questions_multiline_string"
 date:   2018-10-02 08:15:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 以Ruby表達多行字串是很容易的，現在立馬來試試看吧！

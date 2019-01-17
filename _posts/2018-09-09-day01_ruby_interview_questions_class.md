@@ -3,10 +3,10 @@ title:  "Ruby面試精選30題 - Day01 用Class類別寫個參賽宣言吧！"
 preview: "Ruby interview question: What is a Class?"
 permalink: "/articles/2018-09-09-day01_ruby_interview_questions_class"
 date:   2018-09-09 13:40:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 30天修煉Ruby面試精選30題 (December 2018 Version)

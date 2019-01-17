@@ -104,12 +104,12 @@ end
   SQL (0.000134) SET SQL_AUTO_IS_NULL=0
   User_Columns (0.001251) SHOW FIELDS FROM users
   User Load (0.000346) SELECT * FROM users WHERE (users.id = 1)
-  # 僅需查詢一次
+  # 僅需查詢一次
 ```
 
 總結
 
-剛開始的rails的應用就，綜合了三篇在2018年寫的Ruby面試文章，真一次有趣的複習，也代表以前做過的努力，都不會白費呢！
+剛開始熟悉的rails的應用，就綜合了三篇在2018年寫的Ruby面試文章，真一次有趣的複習，也代表以前做過的努力，都不會白費呢！
 
 Ref:
 
@@ -120,3 +120,4 @@ Ref:
 * [Ruby面試精選30題 - Day12 千變萬化的變數: class variable, class instance variable 與 instance variable](https://tingtinghsu.github.io/blog/articles/2018-09-20-day12_ruby_interview_questions_class_instance_variable)
 
 * [Caching with Instance Variables](http://railscasts.com/episodes/1-caching-with-instance-variables)
+

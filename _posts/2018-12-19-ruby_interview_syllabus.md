@@ -3,9 +3,10 @@ title:  "Ruby面試精選30題 - 題目大綱"
 preview: "Ruby interview questions"
 permalink: "/articles/2018-12-19-ruby_interview_syllabus"
 date:   2018-12-19 10:38:00
-
 layout: post
-tags: interview
+tags: 
+  - "interview"
+comments: true
 ---
 
 ![](https://ithelp.ithome.com.tw/images/ironman_sticker/10/web.png?sticker)

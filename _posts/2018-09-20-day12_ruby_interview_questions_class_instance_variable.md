@@ -2,12 +2,11 @@
 title:  "Ruby面試精選30題 - Day12 千變萬化的變數: class variable, class instance variable 與 instance variable"
 preview: "Ruby interview question: What is difference between class variable, class instance variable and instance variable?"
 permalink: "/articles/2018-09-20-day12_ruby_interview_questions_class_instance_variable"
-
 date:   2018-09-20 14:57:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 第12天往細節探索去！昨天我們講到broc是有名字的區塊物件，可儲存變數；lambda是一種method方法，嚴格檢查參數數目，今天則要更深地討論變數。

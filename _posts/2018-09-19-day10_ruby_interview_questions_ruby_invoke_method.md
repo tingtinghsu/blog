@@ -3,10 +3,10 @@ title:  "Ruby面試精選30題 - Day10 Ruby invoke method調用方法?"
 preview: "Ruby interview question: Explain how Ruby looks up a method to invoke?"
 permalink: "/articles/2018-09-19-day10_ruby_interview_questions_ruby_invoke_method"
 date:   2018-09-19 10:57:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 不知不覺到了第10天囉！

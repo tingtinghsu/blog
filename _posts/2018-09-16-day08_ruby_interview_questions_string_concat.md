@@ -3,7 +3,6 @@ title:  "Ruby面試精選30題 - Day08 Sting的concat串接"
 preview: "Ruby interview question: What’s difference between concat and += ?"
 permalink: "/articles/2018-09-16-day08_ruby_interview_questions_string_concat"
 date:   2018-09-16 09:18:00
-
 layout: post
 tags: 
   - "interview"

@@ -3,7 +3,6 @@ title:  "Ruby面試精選30題 - Day07 Symbol符號與String字串比較"
 preview: "Ruby interview question: What does self mean?"
 permalink: "/articles/2018-09-15-day07_ruby_interview_questions_symbol_vs_string"
 date:   2018-09-15 14:18:00
-
 layout: post
 tags: 
   - "interview"

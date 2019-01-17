@@ -7,6 +7,7 @@ date: 2018-09-05 10:31:00
 layout: post
 tags: 
   - "rubygem"
+comments: true
 ---
 
 在我的上一篇文章[Ruby套件carrierwave gem: (上) 在Rails實現圖片上傳功能](https://ithelp.ithome.com.tw/articles/10199035) ，上傳圖片功能已經完成啦！但是目前圖片僅能上傳在自己的本地資料夾內孤芳自賞。

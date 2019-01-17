@@ -3,10 +3,10 @@ title:  "Ruby面試精選30題 - Day17 Ruby裡的freeze和frozen? "
 preview: "Ruby interview question: Explan when to use freeze and frozen in Ruby?"
 permalink: "/articles/2018-10-01-day17_ruby_interview_questions_freeze"
 date:   2018-10-01 08:15:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 freeze照字面解釋就是凍結的意思。`.frozen?`可以傳回`true`或`false`，幫我們確認凍結是否為真。詳細怎麼使用呢？就讓我們繼續看下去！

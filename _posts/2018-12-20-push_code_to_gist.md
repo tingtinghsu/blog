@@ -4,10 +4,10 @@ title:  "將程式碼用command line上傳至gist"
 preview: "Push code to gist"
 permalink: "/articles/2018-12-20-push_code_to_gist"
 date:   2018-12-20 08:23:00
-
 layout: post
 tags: 
   - "git"
+comments: true
 ---
 
 最近重新整理鐵人賽文章的程式碼時，我想將[Jekyll新版blog](https://tingtinghsu.github.io/blog)的文章插入gist程式碼片段(snippet)，研究了2小時後，發現並沒有我想像中的複雜，挺簡單的！

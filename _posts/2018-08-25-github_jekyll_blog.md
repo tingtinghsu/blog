@@ -6,7 +6,8 @@ date:   2018-08-25 12:23:00
 layout: post
 tags: 
   - "jekyll"
-  - "git"  
+  - "git"
+comments: true
 ---
 
 前幾天IT邦有一篇熱門文章「哪個blog寫技術文章最好用？」  

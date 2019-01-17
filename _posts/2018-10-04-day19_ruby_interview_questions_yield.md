@@ -3,10 +3,10 @@ title:  "Ruby面試精選30題 - Day19 Ruby裡的yield"
 preview: "Ruby interview question: What is yield statement in Ruby?"
 permalink: "/articles/2018-10-04-day19_ruby_interview_questions_yield"
 date:   2018-10-04 10:58:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 在[第11天]時，我們曾比較block, proc與lamdba方法，而`yield`的實用場景是在`method`裡讓路給`block`區塊執行程式的意思。

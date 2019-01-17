@@ -3,10 +3,10 @@ title:  "Ruby面試精選30題 - Day22 and 和 or 比較"
 preview: "Ruby interview question: What is the difference between [and], [or]"
 permalink: "/articles/2018-10-16-day22_ruby_interview_questions_and_or"
 date:   2018-10-16 07:51:00
-
 layout: post
 tags: 
   - "interview"
+comments: true
 ---
 
 `and` 和 `&&` 以及 `or` 和 `||` 的意思雖然一樣，但就像以前在數學課學過的`先乘除後加減`的概念一樣，程式中的運算子之間也具有優先順序之分。符號的`&&`, `||` 的優先權高於關鍵字`and`, `or`，請參考[Ruby API](https://ruby-doc.com/core/doc/keywords_rdoc.html)。
