@@ -52,7 +52,14 @@ https://gist.github.com/該程式碼的網址
 
 # 實作成果
 
+```html
+<script src="https://gist.github.com/你的gist帳號/自懂產生的網址.js"></script>
+```
 
+結果顯示如下：
+
+<script src="https://gist.github.com/tingtinghsu/f7b604327ac31896e4aff735675952ad.js">
+</script>
 
 ## 編按
 

@@ -124,5 +124,5 @@ Jekyll through 3.6.2, 3.7.x through 3.7.3, and 3.8.x through 3.8.3 allows attack
 如何在本機run多個 Jekyll server，我參考了[Jekyll官網](https://jekyllrb.com/docs/configuration/options/#serve-command-options)與[StackOverflow問題]((https://stackoverflow.com/questions/25650749/is-it-possible-to-serve-multiple-jekyll-sites-locally/25650755))，在不同的`port` run server。
 
 ```bash
-jekyll serve –port 4001
+jekyll server –port 4001
 ```
