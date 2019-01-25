@@ -59,6 +59,7 @@ end
     Session ID: eb5d28exxxxx
     Parameters: {"action"=> "index", "controller"=>"projects"}
     Project Load (0.000259) SELECT * FROM projects
+
   Rendering projects/index
   Completed in 0.00619 (161 reqs/sec) | Rendering: 0.00071 (11%) | DB: 0.00026 (4%) | 200 OK [http://localhost/projects/]
 
@@ -91,9 +92,11 @@ end
 ```
 
 ```bash
->> @current_user ||= User.find(1) #@current_user第一次尚未初始化，因此在資料庫內查詢
+>> @current_user ||= User.find(1)
+#@current_user第一次尚未初始化，因此在資料庫內查詢。
 => #<User:0x335a890 @attributes=("name" => "Ting", "id" => "1")>
->> @current_user ||= User.find(1) #@current_user已非空值，傳回instance variable屬性，記憶體位置相同。
+>> @current_user ||= User.find(1)
+#@current_user已非空值，傳回instance variable屬性，其記憶體位置相同。
 => #<User:0x335a890 @attributes=("name" => "Ting", "id" => "1")>
 
 ```
@@ -109,7 +112,7 @@ end
 
 總結
 
-剛開始熟悉的rails的應用，就綜合了三篇在2018年寫的Ruby面試文章，真一次有趣的複習，也代表以前做過的努力，都不會白費呢！
+剛開始熟悉的rails的應用就綜合了三篇在2018年寫的Ruby面試文章，這不但是一次有趣的複習，也代表以前做過的努力，都不會白費！
 
 Ref:
 

@@ -1,14 +1,15 @@
 ---
 title:  "在jekyll blog加入新tag"
 preview: "Add new tag"
-permalink: "/articles/2019-01-16-add_new_tag_in_jekyll_blog"
-date:   2019-01-16 08:55:00
+permalink: "/articles/2019-01-01-add_new_tag_in_jekyll_blog"
+date:   2019-01-01 08:55:00
 layout: post
 tags: 
   - "jekyll"
 comments: true
 ---
 
+あけまして おめでとう！新年快樂（撒花）  
 隨著blog內的文章越來越多，我們可能需要為文章加上新的分類(categories)或標籤(tags)。2019年後我們將開始從ruby深入研究至rials，在此以加入新標籤`rails`作為範例。
 
 <!-- more -->
