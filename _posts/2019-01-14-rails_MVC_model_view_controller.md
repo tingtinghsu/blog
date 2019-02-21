@@ -28,6 +28,8 @@ comments: true
 
 ![https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true](https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true)
 
+[圖片來自龍哥的文章 : Model、View、Controller 三分天下](https://railsbook.tw/chapters/10-mvc.html)
+
 ## 新增Route 範例
 
 Controller的命名與Route使用resources（複數）或resource（單數）有關。  
