@@ -9,7 +9,7 @@ tags:
 comments: true
 ---
 
-進入rails，最重要的是了解MVC架構(Model-View-Controller)。限於篇幅的關係，今天先簡單講解model和View.
+進入rails，最重要的是了解MVC架構(Model-View-Controller)。限於篇幅的關係，今天先簡單講解Controler和Model.
 
 <!-- more -->
 ---
@@ -238,6 +238,16 @@ Loading development environment (Rails 5.2.2)
 ```
 #### Read 讀取: `.find()`
 
+例如：我們現在在console裡輸入尋找clients資料表裡的第一筆資料，指令為`Client.find(1)`
+
+```ruby
+2.5.2 :021 > Client.find(1)
+
+Client Load (10.7ms)  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT ?  [["id",1], ["LIMIT", 1]]
+
+=> #<Client id: 1, name: "LIFE Supermarket", email: "hi@lifecorp.jp", phone: "03-3470-3484", created_at: "2019-01-22 08:26:58", updated_at: "2019-01-22 08:26:58">
+```
+
 當我們寫
 
 ```ruby
@@ -252,15 +262,6 @@ SELECT * FROM clients WHERE (client.id = 1) LIMIT 1
 
 和SQL語法相比，是不是節省了相當多的程式碼呢？  
 
-例如：我們現在在console裡輸入尋找clients資料表裡的第一筆資料，指令為`Client.find(1)`
-
-```ruby
-2.5.2 :021 > Client.find(1)
-
-Client Load (10.7ms)  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT ?  [["id",1], ["LIMIT", 1]]
-
-=> #<Client id: 1, name: "LIFE Supermarket", email: "hi@lifecorp.jp", phone: "03-3470-3484", created_at: "2019-01-22 08:26:58", updated_at: "2019-01-22 08:26:58">
-```
 
 ---
 
