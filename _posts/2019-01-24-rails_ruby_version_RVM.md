@@ -289,4 +289,9 @@ Running via Spring preloader in process 82946
 
 Ref:
 
+* [RVM.io](https://rvm.io/)
+* [Ruby on Rails練習 - MacOS安裝篇](https://tingtinghsu.github.io/blog/articles/2018-08-21-install_ruby_rails_on_MacOS)
+* [在Mac上用rvm安裝ruby](https://zoneless.weebly.com/blog/install-ruby-on-mac-with-rvm)
 * [RVM - Ruby enVironment(Version) Manager](https://kaochenlong.com/2011/11/16/rvm/)
+* [How to update gems with Bundler](https://bundler.io/v1.17/guides/updating_gems.html)
+* [Rails: Could not find railties](https://stackoverflow.com/questions/9212116/rails-could-not-find-railties)

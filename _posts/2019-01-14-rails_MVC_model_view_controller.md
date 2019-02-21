@@ -20,9 +20,63 @@ comments: true
 
 ---
 
+
+
+# Controller
+
+當Route解析網址後，會將任務轉給指定的Controller(如圖中的1)。Controller根據任務需求與View互動(如圖中的8.9)，或是透過Model取出database裡的資料(如圖中的4.7)。
+
+![https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true](https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true)
+
+## 新增Route 範例
+
+Controller的命名與Route使用resources（複數）或resource（單數）有關。  
+
+在以下餐廳範例的route檔案裡，我們看到`resources :restaurants`使用複數。
+若沒有特別指定resources的controller參數，預設的對應controller就是`RestaurantsController`.
+
+`Routes路徑：/config/routes.rb`
+
+```ruby
+Rails.application.routes.draw do
+  resources :restaurants
+  root 'restaurants#index'
+  get 'pages/about'
+  get "/contact_us", to "pages#contact"
+end
+```
+
+在`  get "/contact_us", to "pages#contact"`中，若使用者輸入`餐廳網站/contact_us`時，Route路由會交給PagesController的contact方法處理這個請求。
+
+
+## Controller 程式範例
+
+
+Controller資料夾下的檔名以`複數`命名；  
+class類別名稱`大寫`、`複數`。
+
+`路徑：/app/controllers/clients_controller.rb`
+
+```ruby
+class ClientsController < ApplicationController
+
+end
+```
+
+`路徑：/app/controllers/orders_controller.rb`
+
+```ruby
+class OrdersController < ApplicationController
+
+end
+```
+
+
 # Model
 
-Model是在資料表上的抽象類別，可以和實體的資料表溝通。 
+Model是在資料表上的抽象類別，可以和實體的資料表溝通。(如圖中的5.6)
+
+![https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true](https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true)
 
 Model資料夾下的檔名以`單數`命名；eg. `client.rb`  
 class類別名稱`大寫`、`單數`。eg. `class Client`
@@ -72,9 +126,7 @@ OrderItem  | order_item
 
 ## 新增 Model : `rails g model`
 
-*1. Model名稱：Client*
-
-Rails產生Client Model:  
+*1. Rails產生Client Model*
 
 ```bash
 $ rails g model Client name email phone
@@ -85,6 +137,7 @@ column 欄位 | 資料型態
 name  | string  
 email  | string  
 phone  | string
+
 
 ```bash
 tingdeAir:demo2.5 tingtinghsu$ rails g model Client name email phone
@@ -99,10 +152,10 @@ Running via Spring preloader in process 85647
 
 *2. Model名稱：Order*
 
-Rails產生Order Model:  
+*2. Rails產生Order Model*
 
 ```bash
-$ g model Order price address orderdate shipdate client_id
+$ rails g model Order price address orderdate shipdate client_id
 ```
 
 column 欄位 | Data型態
@@ -113,6 +166,7 @@ price  | integer
 shipdate  | string  
 client_id  | string (Foreign Key)
 
+
 ## 產生資料表: `rake db:migrate` 
 
 ```bash
@@ -122,8 +176,11 @@ tingdeAir:demo2.5 tingtinghsu$ rake db:migrate
    -> 0.0017s
 == 20190121090619 CreateUsers: migrated (0.0018s) =============================
 ```
+## Model 操作: 透過ORM (Object Relational Mapping)
 
-## 打開console: `rails console` 
+「物件關聯映射」是一種透過操作`物件`來操作`關聯資料庫`的方式。
+
+### 打開console: `rails console` 
 
 我們可以在rails環境裡打開console，我目前的環境是`Rails 5.2.2`:
 
@@ -133,80 +190,74 @@ Running via Spring preloader in process 83464
 Loading development environment (Rails 5.2.2)
 ```
 
-## 建立資料: Console裡輸入CRUD命令
+### 建立資料: Console裡輸入CRUD命令
 
 `CRUD`代表的是`Create新增`, `Read讀取`，`Update更新`，`Delete刪除`
 
-### Create 新增
+#### Create 新增
+
+假設我們要在客戶資料表`clients`新增一筆`業務超市`的資料，並存入資料表，有兩種方法
+
+1. `.new` + `.save`
+
+
+`merchant = Client.new`:  
+使用Client model new出新物件，並放入名為merchant的變數內。
+
+```ruby
+2.5.2 :008 > merchant = Client.new(name: "gyomusuper", email: "hi@gyomusuper.jp")  
+
+=> #<Client id: nil, name: "gyomusuper", email: "hi@gyomusuper.jp", phone: nil, created_at: nil, updated_at: nil>
+```
+
+`Client.save`:  
+存入clients資料表內。
+
+```ruby
+2.5.2 :009 > merchant.save
+ 
+ (1.5ms)  begin transaction  
+ 
+  Client Create (3.8ms)  INSERT INTO "clients" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "gyomusuper"], ["email", "hi@gyomusuper.jp"], ["created_at", "2019-01-25 09:13:54.365848"], ["updated_at", "2019-01-25 09:13:54.365848"]]
+
+   (2.1ms)  commit transaction
+```
+
+2. 直接`.create`: 若我們輸入的資料欄位沒有太多資料需要填寫，直接存入的方法可節省步驟。。
+
+```ruby
+2.5.2 :018 > Client.create(name: "lawson", email: "hi@lawson.jp")
+
+   (11.8ms)  begin transaction
+  Client Create (7.0ms)  INSERT INTO "clients" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "lawson"], ["email", "hi@lawson.jp"], ["created_at", "2019-01-25 09:30:03.039573"], ["updated_at", "2019-01-25 09:30:03.039573"]]
+   (2.0ms)  commit transaction
+
+=> #<Client id: 3, name: "lawson", email: "hi@lawson.jp", phone: nil, created_at: "2019-01-25 09:30:03", updated_at: "2019-01-25 09:30:03">
+```
+#### Read 讀取: `.find()`
 
 當我們寫
 
 ```ruby
-client = Client.find(1)
+Client.find(1)
 ```
 
 其SQL語法 =
 
 ```ruby
-SELECT * FROM clients WHERE (client.id = 10) LIMIT 1
+SELECT * FROM clients WHERE (client.id = 1) LIMIT 1
 ```
 
+和SQL語法相比，是不是節省了相當多的程式碼呢？  
 
-# Controller
-
-當Route解析網址後，會將任務轉給指定的Controller。Controller根據任務需求與View互動，或是透過Model取出database裡的資料。
-
-![./public/img/MVC.png](./public/img/MVC.png)
-
-## 新增Route 範例
-
-Controller的命名與Route使用resources（複數）或resource（單數）有關。  
-
-在以下餐廳範例的route檔案裡，我們看到`resources :restaurants`使用複數。
-若沒有特別指定resources的controller參數，預設的對應controller就是`RestaurantsController`.
-
-`Routes路徑：/config/routes.rb`
+例如：我們現在在console裡輸入尋找clients資料表裡的第一筆資料，指令為`Client.find(1)`
 
 ```ruby
-Rails.application.routes.draw do
-  resources :restaurants
-  root 'restaurants#index'
-  get 'pages/about'
-  get "/contact_us", to "pages#contact"
-end
-```
-
-在`  get "/contact_us", to "pages#contact"`中，若使用者輸入`餐廳網站/contact_us`時，Route路由會交給PagesController的contact方法處理這個請求。
+2.5.2 :021 > Client.find(1)
 
+Client Load (10.7ms)  SELECT  "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT ?  [["id",1], ["LIMIT", 1]]
 
-## Controller 程式範例
-
-
-Controller資料夾下的檔名以`複數`命名；  
-class類別名稱`大寫`、`複數`。
-
-`路徑：/app/controllers/clients_controller.rb`
-
-```ruby
-class ClientsController < ApplicationController
-  def list
-    @client = Client.find(param[:id])
-    @orders = @client.orders.find_incomplete
-    # for all the orders belongs to the client
-  end
-end
-```
-
-
-`路徑：/app/controllers/orders_controller.rb`
-
-```ruby
-class OrdersController < ApplicationController
-  def index
-    @orders = Order.find_incomplete
-    ## self method (class method) FIND written inside Model
-  end
-end
+=> #<Client id: 1, name: "LIFE Supermarket", email: "hi@lifecorp.jp", phone: "03-3470-3484", created_at: "2019-01-22 08:26:58", updated_at: "2019-01-22 08:26:58">
 ```
 
 ---
