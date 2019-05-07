@@ -1,0 +1,28 @@
+/*型態選取器 Type Selector*/
+h1 {
+  color: red;
+}
+/*後代選取器 Descendant Selector*/
+article h1 {
+  color: blue;
+}
+/*類別選取器 Class Selector*/
+.nerv {
+  color: pink;
+}
+.frad {
+  color: purple;
+}
+/*ID選取器 ID Selector*/
+#sad {
+  color: orange;
+}
+
+/*混合選取器*/
+.mood#worr {
+  color: gray;
+}
+
+footer p {
+  color: green;
+}
