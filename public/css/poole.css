@@ -59,7 +59,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: #2c395c;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -76,7 +76,7 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Headings */
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #2a2f74;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -111,7 +111,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: #284123;
 }
 
 
@@ -151,7 +151,8 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: monospace, Menlo, Monaco, "Courier New";
+  font-weight: 300;
 }
 code {
   padding: .25em .5em;
@@ -215,7 +216,7 @@ pre code {
 blockquote {
   padding: .2rem 1rem;
   margin: 2rem 0;
-  color: #aa8bbd;
+  color: #c7a4dd;
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -338,7 +339,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #da3f3f;
+  color: #974343;
 }
 .page-title,
 .post-title {
@@ -350,7 +351,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #e6e0e08e;
 }
 
 /* Related posts */

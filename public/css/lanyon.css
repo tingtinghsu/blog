@@ -41,18 +41,20 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: sans-serif, Georgia, "Times New Roman", serif;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #313131;
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: 300;
+  color: #385dac;
   letter-spacing: -.025rem;
 }
 
 .tag {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: monospace, Helvetica, Arial, sans-serif;
+  font-weight: 300;
   width: 15%;
   color: rgb(122, 54, 9);
   background-color: rgb(199, 196, 202);
@@ -60,7 +62,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, sans-serif, Arial;
+  font-weight: 300;  
   width: 15%;
   color: rgb(125, 144, 146);
   background-color: rgb(229, 239, 248);
@@ -163,7 +166,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: 300;   
   font-size: .875rem; /* 15px */
   color: rgb(245, 207, 207);
   background-color: rgb(245, 207, 207);
@@ -178,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sidebar content */
 .sidebar a {
-  font-weight: normal;
+  font-weight: 300;
   color: #fff;
 }
 .sidebar-item {
@@ -331,7 +335,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: rgb(172, 8, 131);
+  color: rgb(46, 96, 136);
 }
 .page-title,
 .post-title {
@@ -383,8 +387,9 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: 200;
+  color: rgb(189, 183, 183);
   text-align: center;
 }
 
