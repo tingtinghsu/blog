@@ -11,7 +11,7 @@ tags:
 comments: true
 ---
 
-CSS: 標籤位置與選取器
+2019年的2月開始，我花了2個月時間把前端的CSS和Javascript的實用語法整理成筆記。本篇要講的是CSS標籤位置與選取器。
 
 <!-- more -->
 

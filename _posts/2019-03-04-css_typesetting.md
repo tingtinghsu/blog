@@ -52,22 +52,6 @@ nav {
 }
 ```
 
-<nav>
-<a href="#">首頁</a>
-<a href="#">政治</a>
-<a href="#">論壇</a>
-<a href="#">財經</a>
-<a href="#">娛樂</a>
-<a href="#">運動</a>
-</nav>  
-<style>
-nav {
-  background-color: #00ccc4;
-  padding: 8px; /*很擠的話用padding*/
-}
-</style>
-
-
 ## nav改良版
 
 html 

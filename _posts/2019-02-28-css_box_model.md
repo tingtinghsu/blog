@@ -11,7 +11,7 @@ tags:
 
 comments: true
 ---
-CSS: Box Model
+CSS的Box Model重點包含`margin`，`border`，`padding`。
 <!-- more -->
 
 ---

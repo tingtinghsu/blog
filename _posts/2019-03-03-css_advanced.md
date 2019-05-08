@@ -11,7 +11,8 @@ tags:
 
 comments: true
 ---
-CSS: 進階排版語法
+
+CSS進階排版語法，包含解決`float`文繞圖與`clearfix`的問題，以及滑鼠移動效果、`box-shadow`的參數產生的陰影效果。
 
 <!-- more -->
 
@@ -115,20 +116,6 @@ a { font-size: 1rem; font-weight: 300; }
       text-decoration: none; 
     }
 ```
-<a href="#" class="link1">預設連結樣式</a>
-<a href="#" class="link2">沒有底線的連結</a>
-<a href="#" class="link3">滑鼠移過去會改變顏色，消除底線</a>
-
-<style>
-a { font-size: 1rem; font-weight: 300;}
-    .link2 { text-decoration: none; }
-    .link3:hover { 
-      color: tomato; 
-      background-color: wheat;
-      text-decoration: none; 
-      transition: color 3s; 
-    }
-</style>
 
 #  box-shadow: 陰影效果
 
@@ -183,25 +170,6 @@ css
       margin: 1px 2px 2px 1px;
 }
 ```
-
-<div id="margin">margin</div>
-<style>
-    div#margin {
-      width: 200px;
-      height: 200px;
-      color:whitesmoke;
-      background-color:teal;
-      font-size: 2rem;
-      font-weight: 300;
-      font-family: sans-serif;
-      
-      /*border可以調換順序*/
-      border: 10px solid lightblue;
-      /*border: lightblue 10px solid;*/
-      border-color: green; /*放後面的設定會蓋掉前面*/
-      margin: 1px 2px 2px 1px;
-}
-</style>
 
 # 相關連結
 
