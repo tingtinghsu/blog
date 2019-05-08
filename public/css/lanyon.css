@@ -53,21 +53,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tag {
-  font-family: monospace, Helvetica, Arial, sans-serif;
+  font-family: sans-serif, monospace, Helvetica, Arial;
+  font-size: 0.8em;
   font-weight: 300;
-  width: 20%;
   color: rgb(196, 145, 112);
-  background-color: rgb(240, 234, 201);
+  background-color: rgba(243, 233, 181, 0.561);
   letter-spacing: 10;
+  display: inline-block;
+  border-radius: 5px; 
 }
 
 .home {
-  font-family: Helvetica, sans-serif, Arial;
+  font-family: sans-serif, Helvetica, Arial;
   font-weight: 300;  
   width: 15%;
   color: rgb(125, 144, 146);
-  background-color: rgb(229, 239, 248);
+  background-color: rgb(226, 234, 245);
   letter-spacing: 2;
+  display: inline-block;
+  border-radius: 5px;  
 }
 
 /*
