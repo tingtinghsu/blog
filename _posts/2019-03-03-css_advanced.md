@@ -175,5 +175,5 @@ css
 
 [HackMD筆記](https://hackmd.io/BPP-sYxDSS-cgYyhb1iP8g?view)  
 [CodePen練習](https://codepen.io/tingtinghsu/pen/MxeQwQ)  
-[網頁作品](../public/notedemo/cssdemo/01-selector.html)
+[網頁作品](../public/note/cssdemo/01-selector.html)
 

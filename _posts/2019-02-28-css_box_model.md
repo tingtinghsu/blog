@@ -349,4 +349,4 @@ normalize: 不歸零
 
 [HackMD筆記](https://hackmd.io/szAI4CVzQsmOwouKfI5Jng?view)  
 [CodePen練習](https://codepen.io/tingtinghsu/pen/WmQxvb)  
-[網頁作品](../public/notedemo/cssdemo/01-selector.html)
+[網頁作品](../public/note/cssdemo/01-selector.html)

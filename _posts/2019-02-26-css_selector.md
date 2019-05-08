@@ -227,4 +227,4 @@ article .content {
 
 [HackMD筆記](https://hackmd.io/wlTDq6r6R3WFKX7dyzth2A?view)  
 [CodePen練習](https://codepen.io/tingtinghsu/details/gEaOYE)  
-[網頁作品](../public/notedemo/cssdemo/01-selector.html){:target"_blank"}
+[網頁作品](../public/note/cssdemo/01-selector.html){:target"_blank"}

@@ -158,4 +158,4 @@ p {
 # 相關連結
 [HackMD筆記](https://hackmd.io/ELSQzlWXRp238OBqsw3ttA?view)  
 [CodePen練習](https://codepen.io/tingtinghsu/details/ZPbEGL)  
-[網頁作品](../public/notedemo/cssdemo/02-introduction.html){:target"_blank"}
+[網頁作品](../public/note/cssdemo/02-introduction.html){:target"_blank"}
