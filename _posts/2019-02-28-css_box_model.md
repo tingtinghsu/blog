@@ -11,7 +11,7 @@ tags:
 
 comments: true
 ---
-CSS的Box Model重點包含`margin`，`border`，`padding`。
+CSS的Box Model重點包含`margin`外邊界，`border`編框，和`padding`內邊界。
 <!-- more -->
 
 ---

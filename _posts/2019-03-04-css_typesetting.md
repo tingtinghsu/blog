@@ -11,8 +11,8 @@ tags:
 comments: true
 ---
 
-CSS: 新聞排版
-
+CSS: 新聞排版  
+在這篇的筆記裡，學習用css設計版型，分割出`導覽列`、`內容`等欄位。
 <!-- more -->
 
 ---
@@ -23,7 +23,7 @@ CSS: 新聞排版
 ---
 
 # 先做出版面分割畫面
-https://whimsical.co/TFic8Pc3Ku3bymWAtoyRLT
+[whimsical](https://whimsical.co/TFic8Pc3Ku3bymWAtoyRLT) 是個好用的切版網站。
 
 
 分割步驟: 
