@@ -1,0 +1,136 @@
+.clearfix {
+  clear: both;
+}
+
+main {
+  max-width: 1200px;
+  margin: 25px auto;
+}
+/* info */
+.info {
+  width: 26%;
+  margin-left: 2%;
+  margin-right: 2%;  
+  float: left;
+}
+  /* bio */
+.bio {
+  background-color:#a9ebdc;
+  text-align: center;
+  border-radius: 7px;  
+}
+
+.bio img.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.bio h1 {
+  font-size: 1.8rem;
+  font-weight: 300; 
+}
+
+.bio h2 {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.social-links i {
+  font-size: 1rem;
+  margin: 5px; /*字元間距*/
+  padding-bottom: 5px;
+}
+  /* //bio  */
+
+  /* download */
+.download {
+  background-color: #FFF;
+  text-align: center;
+  padding: 20px;    
+}
+
+.download a {
+  /*字體*/
+  font-size: 1rem;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+
+  padding: 10px; /*字元間距*/
+  margin: auto; /*按鈕置中*/
+  /*圖案*/
+  display: block;
+  background-color: #034F50;    
+  width: 120px;
+  height: 20px;
+  border-radius: 25px;
+}
+
+.colorchange:hover { 
+  color: lemonchiffon; 
+  transition: color 1s; /*漸變顏色，3秒後變紅*/      
+  text-decoration: none; 
+}
+/* //info */
+
+
+/* content */
+.content {
+  width: 70%;
+  float: left;
+  background-color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;  
+
+  box-sizing: border-box; /*讓左右兩欄相加100%*/
+  border-radius: 10px; /*邊界圓角.陰影*/
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+a { 
+  text-decoration: none; 
+  color: black;
+}
+
+a:hover { 
+      color: tomato; 
+      transition: color 1s; /*漸變顏色，3秒後變紅*/      
+    }
+
+.about h1 {
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.about p {
+  font-size: 0.8rem;
+  line-height: 25px; /*行高*/
+  color: #2d2a36;
+  padding-bottom: 15px;
+}
+
+.contacts, .skills {
+  width: 50%;
+  float: left;
+  /*background-color: palevioletred;*/
+}
+
+.contacts h1, .skills h1 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.contacts li, .skills li {
+  line-height: 40px; /*調行距*/
+  font-weight: 300; /*調粗細*/  
+}
+
+.contacts i, .skills i { /*調awesome font*/
+  font-size: 1rem;
+  color: gray;
+  margin-right: 10px;
+}

@@ -4,7 +4,7 @@ layout: default
 
 <div class="blog list">
   <div>Tag:<br><br> 
-  <h3>Tags <small>#{{ page.tag }}</small> </h3>
+  <h4>Tags <small>#{{ page.tag }}</small> </h4>
   {% for post in site.tags[page.tag] %}
     {{ page.title }}<br>
   {% endfor %}

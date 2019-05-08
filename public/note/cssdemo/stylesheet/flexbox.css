@@ -1,0 +1,298 @@
+.clearfix {
+  background-color: white;
+  border-color: white;
+  clear: both;
+}
+h3 {
+ style: block;
+ width-max: 100%;
+ font-size: 20px;
+ font-weight: 300;
+ align: center;
+ background-color: orange;
+ margin-right: 5px;
+ padding: 10px;
+}
+div {
+  text-align: center;
+  width: 20px;
+  height: 50px;
+  background-color: lightblue;
+  border: 1px solid gray;
+  style: block;
+  box-sizing: border-box;  
+}
+.flex-direction, 
+.justify-content-row, .justify-content-column, 
+.align-items-row, .align-items-column, 
+.container-center-space, .align-items-center-stretch, 
+.flex-wrap, .align-content {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/*4欄*/
+.container-fdr, .container-fdrr, 
+.container-fdc, .container-fdcr, 
+
+.container-fdr-jcfs, .container-fdr-jcfe,
+.container-fdrr-jcfs, .container-fdrr-jcfe,
+.container-fdc-jcfs,.container-fdc-jcfe,
+.container-fdcr-jcfs, .container-fdcr-jcfe,
+
+.container-fdr-aifs, .container-fdr-aife, 
+.container-fdrr-aifs, .container-fdrr-aife,
+.container-fdc-aifs, .container-fdc-aife, 
+.container-fdcr-aifs, .container-fdcr-aife,
+
+.container-fdr-jcc, .container-fdr-jcsa,
+.container-fdr-jcsb, .container-fdr-jcse,
+.container-fdc-jcc, .container-fdc-jcsa,
+.container-fdc-jcsb, .container-fdc-jcse
+ {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 5px;
+  max-width: 400px;
+  height: 200px;
+  width: 24%;float: left;
+  display: flex; 
+}
+
+/*2欄*/
+.container-jcc-aic, .container-jcc-ais{
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 5px;
+  height: 200px;
+  max-width: 1000px; float: left;
+  width: 49%;  display: flex; 
+}
+
+/*wrap: 多行*/
+div .item-w1, .item-w2, .item-w3, .item-w4, .item-w5 {
+  width: 150px; 
+}
+
+/*3欄*/
+.container-fwn, .container-fww, .container-fwr
+ {
+  box-sizing: border-box;   
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 5px;
+  max-width: 500px;
+  height: 200px;
+  width: 33%;float: left;
+  display: flex; 
+}
+
+/*6欄*/
+.container-ac-fs, .container-ac-fe,
+.container-ac-center, .container-ac-stretch,
+.container-ac-sa, .container-ac-sb
+ {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 5px;
+  max-width: 400px;
+  height: 200px;
+  width: 15%;float: left;
+  display: flex; 
+}
+
+/*flex-direction:*/
+.container-fdr {  flex-direction: row; }
+.container-fdrr {  flex-direction: row-reverse; }
+.container-fdc {  flex-direction: column; }
+.container-fdcr {  flex-direction: column-reverse; }
+
+/*justify-content*/
+ /*row*/
+.container-fdr-jcfs {
+  flex-direction: row;
+  justify-content: flex-start;  
+}
+
+.container-fdr-jcfe {
+  flex-direction: row;
+  justify-content: flex-end;   
+}
+ /*row-reverse*/
+.container-fdrr-jcfs {
+  flex-direction: row-reverse;
+  justify-content: flex-start;  
+}
+.container-fdrr-jcfe {
+  flex-direction: row-reverse;
+  justify-content: flex-end;  
+}
+
+ /*column*/
+.container-fdc-jcfs {
+  flex-direction: column;
+  justify-content: flex-start;  
+}
+.container-fdc-jcfe {
+  flex-direction: column;
+  justify-content: flex-end;  
+}
+ /*column-reverse*/
+.container-fdcr-jcfs {
+  flex-direction: column-reverse;
+  justify-content: flex-start;  
+}
+.container-fdcr-jcfe {
+  flex-direction: column-reverse;
+  justify-content: flex-end;  
+}
+
+/*align-items:*/
+ /*row*/
+.container-fdr-aifs {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.container-fdr-aife {
+  flex-direction: row;
+  align-items: flex-end;  
+}
+.container-fdrr-aifs {
+  flex-direction: row-reverse;
+  align-items: flex-start;    
+}
+.container-fdrr-aife {
+  flex-direction: row-reverse;
+  align-items: flex-end;     
+}
+ /*column*/
+.container-fdc-aifs {
+  flex-direction: column;
+  align-items: flex-start;   
+} 
+.container-fdc-aife {
+  flex-direction: column;
+  align-items: flex-end;   
+}
+.container-fdcr-aifs {
+  flex-direction: column-reverse;
+  align-items: flex-start;   
+} 
+.container-fdcr-aife {
+  flex-direction: column-reverse;
+  align-items: flex-end;   
+}
+
+/*justify-content: center / space*/
+/*x軸置中.分散*/
+.container-fdr-jcc {
+  flex-direction: row;
+  justify-content: center;
+} 
+
+.container-fdr-jcsa {
+  flex-direction: row;
+  justify-content: space-around;  
+}
+
+.container-fdr-jcsb {
+  flex-direction: row;
+  justify-content: space-between;   
+} 
+
+.container-fdr-jcse {
+  flex-direction: row;
+  justify-content: space-evenly;    
+}
+
+/*y軸置中.分散*/
+.container-fdc-jcc {
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.container-fdc-jcsa {
+  flex-direction: column;
+  justify-content: space-around;  
+}
+
+.container-fdc-jcsb {
+  flex-direction: column;
+  justify-content: space-between;   
+} 
+
+.container-fdc-jcse {
+  flex-direction: column;
+  justify-content: space-evenly;    
+}
+
+.container-jcc-aic {
+  justify-content: center;  /* x軸，水平置中*/   
+  align-items: center; /* y軸，垂直置中*/
+}
+
+.container-jcc-ais {
+  justify-content: center;  /* x軸，水平置中*/   
+  align-items: stretch; /* y軸，垂直置中*/
+}
+
+.container-fwn {
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/
+  flex-wrap: nowrap;  
+} 
+
+.container-fww {
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/ 
+  align-content: stretch;   
+  flex-wrap: wrap;  
+} 
+
+.container-fwr {
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/   
+  flex-wrap: wrap-reverse; 
+}
+
+.container-ac-fs {
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/ 
+  flex-wrap: wrap;
+  align-content: flex-start; /*整段內容靠著頭(上)*/
+}
+
+.container-ac-fe {
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/ 
+  flex-wrap: wrap;
+  align-content: flex-end; /*整段內容靠著尾(下)*/  
+  
+}
+.container-ac-center {
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/ 
+  flex-wrap: wrap;
+  align-content: center; /*整段內容置中*/   
+}
+.container-ac-stretch{
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/ 
+  flex-wrap: wrap;
+  align-content: stretch; /*整段內容分散對齊*/   
+}
+
+.container-ac-sa {
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/ 
+  flex-wrap: wrap;
+  align-content: space-around; /*均分整段內容的上下留白*/ 
+} 
+
+.container-ac-sb {
+  align-items: center; /*垂直置中*/
+  justify-content: center;  /*水平置中*/ 
+  flex-wrap: wrap;
+  align-content: space-between;  /*均分整段內容的上下留白，但不含最上與最下*/
+  
+}

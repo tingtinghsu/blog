@@ -1,0 +1,75 @@
+@media (min-width: 768px) and (max-width: 1000px) {
+  /*電腦螢幕視窗從滿版到縮小時，只要在768-1000px寬度之間，css寬度設定改為%比例*/
+  /* 只要在此寬度間距，css寬度設定改為% */
+
+    /*1. aside的間距也要顯示出來*/
+  .container {
+    background-color: pink;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    /*2. 調整article與aside的比例從8:2變為7:3*/  
+  article {width: 69%;}
+  aside {width: 30%;}
+}
+
+@media (max-width: 767px){ /*手機螢幕最大寬度*/
+    /*1. 兩欄位分別設定為滿版*/
+    article {width: 100%;}
+    aside {width: 100%;}
+
+    /*2. 滿版時，用margin-bottom將兩欄間距拉開*/
+    .container { 
+      background-color: peru;
+      margin-bottom: 20px;
+    }
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+article {
+  background-color: white;
+  padding: 10px 30px;
+  width: 79%;
+  border-radius: 5px;
+  float: left;
+  box-sizing: border-box;
+  margin-right: 1%;
+}
+
+article p {
+  line-height: 30px;
+  font-weight: 200;
+}
+
+aside {
+  padding: 10px 30px;
+  width: 20%;
+  background-color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: left;
+}
+
+aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+aside ul li {
+  line-height: 30px;
+  font-weight: 200;
+}

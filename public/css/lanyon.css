@@ -43,22 +43,22 @@ body {
 html {
   font-family: sans-serif, Georgia, "Times New Roman", serif;
   font-weight: 300;
-}
+}xw
 
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif, Helvetica, Arial;
   font-weight: 300;
-  color: #385dac;
+  color: #1f3158;
   letter-spacing: -.025rem;
 }
 
 .tag {
   font-family: monospace, Helvetica, Arial, sans-serif;
   font-weight: 300;
-  width: 15%;
-  color: rgb(122, 54, 9);
-  background-color: rgb(199, 196, 202);
-  letter-spacing: 2;
+  width: 20%;
+  color: rgb(196, 145, 112);
+  background-color: rgb(240, 234, 201);
+  letter-spacing: 10;
 }
 
 .home {
