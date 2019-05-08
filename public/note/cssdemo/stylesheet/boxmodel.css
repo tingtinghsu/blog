@@ -1,0 +1,65 @@
+p#en {
+  color: rgba(30,30,20,50);
+  background-color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  width: 400px;
+  margin: 40px 60px; 
+  border: 2px brown dashed; /*以上三行簡寫*/
+  padding: 20px;
+}
+
+.p1 {
+  color: rgba(30,30,20,50);
+  background-color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  width: 400px;
+  border: 20px brown dotted; /*以上三行簡寫*/
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.p2 {
+  color: rgba(30,30,20,50);
+  background-color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+  width: 400px;
+  /*width: 480px; 寬度要改成400+80,黃色部份才會一樣寬*/
+  box-sizing: border-box; /*包含box邊框的寬度*/
+}
+
+.p3 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  border-radius: 90px;
+}
+
+.block1 {
+  background-color: pink;
+  height: 50px;
+}
+
+.block2 {
+  background-color: purple;
+  height: 50px;
+}
+
+.link {
+    background-color: blue;
+}
+.link1 {
+    background-color: yellow;
+}
+.link2 {
+    background-color: yellow;
+    display: block; /*重要，加上後可設定寬度高度邊界*/
+    padding: 10px;
+    margin-bottom: 10px; /*跟下一個block隔開間隔*/    
+}
+
+.link3 {
+    background-color: yellow;
+    display: inline-block; /*維持一排的型態，可設定高度*/
+    height: 10px;
+    padding: 10px;
+}
