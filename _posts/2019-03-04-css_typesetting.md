@@ -334,5 +334,5 @@ css
 
 [HackMD筆記](https://hackmd.io/ONwTQ5YpQJ6eN6hfzpeX-Q?view)  
 [CodePen練習](https://codepen.io/tingtinghsu/full/bZeRBm)  
-[網頁作品](../public/note/cssdemo/05-css_typesetting.html)
+[網頁作品](../public/note/cssdemo/05-typesetting.html)
 
