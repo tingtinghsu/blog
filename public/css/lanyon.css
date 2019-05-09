@@ -48,7 +48,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif, Helvetica, Arial;
   font-weight: 300;
-  color: #1f3158;
+  color: #131e36;
   letter-spacing: -.025rem;
 }
 
@@ -56,11 +56,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif, monospace, Helvetica, Arial;
   font-size: 0.8em;
   font-weight: 300;
-  color: rgb(196, 145, 112);
-  background-color: rgba(243, 233, 181, 0.561);
-  letter-spacing: 10;
+  color: rgb(226, 130, 56);
+  background-color: rgb(243, 226, 139);
+  letter-spacing: 12;
   display: inline-block;
   border-radius: 5px; 
+  padding-right: 0.5rem; 
+  padding-left: 0.5rem;   
 }
 
 .home {
@@ -71,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(226, 234, 245);
   letter-spacing: 2;
   display: inline-block;
-  border-radius: 5px;  
+  border-radius: 15px;  
 }
 
 /*
@@ -543,6 +545,7 @@ a.pagination-item:hover {
 .theme-base-0e #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #aa759f;
 }
+
 .theme-base-0e .container a,
 .theme-base-0e .sidebar-toggle,
 .theme-base-0e .related-posts li a:hover {
@@ -555,9 +558,19 @@ a.pagination-item:hover {
 .theme-base-0f #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #8f5536;
 }
-.theme-base-0f .container a,
+.theme-base-0f .container a {
+  color: #081b0c;
+}
+.theme-base-0f .container a:hover {
+  color: #293b2d;
+  background-color: #def0b9;
+  display: inline-block;  
+  border-radius: 5px;
+  padding-right: 0.5rem; 
+  padding-left: 0.5rem;      
+}
 .theme-base-0f .sidebar-toggle,
-.theme-base-0f .related-posts li a:hover {
+.theme-base-0f .related-posts li {
   color: #8f5536;
 }
 
