@@ -1,0 +1,66 @@
+main {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  background-color: #AAC789;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+main h1 {
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+/* 購物車 start */
+a.addProduct {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 0 7px;
+  background-color: #BADBB2;
+  border-radius: 3px;
+}
+
+a.addProduct:hover {
+  background-color: #2B735B;
+  transition: background-color 0.3s;
+}
+
+table {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+}
+
+thead tr {
+  background-color: #BADBB2;
+}
+
+thead td {
+  padding: 7px;
+}
+
+tbody td {
+  padding: 7px;
+}
+/* 購物車 end */
+
+/* 想學習的技能 start */
+.skillset {
+  margin-top: 60px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.selectAll {
+  padding: 10px;
+  color: white;
+  background-color: #2B735B;
+  text-decoration: none;
+  border-radius: 4px;
+}
+/* 想學習的技能 end */
