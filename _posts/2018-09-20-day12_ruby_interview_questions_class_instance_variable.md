@@ -21,7 +21,7 @@ comments: true
 ---
 # Ruby經典面試題目 #12
 
-`Ruby 的 類別變數與類別實體變數，與實體變數有何不同? What is difference between class variable, class instance variable and instance variable?`
+* Ruby 的 類別變數與類別實體變數，與實體變數有何不同? What is difference between class variable, class instance variable and instance variable?
 
 我們曾在[第四天]時討論過類別方法和實體方法。
 

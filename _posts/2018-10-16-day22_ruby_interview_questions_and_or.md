@@ -23,7 +23,8 @@ comments: true
 
 # Ruby經典面試題目 #22
 
-`Day22 [and], [or] 和 [&&], [||] 比較? What is the difference between [and]`, `[or]` and `[&&]`, `[||]` ?`
+* [and], [or] 和 [&&], [||] 比較?  
+What is the difference between `[and]`,`[or]` and `[&&]`, `[||]` ?
 
 <!-- more -->
 

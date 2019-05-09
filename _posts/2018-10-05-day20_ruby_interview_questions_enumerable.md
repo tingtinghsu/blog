@@ -22,7 +22,8 @@ comments: true
 
 # Ruby經典面試題目 #20
 
-`Day20 說明Ruby裡Enumerable的實用之處? Why Is Enumerable So Useful?`
+* 說明Ruby裡Enumerable的實用之處?  
+Why Is Enumerable So Useful?`
 
 列舉(Enumerables)實用之處在於，能夠幫我們方便地走過、搜尋、排序或轉換`集合`內的元素(traverse, , sort, search, and transform collections)。
 

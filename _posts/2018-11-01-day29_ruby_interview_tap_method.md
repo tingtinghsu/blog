@@ -23,7 +23,8 @@ comments: true
 
 # Ruby經典面試題目 #29
 
-`Day29 請解釋Ruby的tap method?  What is tap method in Ruby?`
+請解釋Ruby的`tap method`?  
+What is tap method in Ruby?
 
 Tap method可以幫助我們更容易取得`Block區塊`裡的`Object`物件，且更便於除錯。（do something with an object inside of a block, and always have that block return the object itself.）
 

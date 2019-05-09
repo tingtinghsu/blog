@@ -23,7 +23,8 @@ comments: true
 ---
 # Ruby經典面試題目 #23
 
-`Day23 解釋Ruby裡的 ==, ===, eql?, equal。 Explain each of the following operators  ==, ===, eql?, equal?`
+* 解釋Ruby裡的 `==`, `===`, `eql?`, `equal`。 
+Explain each of the following operators  ==, ===, eql?, equal?`
 
 有些方法比其他的方法更相等(Some are more equal than others)。這是怎麼回事？讓我們繼續看下去～
 

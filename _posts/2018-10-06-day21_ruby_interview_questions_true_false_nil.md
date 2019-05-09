@@ -26,7 +26,8 @@ comments: true
 
 # Ruby經典面試題目 #21
 
-`Day21 解釋Ruby裡的True, False與Nil? Explan True and False vs. "Truthy" and "Falsey / Falsy" in Ruby?`
+* 解釋Ruby裡的`True`, `False`與`Nil`?  
+Explan True and False vs. "Truthy" and "Falsey / Falsy" in Ruby?
 
 老實說這題我拖了好久，因為相關的面試題目特別多，一直在構思怎麼整理、寫成文章會比較有架構，也希望自己的產出作品也可以讓其他Ruby新手同學們比較容易了解，所以...不知不覺就到了最後10天了～～（遮臉）
 

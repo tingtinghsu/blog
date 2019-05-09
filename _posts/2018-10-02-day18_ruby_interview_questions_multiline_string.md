@@ -22,7 +22,8 @@ comments: true
 
 # Ruby經典面試題目 #18
 
-`Day18 如何在Ruby寫下多行字串? How to write multiline string in Ruby?`
+* 如何在Ruby寫下多行字串?  
+How to write multiline string in Ruby?
 
 ## `puts`多行字串
 

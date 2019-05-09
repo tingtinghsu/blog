@@ -22,7 +22,7 @@ comments: true
 
 # Ruby經典面試題目 #14
 
-`Day14 each, map 和 collect 比較? What's the difference between each, map and collect?`
+* `each`, `map` 和 `collect` 比較? What's the difference between each, map and collect?`
 
 我們來用這三種迭代器，在Array和Hash兩種集合裡面各舉例子：
 

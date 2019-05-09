@@ -22,7 +22,8 @@ comments: true
 
 # Ruby經典面試題目 #15
 
-`Day15 alias 和 alias_method比較? What's the difference between alias和 alias_method?`
+* `alias` 和 `alias_method`比較?  
+What's the difference between alias和 alias_method?`
 
 ## alias
 

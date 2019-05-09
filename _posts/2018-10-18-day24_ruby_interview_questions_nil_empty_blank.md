@@ -21,7 +21,8 @@ comments: true
 ---
 # Ruby經典面試題目 #24
 
-`Day24 nil?, empty? 和, blank? present? 比較。 What's the difference between nil?, empty?blank? and present? `
+* `nil?`, `empty?` 和 `blank?` `present?` 比較。  
+What's the difference between nil?, empty?blank? and present? `
 
 # 1. `nil?`
 

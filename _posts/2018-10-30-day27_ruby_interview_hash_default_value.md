@@ -22,7 +22,8 @@ comments: true
 
 # Ruby經典面試題目 #27
 
-`Day27 如何設定Ruby的Hash預設值? How to set default value in hash?`
+* 如何設定Ruby的Hash預設值?  
+How to set default value in hash?
 
 首先，起手式就是來翻閱[Ruby API手冊](http://ruby-doc.org/core-2.4.2/Hash.html#method-c-new)看看裡面的例子，並依照我自己的喜好，改寫成容易被我記憶學習的變數。
 

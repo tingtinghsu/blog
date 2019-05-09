@@ -22,7 +22,8 @@ comments: true
 
 # Ruby經典面試題目 #26
 
-`Day26 Ruby的錯誤處理機制 Rescue. Explain Error Handling in Ruby.`
+* Ruby的錯誤處理機制 Rescue.  
+Explain Error Handling in Ruby.`
 
 Ruby能以區隔的 (compartmentalized) 方式處理錯誤及例外的程式碼區塊，基本架構：
 

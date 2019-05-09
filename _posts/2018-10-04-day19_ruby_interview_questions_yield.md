@@ -22,7 +22,8 @@ comments: true
 
 # Ruby經典面試題目 #19
 
-`Day19 描述Ruby裡的yield用法? What is yield statement in Ruby?`
+* 描述Ruby裡的`yield`用法?  
+What is yield statement in Ruby?`
 
 ## `yield` + `block`
 

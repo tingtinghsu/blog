@@ -22,7 +22,8 @@ comments: true
 
 # Ruby經典面試題目 #28
 
-`Day28 Ruby的**運算子是啥米碗糕? What does ** double splat) operator do?`
+Ruby的`**`運算子是啥米碗糕?  
+What does ** double splat) operator do?`
 
 
 # * single splat

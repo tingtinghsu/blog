@@ -25,7 +25,8 @@ comments: true
 
 # Ruby經典面試題目 #25
 
-`Day25 .present? 和.exists?  比較? What is the difference between .present? and .exists?`
+* `present?` 和`.exists?`比較?  
+What is the difference between .present? and .exists?`
 
 根據我們在這趟鐵人賽journey所養成的好習慣，當學到新的方法時，第一步就是去：翻手冊！
 

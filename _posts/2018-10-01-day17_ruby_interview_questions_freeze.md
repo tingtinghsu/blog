@@ -22,7 +22,8 @@ freeze照字面解釋就是凍結的意思。`.frozen?`可以傳回`true`或`fal
 
 # Ruby經典面試題目 #17
 
-`Day17 解釋Ruby裡的freeze和?frozen。Explan when to use freeze and frozen in Ruby?`
+* 解釋Ruby裡的`freeze`和`?frozen`。  
+Explan when to use freeze and frozen in Ruby?`
 
 在Ruby裡面有一件好玩的事，就是連大寫的常數`CONSTANT`也可以修改！來看看下面的例子：
 

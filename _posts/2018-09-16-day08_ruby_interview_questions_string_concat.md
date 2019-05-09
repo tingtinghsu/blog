@@ -16,7 +16,7 @@ tags:
 
 # Ruby經典面試題目 #08
 
-`+=和concat有什麼不同? What’s difference between concat and += ?`
+* `+=`和`concat`有什麼不同? What’s difference between `concat` and `+=` ?
 
 `concat`是英文`concatenate`的縮寫，意思是串接（link things together in a chain or series.）串接完之後，仍然會指向同一個物件嗎?(使用同一個記憶體位置)?
 

@@ -22,7 +22,7 @@ comments: true
 
 # Ruby經典面試題目 #13
 
-`instance_eval 和 class_eval 的差別 ? What's the difference between instance_eval and class_eval?`
+* `instance_eval` 和 `class_eval` 的差別 ? What's the difference between instance_eval and class_eval?
 
 由過去幾天的寫作經驗，我發現一篇文章的開頭最難下筆、也是最重要的，舉例🌰能讓自己懂（~~還有讓我的讀者、觀眾、加油群啦啦隊懂~~）更不是容易的事。此篇文章由實體變數開始會能夠循序漸進，所以就從`instance_eval`切入吧！
 

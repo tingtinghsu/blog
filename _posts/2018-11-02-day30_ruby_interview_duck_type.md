@@ -21,7 +21,8 @@ comments: true
 
 # Ruby經典面試題目 #30
 
-`Day30 請解釋Ruby的鴨子型別(duck type)?  What is duck type?`
+* 請解釋Ruby的鴨子型別`duck type`?  
+What is duck type?`
 
 # Duck Type 鴨子型別
 

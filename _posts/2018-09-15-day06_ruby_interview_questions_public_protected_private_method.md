@@ -19,7 +19,8 @@ comments: true
 
 # Ruby經典面試題目 #06
 
-`說明Ruby的三種存取限制。 3 levels of access control for Ruby methods.`
+* 說明Ruby的三種存取限制。  
+3 levels of access control for Ruby methods.
 
 讓我們用程式碼分別描述三種存取：`Public`, `Protected`, `Private`:
 

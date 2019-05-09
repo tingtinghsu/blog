@@ -57,7 +57,8 @@ ExtendRuby.IThelp
 
 # Ruby經典面試題目 #04
 
-`解釋實體方法與類別方法 Explain instance method and class method.`
+* 解釋`實體方法`與`類別方法`  
+Explain instance method and class method.
 
 # 類別方法class method
 

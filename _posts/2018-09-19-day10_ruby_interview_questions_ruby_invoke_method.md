@@ -18,7 +18,8 @@ comments: true
 
 # Ruby經典面試題目 #10
 
-`Ruby如何引入方法? Explain how Ruby looks up a method to invoke?`
+* Ruby如何引入方法?  
+Explain how Ruby looks up a method to invoke?
 
 每當不知從何下筆時，我的起手式是開始回顧之前的文章，盤點我已經走了多遠、以及基礎觀念到底掌握了多少：
 

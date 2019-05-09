@@ -50,7 +50,8 @@ VS code -> localhost預覽 -> git commit -> git push
 
 # Ruby經典面試題目 #01
 
-`什麼是類別？What is a Class?`
+* 什麼是類別？  
+What is a Class?
 
 > 類別(Class)能夠接收資料(data)，利用方法(method)和資料data互動，並且可以建立物件實體(Object instance)。
 

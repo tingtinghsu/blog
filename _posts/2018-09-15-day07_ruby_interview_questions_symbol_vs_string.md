@@ -16,7 +16,8 @@ tags:
 
 # Ruby經典面試題目 #07
 
-`符號和字串有什麼不同? What’s difference between symbol and string?`
+* 符號和字串有什麼不同?  
+What’s difference between symbol and string?
 
 還記得我在之前IT邦文章在Ruby on Rails專案例子中研究ruby的gem套件時，我發現這兩者寫法的功能是一樣的:
 

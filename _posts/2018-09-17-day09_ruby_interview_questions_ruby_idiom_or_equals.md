@@ -14,7 +14,7 @@ tags:
 
 # Ruby經典面試題目 #09
 
-`請解釋 Explain this ruby idiom (or-equals) : a ||= b?`
+* 請解釋 this ruby idiom (or-equals) : `a ||= b?`
 
 如果a沒有被初始化，或是為空值`nil`或`false`，a等於b；
 其他情況下，a值不變。

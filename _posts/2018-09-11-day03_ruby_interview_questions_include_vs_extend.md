@@ -28,7 +28,8 @@ comments: true
 
 # Ruby經典面試題目 #03
 
-`包含與延伸有什麼不同? What's the Difference Between Include and Extend?`
+* 包含與延伸有什麼不同?  
+What's the Difference Between Include and Extend?
 
 還記得我們昨天舉的例子：網路圖書館（模組）有很多知識（方法）讓我們取用（include），讓你與我都能夠突破先天(繼承)的限制，變成更加聰明靈活的IT人。
 

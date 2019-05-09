@@ -22,7 +22,8 @@ comments: true
 
 # Ruby經典面試題目 #16
 
-`Day16 什麼是迭代器? 請解釋Ruby裡面有哪幾種迭代器? What's Iterator? How many iterators are there in Ruby?`
+* 什麼是迭代器? 請解釋Ruby裡面有哪幾種迭代器?  
+What's `Iterator`? How many iterators are there in Ruby?`
 
 # Iterator
 

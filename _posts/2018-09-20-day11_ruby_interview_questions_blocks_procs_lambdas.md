@@ -22,7 +22,7 @@ comments: true
 
 # Ruby經典面試題目 #11
 
-`Ruby 的 block, proc, lamdba方法比較? What’s difference between blocks, procs and lambdas?`
+* Ruby 的 `block`, `proc`, `lamdba`方法比較? What’s difference between blocks, procs and lambdas?
 
 ## block 程式碼區塊
 
