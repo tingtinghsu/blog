@@ -1,5 +1,5 @@
 ---
-title:  "[Day12] JS: javascript簡介"
+title:  "[Day12] JS: javascript 簡介"
 preview: "javascript introduction"
 permalink: "/articles/2019-03-11-js_introduction"
 date:   2019-03-11 11:56:00
@@ -30,8 +30,8 @@ Mocha -> LiveScript -> JavaScript (JS)
 
 # javascript 版本
 ES1 (1997)  
-ES5 (2009)  
-ES6 (2015)*目前最常使用的版本  
+ES5 (2009)*目前常使用的版本  
+ES6 (2015)*目前常使用的版本  
 ES7 (ES2017)  
 ES8 (ES2018)  
 

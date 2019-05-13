@@ -13,6 +13,11 @@ comments: true
 隨著blog內的文章越來越多，我們可能需要為文章加上新的分類(categories)或標籤(tags)。2019年後我們將開始從ruby深入研究至rials，在此以加入新標籤`rails`作為範例。
 
 <!-- more -->
+
+以分類的個人習慣而言，我偏好`tags`這個名稱而非`categories`，因為一篇文章可能包含多於一個tags，無法硬性規定於某個唯一的分類categories。  
+
+例如我自己在2018-08-25的這篇文章[在Github用Jekyll創建屬於你自己的blog](./2018-08-25-github_jekyll_blog)，內容談到了Jekyll與基本的git用法，因此我在這篇文章的屬性裡同時加入了`jekyll`與`git`兩種tags。
+
 ---
 
 重點摘要:
@@ -21,11 +26,11 @@ comments: true
 
 ---
 
+
+
 # Step 1: 在`config.yml`定義collections
 
-以分類的個人習慣而言，我偏好`tags`這個名稱而非`categories`，因為一篇文章可能包含`多於一個tags`，無法硬性規定於某個唯一的分類`categories`。例如在`2018-08-25`的這篇文章[在Github用Jekyll創建屬於你自己的blog](./2018-08-25-github_jekyll_blog)，內容談到了Jekyll與基本的git用法，因此我在這篇文章的屬性裡同時加入了`jekyll`與`git`。為確保彈性，我們就以`tag`為名。
-
-將`output`設定為`true`，目的是將`在各個獨立的tags下，列出所有的包含此tags的文章`的功能打開。
+首先，為了確保彈性，我們在config.yml檔內就以`tag`為名，並將`output`設定為`true`，目的是將在各個獨立的tags下，`列出所有的包含此tags的文章的功能`打開：  
 
 `路徑：/config.yml`
 
@@ -35,21 +40,22 @@ collections:
     output: true
 ```
 
-# Step 2. 將篩選出tags的語法加入layout
+# Step 2. 將篩選出tags的語法加入layout  
 
 ## 1. 讓每個 tags 都成為一個連結
 
 `路徑：/_layouts/post.html`:
 
-我們可以把`page.tags | sort`是想成`SQL`語法的排序功能，並指定變數`sortedTags`。
+我們可以把`page.tags | sort`看做成`SQL`語法的排序功能，並指定變數`sortedTags`。
 
 ` {% for tag in sortedTags %}`與` {% endfor %}`的for迴圈內，將此`tag`的blog md檔都放置於`{{ site.baseurl }}/tag/{{ tag }}`路徑下。
 
 <script src="https://gist.github.com/tingtinghsu/74ebe141d99bd9d5df9811eff4a9cc0c.js"></script>
 
-## 2. `related posts`: 列出與此文有關的相關文章
+## 2. `related posts`: 列出與此文有關的相關文章  
 
-我們在瀏覽完某篇網路文章時，通常會看到底下有推薦`你可能也喜歡的其他文章`的連結。這個功能的邏輯是列出同一tag下，除了本篇文章以外的其他文章(功能寫在unless - endunless內)。
+我們在瀏覽完某篇網路文章時，通常會看到底下有推薦`你可能也喜歡的其他文章`的連結。這個功能的邏輯是列出同一tag下，除了本篇文章以外的其他文章(功能寫在unless - endunless內)。  
+
 在此我們設定列出相關文章為4篇：當`relatedCount` == 4，跳出`if迴圈`
 
 `路徑：/_layouts/post.html`:
@@ -89,7 +95,7 @@ tags:
 |       |--|-- index.html
 ```
 
-舉例而言，如果`{{tag}}`分類是jekyll，`title`設定為`jekyll`:
+舉例而言，如果tag分類是jekyll，`title`設定為`jekyll`:
 
 `路徑：/_site/tag/jekyll/index.html`
 
@@ -125,8 +131,6 @@ title: jekyll
 看到文章整整齊齊地被收納在不同tags下，寫blog文章的動力就更加旺盛了！XD
 
 ![https://ithelp.ithome.com.tw/upload/images/20190117/20111177EeHGTAREKx.png](https://ithelp.ithome.com.tw/upload/images/20190117/20111177EeHGTAREKx.png)
-
-Ref:
-
-* [在Github用Jekyll創建屬於你自己的blog](https://tingtinghsu.github.io/blog/articles/2018-08-25-github_jekyll_blog)
+  
+Ref:  
 * [Creating Category Pages in Jekyll without Plugins](https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins)

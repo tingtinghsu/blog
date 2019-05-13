@@ -11,14 +11,15 @@ comments: true
 ---
 
 前幾天IT邦有一篇熱門文章「哪個blog寫技術文章最好用？」  
-昨天貓貓工程師在我們共同的[Slack](http://slack.com/)群組分享他的[blog](https://blog.bater.gq/)，他提到是使用[Jekyll](http://jekyllcn.com/docs/posts/)（一個簡單靜態blog網站生成器）架在[github](https://github.com/)上的。
+我覺得：自己架的blog最好用！
+
+昨天貓貓工程師在我們共同的[Slack](http://slack.com/)群組分享[blog](https://blog.bater.gq/)。他使用[Jekyll](http://jekyllcn.com/docs/posts/)（一個簡單靜態blog網站生成器）架在[github](https://github.com/)上。
 
 於是好奇的我決定照著關鍵字來搜尋一下，如法炮製做一個出來。
 
 <!-- more -->
 
-這樣寫在IT邦的文章，也可以放一份到自己的Blog!
-https://tingtinghsu.github.io/jekyll/update/2018/08/25/github_jekyll_blog.html
+這樣我自己寫在各處的文章，也可以放一份到自己的Blog!
 
 重點摘要:
 * abstact
@@ -26,13 +27,15 @@ https://tingtinghsu.github.io/jekyll/update/2018/08/25/github_jekyll_blog.html
 
 ## A.在Github帳號內建立新資料夾 github.io
 
-*名稱必須是你的`username.github.io`*
+*名稱必須是你的`username.github.io`  
+
 ![https://ithelp.ithome.com.tw/upload/images/20180824/20111177JLQCXuETDs.png](https://ithelp.ithome.com.tw/upload/images/20180824/20111177JLQCXuETDs.png)
 建好後下載這個資料夾。
 
-補充：Github是個放程式的地方，最多只能呈現特定的`靜態頁面`（適合放blog/履歷表之類的內容。）
-無法放搭配`伺服器`與`資料庫`共同運作（例如會員登入、購物車等功能）的`動態網站`，！
-如果想架動態網站，可以去[Heroku](https://www.heroku.com/)
+補充：  
+Github是個放程式的地方，最多只能呈現特定的`靜態頁面`（適合放blog/履歷表之類的內容。）
+無法放搭配`伺服器`與`資料庫`共同運作（例如會員登入、購物車等功能）的`動態網站`！
+如果想架動態網站，可以去[Heroku](https://www.heroku.com/)。
 
 ## B. 在github.io資料夾內新增首頁
 
@@ -48,6 +51,7 @@ https://tingtinghsu.github.io/jekyll/update/2018/08/25/github_jekyll_blog.html
 
 
 來改一下簡單的Hello World Style程式碼：
+
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>

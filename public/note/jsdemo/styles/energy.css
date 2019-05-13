@@ -1,0 +1,20 @@
+#hitButton {
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  background-color: pink;
+  border-radius: 10px;
+}
+
+#result {
+  font-size: 2em;
+}
+
+p {
+  color: red;
+  font-size: 1em;
+}

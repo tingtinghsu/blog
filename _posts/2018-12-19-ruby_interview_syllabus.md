@@ -13,6 +13,10 @@ comments: true
 自從Oct-Nov.2018這段時間在Sydney將IT邦鐵人賽完賽之後，一直在想如何將這30篇文章做最佳利用。目前訂閱我的[`30天修煉Ruby面試精選30題`](https://ithelp.ithome.com.tw/users/20111177/ironman/1613)系列的人超乎想像熱烈(30篇文章，共有26人訂閱)，對於首次參加鐵人賽完賽的作者來說是很大的鼓勵。謝謝觀眾們！
 
 這篇文章是個Ruby面試題列表，希望整理過後可以幫到未來面試的我和你們。
+
+![https://ithelp.ithome.com.tw/upload/images/20190510/20111177Xw7Nk1Q0A6.jpg](https://ithelp.ithome.com.tw/upload/images/20190510/20111177Xw7Nk1Q0A6.jpg)
+
+
 <!-- more -->
 
 ## 01
@@ -83,8 +87,7 @@ comments: true
 > Ruby如何引入方法?  
 > Please explain how Ruby looks up a method to `invoke`?
 
-[原文]
-(./2018-09-19-day10_ruby_interview_questions_ruby_invoke_method.html#ruby經典面試題目-10)
+[原文](./2018-09-19-day10_ruby_interview_questions_ruby_invoke_method.html#ruby經典面試題目-10)
 
 ## 11
 

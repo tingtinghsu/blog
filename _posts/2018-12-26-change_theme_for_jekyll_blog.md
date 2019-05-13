@@ -117,7 +117,10 @@ Jekyll through 3.6.2, 3.7.x through 3.7.3, and 3.8.x through 3.8.3 allows attack
 
 其原因主要來自於[Jekyll官方支援的版型](https://pages.github.com/themes/)其Jekyll版本為3.8.4，與穩定的`blog版本3.8.5`不相容。
 
-解法：在搬移內容的過程為了保留舊版本做對照(舊版僅供自己參考)，我將版型改為`Jekyll3.8.5`的[lanyon](http://lanyon.getpoole.com/)(by [@mdo](https://github.com/poole/lanyon/commits?author=mdo))，並按照[此教學影片: How to Install Jekyll Themes?](https://www.youtube.com/watch?v=bty7LHm14CA)**更改blog網址**。
+解法：  
+在搬移內容的過程為了保留舊版本做對照(舊版僅供自己參考)，我將版型改為`Jekyll3.8.5`的[lanyon](http://lanyon.getpoole.com/)(by [@mdo](https://github.com/poole/lanyon/commits?author=mdo))。
+  
+有興趣的朋友可以參考此教學影片: [How to Install Jekyll Themes?](https://www.youtube.com/watch?v=bty7LHm14CA)更改blog網址。
 
 ### [註2]
 
