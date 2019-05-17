@@ -1,15 +1,9 @@
 ---
 layout: default
 ---
-
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139879751-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-139879751-1');
-</script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/gtags.js"></script>
 
 <div class="post">
   <h3 class="post-title">{{ page.title }}</h3>
@@ -46,7 +40,3 @@ layout: default
       {% endfor %}
     </div>
 </div>
-
-<script type="text/javascript" src="../assets/js/new-tab.js"></script>
-
-
