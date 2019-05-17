@@ -542,11 +542,11 @@ gold-fish.html	index.html	welcome.html
 
 ### 解法: 新增`branch`後commit, 再刪掉原有的branch
 
-1. 在此分支加上新貼紙`fish`，`git branch fish`，並且趕快`git checkout fish`過去。
-2. 再進行一次`git add .`，`git commit`
-3. 在`fish`分支上，刪掉`master branch`(撕掉貼紙)
+1.在此分支加上新貼紙`fish`，`git branch fish`，並且趕快`git checkout fish`過去。
+2.再進行一次`git add .`，`git commit`
+3.在`fish`分支上，刪掉`master branch`(撕掉貼紙)
 
-```
+```bash
 tingdeAir:git-rebase tingtinghsu$ touch fish1.html
 tingdeAir:git-rebase tingtinghsu$ git add .
 
@@ -604,7 +604,7 @@ Untracked files:
 
 可能的解法: 切換到master分支，做完再切回來
 
-```
+```bash
 git commit
 git checkout master
 ...(做別的步驟)
@@ -612,28 +612,31 @@ git checkout cat
 git reset HEAD^ --mix
 ```
 
-### 更好的解法: `git stash`
+### 更好的解法: `git stash`  
 
-1. `git stash` 使用git 中斷指令  
+1.`git stash` 使用git 中斷指令  
+
 （也是一種commit，只是不會出現在歷史紀錄上）
 
-```
+```bash
 tingdeAir:git-stash tingtinghsu$ git stash
 
 Saved working directory and index state WIP on cat: e12d8ef add database.yml in config folder
 
 HEAD is now at e12d8ef add database.yml in config folder
+```
 
-```
-2. `git stash list` 查詢中斷的項目
-```
+2.`git stash list`查詢中斷的項目  
+
+```bash
 tingdeAir:git-stash tingtinghsu$ git stash list
 
 stash@{0}: WIP on cat: e12d8ef add database.yml in config folder
 ```
 
-3. 切換到master分支修改完bug，再切回自己手邊待做的branch
-```
+3.切換到master分支修改完bug，再切回自己手邊待做的branch
+
+```bash
 tingdeAir:git-stash tingtinghsu$ git checkout master
 Switched to branch 'master'
 
@@ -642,9 +645,10 @@ Switched to branch 'master'
 tingdeAir:git-stash tingtinghsu$ git checkout cat
 Switched to branch 'cat'
 ```
-4. `git stash pop`
 
-```
+4.`git stash pop`
+
+```bash
 tingdeAir:git-stash tingtinghsu$ git stash pop
 On branch cat
 Changes not staged for commit:
@@ -661,7 +665,7 @@ Dropped refs/stash@{0} (3e7ae10f684ba63b95b38ff8697cbd06f8c7179b)
 
 重點: `git stash apply` 或`git stash pop`兩者都可以使用，但`pop`指令會把原本的stash砍掉，`apply`保留stash
 
-```
+```bash
 Switched to branch 'master'
 tingdeAir:git-stash tingtinghsu$ git checkout cat
 Switched to branch 'cat'
@@ -684,12 +688,11 @@ eg. 多人協作的情況下：想取消上次版本的其中一個commit
 
 ### 解法: 使用`reverse commit`
 
-1. 在source tree想要取消的那顆commit上按右鍵`reverse commit`
-2. `reverse commit`會做出新的commit，逆轉上次做的步驟（如果上次commit是新增檔案，這次commit就是刪除檔案）
+1.在source tree想要取消的那顆commit上按右鍵`reverse commit`  
+2.`reverse commit`會做出新的commit，逆轉上次做的步驟（如果上次commit是新增檔案，這次commit就是刪除檔案）  
 
-eg. 如果是只有自己一個人的專案，直接`git reset`，commit再`git push -f`就好~
-
-([git reset筆記複習]())
+註:  
+如果是只有自己一個人開發的專案，省略了協同合作上需要彼此溝通的情形，就可以直接`git reset`，commit再`git push -f`~(請參考[git reset筆記複習](https://tingtinghsu.github.io/blog/articles/2019-05-04-git_reset_tag))
 
 ## Case 5. 線上專案已被其他人執行`git push -f`
 
