@@ -25,16 +25,11 @@ tags:
 這一步就不用多說了吧！[到自己的原本專案](https://github.com/tingtinghsu/blog)裡clone資料夾。
 有的時候我們也會去其他人的GitHub頁面下載專案來玩。
 
-```
-git clone git@github.com:tingtinghsu/blog.git
-Cloning into 'blog'...
-remote: Enumerating objects: 1409, done.
-remote: Total 1409 (delta 0), reused 0 (delta 0), pack-reused 1409
-Receiving objects: 100% (1409/1409), 807.01 KiB | 663.00 KiB/s, done.
-Resolving deltas: 100% (782/782), done.
-```
+# 1. `git init`
 
-# 1. 把Jekyll裝回來
+由於重灌的關係，電腦已經沒有任何git的歷史紀錄，所以記得要在剛剛下載的資料夾裡`git init`。
+
+# 2. 把Jekyll裝回來
 
 由於目前電腦只有安裝Ruby和Rails，很多套件都不見了。趕快來裝一下`gem install jekyll`
 
@@ -47,7 +42,7 @@ Done installing documentation for colorator, http_parser.rb, eventmachine, em-we
 
 ```
 
-# 2. `bundle install`
+# 3. `bundle install`
 
 進入blog資料夾啟動server的時候，發現之前寫blog的版本是`jekyll (3.8.5)`，因此需要`bundle install`
 
@@ -86,6 +81,6 @@ Configuration file: /Users/tingtinghsu/Documents/projects/blog-gh-pages/_config.
   Server running... press ctrl-c to stop.
 ```
 
-在網址列輸入Server address，就可以開始更新今年首發入blog的文章了！
+在網址列輸入Server address，就可以開始更新今年首發新加入blog的文章了！
 
 ![](https://i.imgur.com/OCwFs7Y.png)
