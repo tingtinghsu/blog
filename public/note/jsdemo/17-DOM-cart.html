@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139879751-1"></script>
+    <script src="../scripts/gtags.js"></script>  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM 練習</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+  <main>
+    <section class="cart">
+      <h1>購物車</h1>
+      <table>
+        <thead>
+          <tr>
+            <td>品項</td>
+            <td>單價</td>
+            <td>數量</td>
+            <td>小計</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>為你自己學程式設計</td>
+            <td id="unitPrice">300</td>
+            <td><span id="item1Quantity">0</span>
+              <a href="#" class="addProduct" onclick="addProduct(-1)">-</a>
+              <a href="#" class="addProduct" onclick="addProduct(1)">+</a>
+            </td>
+            <td><span id="item1Price">0</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="skillset">
+      <h1>想學會的技能</h1>
+      <input type="checkbox" class="skill" id="html" value="html"><label for="html">HTML</label>
+      <input type="checkbox" class="skill" id="css" value="css"><label for="css">CSS</label>
+      <input type="checkbox" class="skill" id="javascript" value="javascript"><label for="javascript">JavaScript</label>
+      <input type="checkbox" class="skill" id="git" value="git"><label for="git">Git</label>
+      <input type="checkbox" class="skill" id="ruby" value="ruby"><label for="ruby">Ruby</label>
+      <input type="checkbox" class="skill" id="ruby-on-rails" value="ruby-on-rails"><label for="ruby-on-rails">Ruby on Rails</label>
+      <a href="#" class="selectAll" onclick="selectAllSkills()">我全都要</a>
+    </section>
+    <section>
+      <h1>&nbsp;</h1>
+      <div align="center"><input type ="button" onclick="history.back()" value="回到上一頁"></input></div>
+    </section>
+  </main>
+
+  <script src="scripts/cart.js"></script>
+</body>
+</html>

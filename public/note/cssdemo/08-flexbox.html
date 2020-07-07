@@ -1,0 +1,310 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139879751-1"></script>
+<script src="../scripts/gtags.js"></script>
+
+<body>
+    <link rel="stylesheet" href="stylesheet/flexbox.css">  
+  <h3>A. flex-direction: 方向有無reverse
+  決定數字列從左或右開始，欄從上或下開始</h3>
+   <section class="flex-direction">
+      <section class="container-fdr">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+      </section>
+      <section class="container-fdrr">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+      </section>
+      <section class="container-fdc">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+      </section>
+      <section class="container-fdcr">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+      </section>
+   </section> 
+    <p align="center">row; 列靠左（頭）| row-reverse; 列靠右（尾）| column; 欄靠上（頭）| column-reverse; 欄靠下（尾）</p>
+   
+<h3>B. justify-content: 水平對齊位置 (列左右.欄上下)</h3> </sectiion> 
+  <section class="justify-content-row">
+    <section class="container-fdr-jcfs">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </section>
+    <section class="container-fdr-jcfe">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </section>
+    <section class="container-fdrr-jcfs">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </section>
+    <section class="container-fdrr-jcfe">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </section> 
+  </section>
+  <p align="center">row; flex-start; 列靠左（頭）｜ row; flex-end; 列靠右（尾）｜ row-reverse; flex-start; 列靠右（頭）｜  row;-reverse; flex-end; 列靠左（尾）</p>
+  <section class="justify-content-column">
+    <section class="container-fdc-jcfs">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </section>
+    <section class="container-fdc-jcfe">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </section>
+    <section class="container-fdcr-jcfs">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </section>
+    <section class="container-fdcr-jcfe">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </section>
+  </section>   
+   <p align="center">column; flex-start; 欄靠上（頭）｜ column; flex-end; 欄靠下（尾）｜ column-reverse; flex-start; 欄靠下（頭）｜  column-reverse; flex-end; 欄靠上（尾）</p>
+
+  <h3>C. align-items: 垂直對齊方式（列上下.行左右）根據flex-direction的row或colunm是正排序或者反排序，
+調整頭尾。</h3>  
+ <section class="align-items-row">
+  <section class="container-fdr-aifs">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdr-aife">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdrr-aifs">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdrr-aife">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+ </section> 
+<p align="center">row; flex-start; （頭，左上）｜ row; flex-end; （尾，左下）｜ row-reverse;  flex-start; （頭，右上）｜  row-reverse; flex-end; （尾，右下）<p>
+  
+ <section class="align-items-column">
+  <section class="container-fdc-aifs">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>  
+  <section class="container-fdc-aife">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdcr-aifs">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdcr-aife">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>   
+</section>  
+<p align="center">column; flex-start; （頭，左上）｜ column; flex-end; （尾，右上）｜ column-reverse; flex-start; （頭，左下） ｜  column-reverse; flex-end; （尾，右下）</p>
+
+<h3>B. justify-content center / space</h3>  
+<section class="justify-content-center-space">
+  <section class="container-fdr-jcc">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdr-jcsa">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdr-jcsb">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdr-jcse">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+</section>
+<p align="center">x 軸置中.分散對齊 flex-direction: row; justify-content: center;｜ space-around; ｜ space-between;   ｜   space-evenly; </p>
+
+<section class="justify-content-center-space">
+  <section class="container-fdc-jcc">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>  
+  <section class="container-fdc-jcsa">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdc-jcsb">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+  <section class="container-fdc-jcse">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+  </section>
+</section>
+<p align="center">y 軸置中.分散對齊 flex-direction: column; justify-content: center;｜ space-around; ｜ space-between;   ｜   space-evenly; </p>
+
+<h3>C. align-items: center / stretch</h3>  
+<section class="align-items-center-stretch">
+  <section class="container-jcc-aic">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>    
+  </section>
+  
+  <section class="container-jcc-ais">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>    
+  </section>
+</section> 
+<p align="center">center 置中 | 若無設定高度，align-items預設stretch至元素垂直最高度。 </p>
+
+<h3>D. flex-wrap: </h3>
+<section class="flex-wrap">
+  <section class="container-fwn">
+    <div class="item-w2">2</div>
+    <div class="item-w3">3</div>
+    <div class="item-w4">4</div>
+    <div class="item-w5">5</div>    
+  </section>
+  <section class="container-fww">
+    <div class="item-w2">2</div>
+    <div class="item-w3">3</div>
+    <div class="item-w4">4</div>
+    <div class="item-w5">5</div>      
+  </section>
+  <section class="container-fwr">
+    <div class="item-w2">2</div>
+    <div class="item-w3">3</div>
+    <div class="item-w4">4</div>
+    <div class="item-w5">5</div>      
+  </section>
+</section>
+<p align="center">預設nowrap | wrap: 當內容太多時，換到下一行 | wrap-reverse: 換行時元素排序反轉</p>
+
+ <h3>E. align-content: 多行內容的垂直.水平對齊+分散對齊</h3>  
+<p align="center">flex-start; 整段靠頭(上) | flex-end; 整段靠尾(下)  | center; 整段置中 | stretch; 整段分散對齊 | space-around; 均分整段.上下留白 | space-between; 均分整段上下留白，但不含最上與最下</p>
+
+ <section class="align-content">
+  <section class="container-ac-fs">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>    
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+    <div class="item9">9</div>
+    <div class="item10">10</div>
+    <div class="item11">11</div>    
+  </section>
+  <section class="container-ac-fe">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>  
+    <div class="item5">5</div>  
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+    <div class="item9">9</div>
+    <div class="item10">10</div>
+    <div class="item11">11</div>     
+  </section>
+  <section class="container-ac-center">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>  
+    <div class="item5">5</div>   
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+    <div class="item9">9</div>
+    <div class="item10">10</div>
+    <div class="item11">11</div>     
+  </section>
+  <section class="container-ac-stretch">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>  
+    <div class="item5">5</div>     
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+    <div class="item9">9</div>
+    <div class="item10">10</div>
+    <div class="item11">11</div>     
+  </section>
+  <section class="container-ac-sa">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>  
+    <div class="item5">5</div>   
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+    <div class="item9">9</div>
+    <div class="item10">10</div>
+    <div class="item11">11</div>     
+  </section>
+  <section class="container-ac-sb">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>  
+    <div class="item5">5</div>  
+    <div class="item6">6</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+    <div class="item9">9</div>
+    <div class="item10">10</div>
+    <div class="item11">11</div>     
+  </section>   
+ </section> 
+ <section>
+  <h1>&nbsp;</h1>
+  <div align="center"><input type ="button" onclick="history.back()" value="回到上一頁"></input></div>
+</section>
+
+   <div class="clearfix"> </div>  
+</body>  
+

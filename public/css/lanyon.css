@@ -41,6 +41,7 @@ body {
 }
 
 html {
+<<<<<<< HEAD
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
@@ -51,6 +52,43 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+=======
+  font-family: sans-serif, Georgia, "Times New Roman", serif;
+  font-weight: 300;
+}xw
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: 300;
+  color: #131e36;
+  letter-spacing: -.025rem;
+  margin-bottom: 1rem;  
+}
+
+.tag {
+  font-family: sans-serif, monospace, Helvetica, Arial;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: rgb(226, 130, 56);
+  background-color: rgb(243, 226, 139);
+  letter-spacing: 12;
+  display: inline-block;
+  border-radius: 5px; 
+  padding-right: 0.5rem; 
+  padding-left: 0.5rem;   
+}
+
+.home {
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: 300;  
+  width: 15%;
+  color: rgb(125, 144, 146);
+  background-color: rgb(226, 234, 245);
+  letter-spacing: 2;
+  display: inline-block;
+  border-radius: 15px;  
+}
+>>>>>>> other file
 
 /*
  * Wrapper
@@ -148,10 +186,18 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
+<<<<<<< HEAD
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
+=======
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: 300;   
+  font-size: .875rem; /* 15px */
+  color: rgb(245, 207, 207);
+  background-color: rgb(245, 207, 207);
+>>>>>>> other file
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
@@ -163,7 +209,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sidebar content */
 .sidebar a {
+<<<<<<< HEAD
   font-weight: normal;
+=======
+  font-weight: 300;
+>>>>>>> other file
   color: #fff;
 }
 .sidebar-item {
@@ -217,7 +267,11 @@ a.sidebar-nav-item:focus {
   display: block;
   padding: .25rem .75rem;
   color: #505050;
+<<<<<<< HEAD
   background-color: #fff;
+=======
+  background-color: rgb(198,117,126);
+>>>>>>> other file
   border-radius: .25rem;
   cursor: pointer;
 }
@@ -227,26 +281,44 @@ a.sidebar-nav-item:focus {
   width: 1rem;
   height: .75rem;
   content: "";
+<<<<<<< HEAD
   background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
   background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
   background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
   background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+=======
+  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff 60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff 60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff 60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+>>>>>>> other file
 }
 
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
+<<<<<<< HEAD
   background-color: #555;
+=======
+  background-color: rgb(245, 207, 207);
+>>>>>>> other file
 }
 
 .sidebar-toggle:active:before,
 #sidebar-checkbox:focus ~ .sidebar-toggle:before,
 #sidebar-checkbox:checked ~ .sidebar-toggle:before {
+<<<<<<< HEAD
   background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
   background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
   background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
   background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+=======
+  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #fff 20%, #fff 40%, #fff 40%, #fff,60%, #fff 60%, #fff 80%, #fff 80%, #fff 100%);
+>>>>>>> other file
 }
 
 @media (min-width: 30.1em) {
@@ -316,7 +388,11 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
+<<<<<<< HEAD
   color: #303030;
+=======
+  color: rgb(46, 96, 136);
+>>>>>>> other file
 }
 .page-title,
 .post-title {
@@ -368,8 +444,14 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
+<<<<<<< HEAD
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
+=======
+  font-family: sans-serif, Helvetica, Arial;
+  font-weight: 200;
+  color: rgb(189, 183, 183);
+>>>>>>> other file
   text-align: center;
 }
 
@@ -519,10 +601,18 @@ a.pagination-item:hover {
 .theme-base-0e #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #aa759f;
 }
+<<<<<<< HEAD
 .theme-base-0e .container a,
 .theme-base-0e .sidebar-toggle,
 .theme-base-0e .related-posts li a:hover {
   color: #aa759f;
+=======
+
+.theme-base-0e .container a,
+.theme-base-0e .sidebar-toggle,
+.theme-base-0e .related-posts li a:hover {
+  color: #68255a;
+>>>>>>> other file
 }
 
 /* Brown */
@@ -531,9 +621,25 @@ a.pagination-item:hover {
 .theme-base-0f #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #8f5536;
 }
+<<<<<<< HEAD
 .theme-base-0f .container a,
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
+=======
+.theme-base-0f .container a {
+  color: #081b0c;
+}
+.theme-base-0f .container a:hover {
+  color: #293b2d;
+  background-color: #def0b9;
+  display: inline-block;  
+  border-radius: 5px;
+  padding-right: 0.5rem; 
+  padding-left: 0.5rem;      
+}
+.theme-base-0f .sidebar-toggle,
+.theme-base-0f .related-posts li {
+>>>>>>> other file
   color: #8f5536;
 }
 

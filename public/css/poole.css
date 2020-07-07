@@ -49,7 +49,11 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+<<<<<<< HEAD
   font-size: 16px;
+=======
+  font-size: 12px;
+>>>>>>> other file
   line-height: 1.5;
 }
 @media (min-width: 38em) {
@@ -59,7 +63,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   color: #515151;
+=======
+  color: #0e121b;
+>>>>>>> other file
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -76,7 +84,11 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
+<<<<<<< HEAD
   text-decoration: underline;
+=======
+  text-decoration: none;
+>>>>>>> other file
 }
 
 /* Headings */
@@ -84,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
+<<<<<<< HEAD
   color: #313131;
   text-rendering: optimizeLegibility;
 }
@@ -97,6 +110,22 @@ h2 {
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
+=======
+  color: #2a2f74;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  margin-top: 2rem;  
+  font-size: 1.5rem;
+}
+h2 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+>>>>>>> other file
 }
 h4, h5, h6 {
   margin-top: 1rem;
@@ -110,7 +139,11 @@ p {
 }
 
 strong {
+<<<<<<< HEAD
   color: #303030;
+=======
+  color: #284123;
+>>>>>>> other file
 }
 
 
@@ -150,13 +183,22 @@ abbr[title] {
 /* Code */
 code,
 pre {
+<<<<<<< HEAD
   font-family: Menlo, Monaco, "Courier New", monospace;
+=======
+  font-family: monospace, Menlo, Monaco, "Courier New";
+  font-weight: 300;
+>>>>>>> other file
 }
 code {
   padding: .25em .5em;
   font-size: 85%;
   color: #bf616a;
+<<<<<<< HEAD
   background-color: #f9f9f9;
+=======
+  background-color: #f7d1d1;
+>>>>>>> other file
   border-radius: 3px;
 }
 pre {
@@ -181,7 +223,11 @@ pre code {
 
 /* Pygments via Jekyll */
 .highlight {
+<<<<<<< HEAD
   margin-bottom: 1rem;
+=======
+  margin-bottom: 0.3rem;
+>>>>>>> other file
   border-radius: 4px;
 }
 .highlight pre {
@@ -212,9 +258,15 @@ pre code {
 
 /* Quotes */
 blockquote {
+<<<<<<< HEAD
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
+=======
+  padding: .2rem 1rem;
+  margin: 2rem 0;
+  color: #2f0c44;
+>>>>>>> other file
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -337,7 +389,11 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
+<<<<<<< HEAD
   color: #303030;
+=======
+  color: #974343;
+>>>>>>> other file
 }
 .page-title,
 .post-title {
@@ -349,7 +405,11 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
+<<<<<<< HEAD
   color: #9a9a9a;
+=======
+  color: #e6e0e08e;
+>>>>>>> other file
 }
 
 /* Related posts */

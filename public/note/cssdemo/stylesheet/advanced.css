@@ -1,0 +1,52 @@
+div#w {
+  text-align: center;
+  font-size: 2rem;
+  background-color: aquamarine;
+  margin: 3px;
+  color: tomato;
+}
+
+.div1 { width: 800px; }
+.div2 { max-width: 800px; } 
+.div3 { min-width: 800px; }
+
+a { font-size: 1rem; font-weight: 300;}
+.link2 { text-decoration: none; }
+.link3:hover { 
+  color: tomato; 
+  background-color: wheat;
+  text-decoration: none;
+  transition: color 3s;
+}
+
+div#shadow {
+  width: 200px;
+  height: 200px;
+  color:whitesmoke;
+  background-color:teal;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: sans-serif;
+
+  box-shadow: 
+  /*參數: 右 下 模糊效果 顏色*/        
+    10px 2px 20px rgba(0, 0, 0, 0.5),
+   /*參數: 左 上 模糊效果 顏色*/         
+    -5px -5px 10px wheat;
+}
+
+div#margin {
+  width: 200px;
+  height: 200px;
+  color:whitesmoke;
+  background-color:teal;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: sans-serif;
+  
+  /*border可以調換順序*/
+  border: 10px solid lightblue;
+  /*border: lightblue 10px solid;*/
+  border-color: green; /*寫在較下面的設定會蓋掉前面*/
+  margin: 1px 2px 2px 1px;
+}

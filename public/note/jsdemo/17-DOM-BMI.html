@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139879751-1"></script>
+    <script src="../scripts/gtags.js"></script>  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BMI 計算器</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="styles/bmi.css">
+</head>
+<body>
+  <section class="calculator">
+    <section class="fields">
+      <h1>BMI 計算機</h1>
+      <h2>想要健康嗎？趕快動起來！</h2>
+      <div>
+        <label for="bodyHeight">身高</label>
+        <input type="number" id="bodyHeight" min="0">公分
+      </div>
+      <div>
+        <label for="bodyWeight">體重</label>
+        <input type="number" id="bodyWeight" min="0">公斤
+      </div>
+      <input type="submit" value="計算" onclick="calculateBMI();">
+    </section>
+    <section class="right">
+      <section class="result">
+        <h2>計算結果：</h2>
+        <p id="resultText">0</p>
+      </section>
+      <section class="health">
+        <p id="healthText"></p>
+      </section>
+    </section>
+    <div align="center"><input type ="button" onclick="history.back()" value="回到上一頁"></input></div> 
+    <div class="clearfix"></div>
+  </section>
+  <script src="scripts/bmi.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>21 點</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/cardgame.css">
+</head>
+<body>
+  <main>
+    <section class="game-table">
+
+      <section class="dealer-cards zone">
+        <h1>莊家</h1>
+        <div class="deck">
+          <div class="card"><span></span><div class="dealerCard" id="dealerCard1"></div></div>
+          <div class="card"><span></span><div class="dealerCard" id="dealerCard2"></div></div>
+          <div class="card"><span></span><div class="dealerCard" id="dealerCard3"></div></div>
+          <div class="card"><span></span><div class="dealerCard" id="dealerCard4"></div></div>
+          <div class="card"><span></span><div class="dealerCard" id="dealerCard5"></div></div>
+        </div>
+      </section>
+
+      <section class="your-cards zone">
+        <h1>你</h1>
+        <div class="deck">
+          <div class="card"><span></span><div class="yourCard" id="yourCard1"></div></div>
+          <div class="card"><span></span><div class="yourCard" id="yourCard2"></div></div>
+          <div class="card"><span></span><div class="yourCard" id="yourCard3"></div></div>
+          <div class="card"><span></span><div class="yourCard" id="yourCard4"></div></div>
+          <div class="card"><span></span><div class="yourCard" id="yourCard5"></div></div>
+        </div>
+      </section>
+
+      <footer class="action">
+        <input type="button" id="action-hit" class="action-button" value="Hit!" disabled>
+        <input type="button" id="action-stand" class="action-button" value="Stand" disabled>
+        <input type="button" id="action-new-game" class="action-button" value="New Game">
+      </footer>
+    </section>
+    <section>
+      <div align="center"><input type ="button" onclick="history.back()" value="回到上一頁"></input></div>
+    </section>
+  </main>
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+  <script src="scripts/cardgame.js"></script>
+</body>
+
+</html>

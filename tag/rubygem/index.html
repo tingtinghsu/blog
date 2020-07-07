@@ -1,0 +1,18 @@
+---
+layout: default
+title: rubygem
+---
+<div>Tag:<br><br> <div class="tag" align="center">rubygem</div></div> <br>
+<div class="posts">
+  {% for post in site.tags.rubygem %}
+    <h4 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}  
+      </a>
+    </h4>
+    <small class="post-date">{{ post.date | date_to_string }}
+    </small>
+   {% endfor %}
+</div>
+
+<div class="home" align="center"><a href="{{ site.baseurl }}/">Home</a></div><br>

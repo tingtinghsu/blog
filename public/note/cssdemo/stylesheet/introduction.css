@@ -1,0 +1,36 @@
+html {
+  font-size: 25px;
+}
+article {
+  font-size: 15px;
+}
+
+footer {
+  font-size: 10px;  
+}
+h1 {
+  font-family: monospace;
+  font-weight: 100;  /*範圍100-900*/  
+}
+
+p {
+  font-size: 0.8rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;  /*範圍100-900*/
+  text-align: justify; /*分散對齊*/
+}
+
+p#title {
+  font-weight: 300;
+  color: rgb(207,97,108);  
+}
+
+p#zh {
+  font-weight: normal;  /*範圍100-900*/  
+  text-align: center; /*置中對齊*/
+  color: rgba(255, 0, 0, 0.5); /*紅色 + 0.7的不透明度*/
+  background-color: pink;
+  width: 500px;
+  height: auto;
+}
+

@@ -4,6 +4,13 @@ _site
 .ruby-version
 
 # Numerous always-ignore extensions
+.sass-cache
+.jekyll-metadata
+.ruby-version
+.editorconfig
+
+# Numerous always-ignore extensions
+*.yml
 *.diff
 *.err
 *.orig
