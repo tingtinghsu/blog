@@ -54,7 +54,7 @@ guard watch 的路徑需要配合自己的需求做修改
 
 ```
 
-如果我將放測試資料的檔案夾命名為`spec`，在`guard`裡`watch`的spec檔案路徑就是`^spec/.+_spec.rb`
+一般慣例會把放測試資料的檔案夾命名為`spec`，在`guard`裡`watch`的spec檔案路徑就是`^spec/.+_spec.rb`
 
 ```ruby
 guard :rspec, cmd: "bundle exec rspec" do
