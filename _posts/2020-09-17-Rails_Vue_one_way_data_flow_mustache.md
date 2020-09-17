@@ -1,5 +1,5 @@
 ---
-title:  "[2020] 第12屆鐵人賽Day 4 - Rails專案: Vue的起手式"
+title:  "[2020] 第12屆鐵人賽Day 4 - Vue的單向資料流: 鬍子語法"
 preview: ""
 permalink: "/articles/2020-09-17"
 date:   2020-09-15 09:56:00
@@ -83,10 +83,10 @@ document.addEventListener('turbolinks:load', () => {
 
 是不是有覺得Vue很好上手呢?!(~~鐵人賽才第四天，話不要說的太早~~)
 
-# `\{ \{ \} \} ` mustache: 鬍子語法
+# `{ { } } ` mustache: 鬍子語法
 
 在昨天鐵人賽的`Vue instance`實例裡，我們有一個`data`屬性用來提供資料。
-並且讓資料流向html (View)在標籤加上的`{{message}}`鬍子語法內。
+並且讓資料流向html (View)在標籤加上的`{ { message } }`鬍子語法內。
 這被稱為`One-Way Data Flow`的`data binding`。（中文: 單向資料流的資料綁定）
 ```
 document.addEventListener('turbolinks:load', () => {
@@ -109,11 +109,55 @@ The mustache tag will be replaced with the value of the message property on the 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/tingtinghsu/2c0udyvj/5/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+## 單向資料流傳遞 - 鬍子語法還可以傳什麼?
+
+鬍子語法也可以使用運算式（合法的表達式必須是one single expression）
+
+```
+{ { height / 100 } }
+
+// 三元表達式OK!
+{ { ok ? true : false } }
+
+
+{ { message.split(',').join('') } }
+```
+
+有單一回傳值的methods也可以放進去：
+
+<iframe width="100%" height="300" src="//jsfiddle.net/tingtinghsu/xr39mjsg/7/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+
 # Vue Instance的物件屬性
 
-從昨天鐵人賽改寫`hello_vue.js`的
+## data可以放物件或function
+```
+  data: {
+  	message: "Vue feat. Rails"
+  }
+```
+昨天改寫`hello_vue.js`時，發現Vue生出來的檔案預設data寫法是JavascriptES6中箭頭函數的寫法。
+
+```
+  data: () => {
+    return {
+      message: "第12屆鐵人賽專案，參賽確定！"
+  }
+```
+
+所以來做個統整一下，在今天鐵人賽的文章，我們已經用了三種屬性`el`、`data`與`methods`!
+
+| Vue instance的屬性 | 可以放置的資料型別 |
+| -------- | -------- |
+| el     | HTML元素、字串、function   | 
+| data     |   物件、function   | 
+| methods     |   function   | 
+
+
+明天來了解Vue的另一個單向資料流語法`v-bind`吧！
 
 Ref: 
 
 * [Vue英文官網手冊: One-way Data Flow](https://vuejs.org/v2/guide/components-props.html#One-Way-Data-Flow)  
 * [Vue中文官網手冊: 模板語法](https://cn.vuejs.org/v2/guide/syntax.html)  
+* [VUE.JS 入門 Slide - Vue 2 新手必備的姿勢](https://docs.google.com/presentation/d/1RaXwt4n97OWUrMqel_-SKYTAldh9VhuaI0tbMJ31k0I/edit#slide=id.g58797a85ac_0_0)  
