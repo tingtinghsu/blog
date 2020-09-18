@@ -2,20 +2,20 @@
 title:  "[2020] 第12屆鐵人賽Day 4 Vue的單向資料流: 鬍子語法"
 preview: ""
 permalink: "/articles/2020-09-17"
-date:   2020-09-15 09:56:00
+date:   2020-09-17 09:56:00
 layout: post
 tags: 
   - "rail"
   - "vue"    
 ---
 
-昨天經過辛苦的環境安裝（擦汗），可以在Rails專案寫Vue了！先來個簡單的Vue起手式緩緩心情～
-
+昨天經過辛苦的環境安裝（擦汗），可以在Rails專案寫Vue了！先來個簡單的Vue起手式緩緩心情～  
 在第2天我們有提到，[Vue.js 官網](https://012.vuejs.org/guide/) 這張MVVM架構的示意圖：
 `Model`是資料邏輯：
 `View`是使用者介面；
 `VM`代表的是`View Model`。
 
+<!-- more -->
 
 ![](https://i.imgur.com/JcXXD6y.png)  
 

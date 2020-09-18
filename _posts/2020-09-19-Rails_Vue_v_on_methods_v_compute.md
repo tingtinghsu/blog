@@ -2,19 +2,22 @@
 title:  "[2020] 第12屆鐵人賽Day 6 Vue instance的computed屬性"
 preview: ""
 permalink: "/articles/2020-09-19"
-date:   2020-09-16 09:56:00
+date:   2020-09-17 09:56:00
 layout: post
 tags: 
   - "rail"
   - "vue"    
 ---
 
-# 從v-model + v-on 結合 methods談起
-
-昨天我們討論了雙向事件處理: v-model, v-on，讓我們可以跟使用者輸入的資料互動。
+昨天我們討論了雙向事件處理: `v-model` 以及 `v-on`，讓我們可以跟使用者輸入的資料互動。
 （例如對使用者的輸入的暱稱打招呼～）
 
 如果要把使用者的輸入資料做一些`加工`，再顯示出來，就需要透過`v-on`結合`methods`的方式。
+
+<!-- more -->
+
+# 從v-model + v-on 結合 methods談起
+
 例如：我們想要按下一個神奇的按鈕，就可以把錢包裡的錢多5倍！
 
 這個神奇按鈕長這樣(使用`v-on`，語法糖衣簡寫為`@`)：

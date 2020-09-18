@@ -1,17 +1,18 @@
 ---
 title:  "[2020] 第12屆鐵人賽Day 3 在Rails專案產生Vue app"
 preview: ""
-permalink: "/articles/2020-09-15"
-date:   2020-09-15 09:56:00
+permalink: "/articles/2020-09-16"
+date:   2020-09-16 09:56:00
 layout: post
 tags: 
   - "rail"
   - "vue"    
 ---
 
-# 1. Rails專案起手式
-
 在[昨天]()的鐵人賽中，我們對於Rails的MVC架構和Vue.js的MVVC設計架構做些了解，對未來專案的前端、後端的檔案位置及有個初步的概念。那麼今天就直接來開個新專案吧！  
+<!-- more -->
+
+# 1. Rails專案起手式
 
 先確定自己想要用在專案開發的ruby及rails版本：
 ```

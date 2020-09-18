@@ -2,20 +2,23 @@
 title:  "[2020] 第12屆鐵人賽Day 5 v-bind, v-model, v-on"
 preview: ""
 permalink: "/articles/2020-09-18"
-date:   2020-09-16 09:56:00
+date:   2020-09-17 09:56:00
 layout: post
 tags: 
   - "rail"
   - "vue"    
 ---
 
+
+昨天討論了單向資料流的鬍子語法，可以讓我們把Vue實例裡的資料流向html (View)。  
+但如果要將資料綁定HTML標籤屬性的時候，該怎麼辦呢？  
+舉例🌰而言，如果我們想把HTML的`placeholder`綁上vue instance的data屬性`yourname`，這個時候，我們可以使用`v-bind`。
+
+<!-- more -->
+
 # 單向資料綁定: v-bind 
 
-昨天討論了單向資料流的鬍子語法，可以讓我們把Vue實例裡的資料流向html (View)。
 
-但如果要將資料綁定HTML標籤屬性的時候，該怎麼辦呢？
-
-舉例🌰而言，如果我們想把HTML的`placeholder`綁上vue instance的data屬性`yourname`，這個時候，我們可以使用`v-bind`。
 
 html
 

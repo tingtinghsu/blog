@@ -2,7 +2,7 @@
 title:  "[2020] 第12屆鐵人賽Day 7 Rails專案內加上Vue元件"
 preview: ""
 permalink: "/articles/2020-09-20"
-date:   2020-09-16 09:57:00
+date:   2020-09-17 09:57:00
 layout: post
 tags: 
   - "rail"
