@@ -1,5 +1,5 @@
 ---
-title:  "[2020] 第12屆鐵人賽Day 4 - Vue的單向資料流: 鬍子語法"
+title:  "[2020] 第12屆鐵人賽Day 4 Vue的單向資料流: 鬍子語法"
 preview: ""
 permalink: "/articles/2020-09-17"
 date:   2020-09-15 09:56:00
@@ -19,14 +19,14 @@ tags:
 
 ![](https://i.imgur.com/JcXXD6y.png)  
 
-我們可以比較原生`javascript`綁定事件的方式：
+我們可以看到原生`javascript`綁定事件的方式：
 
 <iframe width="100%" height="300" src="//jsfiddle.net/tingtinghsu/jLmkebzo/14/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-以及`Vue.js`的差別：
+以及比較`Vue.js`的差別：
 <iframe width="100%" height="300" src="//jsfiddle.net/tingtinghsu/41mrcLkz/6/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-而在Vue.js裡，是採用Vue instance（實例）作為原本的使用者介面(UI)及`Javascript`的資料處理邏輯的中間層，而非直接讓js去操作UI介面的元素。
+在Vue.js裡，是採用Vue instance（實例）作為原本的使用者介面(UI)及`Javascript`的資料處理邏輯的中間層，而非直接讓js去操作UI介面的元素。
 
 這整塊是new出一個`Vue instance`，其最特別之處，
 是讓`Model`邏輯的變化會同步到`View`介面上。
@@ -58,7 +58,7 @@ html (View)
 
 以上應該就可以很好的解釋，昨天的程式碼為何Vue js可以大大方方地在我的Rails專案首頁出現囉！
 
-還記得我們的前端model邏輯是這樣：
+對照我的專案，前端model邏輯是這樣：
 
 ```
 document.addEventListener('turbolinks:load', () => {
@@ -105,10 +105,6 @@ document.addEventListener('turbolinks:load', () => {
 The mustache tag will be replaced with the value of the message property on the corresponding data object. It will also be updated whenever the data object’s message property changes.  
 無論何時，綁定的資料物件上 message property 發生了改變，插值處的內容都會更新。
 
-有回傳值的運算式，也可以使用鬍子語法唷！
-
-<iframe width="100%" height="300" src="//jsfiddle.net/tingtinghsu/2c0udyvj/5/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
 ## 單向資料流傳遞 - 鬍子語法還可以傳什麼?
 
 鬍子語法也可以使用運算式（合法的表達式必須是one single expression）
@@ -122,6 +118,10 @@ The mustache tag will be replaced with the value of the message property on the 
 
 { { message.split(',').join('') } }
 ```
+
+有單一回傳值的運算式，就可以使用鬍子語法唷！
+
+<iframe width="100%" height="300" src="//jsfiddle.net/tingtinghsu/2c0udyvj/5/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 有單一回傳值的methods也可以放進去：
 
@@ -145,7 +145,7 @@ The mustache tag will be replaced with the value of the message property on the 
   }
 ```
 
-所以來做個統整一下，在今天鐵人賽的文章，我們已經用了三種屬性`el`、`data`與`methods`!
+來做個統整一下，在今天鐵人賽的文章，我們已經練習了三種vue instance的屬性：`el`、`data`與`methods`!
 
 | Vue instance的屬性 | 可以放置的資料型別 |
 | -------- | -------- |

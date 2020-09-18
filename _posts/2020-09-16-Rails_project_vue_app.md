@@ -1,5 +1,5 @@
 ---
-title:  "[2020] 第12屆鐵人賽Day 3 - 在Rails專案產生Vue app"
+title:  "[2020] 第12屆鐵人賽Day 3 在Rails專案產生Vue app"
 preview: ""
 permalink: "/articles/2020-09-15"
 date:   2020-09-15 09:56:00
@@ -205,7 +205,6 @@ info All dependencies
 ```
 import TurbolinksAdapter from 'vue-turbolinks'
 import Vue from 'vue/dist/vue.esm'
-// import App from '../vue'
 
 Vue.use(TurbolinksAdapter)
 
@@ -217,12 +216,11 @@ document.addEventListener('turbolinks:load', () => {
         message: "第12屆鐵人賽專案，參賽確定！"
       }
     },
-    // components: { App }
   })
 })
 ```
 
-接著去views/layouts的`application.html.erb`，讓`stylesheet`和`javascript`等檔案可以被`webpacker`順利打包:
+接著去檢查views/layouts的`application.html.erb`，讓`stylesheet`和`javascript`等檔案可以被`webpacker`順利打包:
 
 ```
   <head>
@@ -240,7 +238,7 @@ document.addEventListener('turbolinks:load', () => {
 
 pages#home.html.erb
 ```
-<div id="hello">Vue.js x Rails{{ message }} </div>
+<div id="hello">Vue.js x Rails { {  message } } </div>
 ```
 
 routes
