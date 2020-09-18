@@ -1,5 +1,5 @@
 ---
-title:  "Rails的 MVC 架構: 淺談 model 和 controller"
+title:  "Rails的 MVC 架構: 淺談 controller 和  model"
 preview: "Rails: MVC model view controller"
 permalink: "/articles/2019-01-14-rails_MVC_model_view_controller"
 date:   2019-01-14 09:55:00
@@ -26,7 +26,7 @@ comments: true
 
 當Route解析網址後，會將任務轉給指定的Controller(如圖中的1)。Controller根據任務需求與View互動(如圖中的8.9)，或是透過Model取出database裡的資料(如圖中的4.7)。
 
-![https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true](https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true)
+![](https://i.imgur.com/8J1PEIn.png)
 
 [圖片來自龍哥的文章 : Model、View、Controller 三分天下](https://railsbook.tw/chapters/10-mvc.html)
 
@@ -76,9 +76,7 @@ end
 
 # Model
 
-Model是在資料表上的抽象類別，可以和實體的資料表溝通。(如圖中的5.6)
-
-![https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true](https://github.com/tingtinghsu/blog/blob/gh-pages/public/img/MVC.png?raw=true)
+Model是在資料表上的抽象類別，可以和實體的資料表溝通。
 
 Model資料夾下的檔名以`單數`命名；eg. `client.rb`  
 class類別名稱`大寫`、`單數`。eg. `class Client`
