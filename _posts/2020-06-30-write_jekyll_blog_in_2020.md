@@ -12,11 +12,13 @@ tags:
 自上次更新本blog又過了超過一年啦！
 （到底這一年在忙什麼呢？）
 
-2020年因為疫情再度暫時回來台灣生活，也全心投入於研究成為專職的Ruby on Rails工程師，這時該是重新規律地更新技術blog的時候了。Jekyll是由GitHub的聯合創始人Tom Preston-Werner使用Ruby撰寫的靜態網站生成器，身為未來閃亮的Ruby工程師的我，當然首選採用Jekyll。關於更多Jekyll blog安裝在GitHub介紹，可以參考我的[IT邦文章](https://ithelp.ithome.com.tw/articles/10198964)：）
+2020年因為疫情再度暫時回來台灣生活，也全心投入於研究成為專職的Ruby on Rails工程師，這時該是重新規律地更新技術blog的時候了。
 
 <!-- more -->
 
-版主自從2019決定定居日本大阪，6月開始重拾學習日文的道路（2019.7考過JLPT 日文檢定N3，2019.12考過N2），接著某天更新macOS catalina 10.15後因故重灌，在電腦裡的blog專案就消失了嗚嗚（還好有GitHub!），之後就一直遲遲沒有再寫新的技術文章(掩面)。
+版主自從2019決定定居日本大阪，6月開始重拾學習日文的道路（2019.7考過JLPT 日文檢定N3，2019.12考過N2），接著某天更新macOS catalina 10.15後因故重灌，在電腦裡的blog專案就消失了嗚嗚（還好有GitHub!），之後就一直遲遲沒有再寫新的技術文章(掩面)。  
+
+Jekyll是由GitHub的聯合創始人Tom Preston-Werner使用Ruby撰寫的靜態網站生成器，身為未來閃亮的Ruby on Rails工程師的我，當然首選採用Jekyll。關於更多Jekyll blog安裝在GitHub介紹，可以參考我的[IT邦文章](https://ithelp.ithome.com.tw/articles/10198964)：）  
 
 在此紀錄一下重新在自己筆電裡重啟Jekyll blog的步驟！
 
@@ -86,6 +88,11 @@ Configuration file: /Users/tingtinghsu/Documents/projects/blog-gh-pages/_config.
   Server running... press ctrl-c to stop.
 ```
 
-在網址列輸入Server address，就可以開始更新今年首發入blog的文章了！
+在網址列輸入Server address，就可以開始更新今年首發入blog的文章了！:)  
 
-![](https://i.imgur.com/OCwFs7Y.png)
+今年(2020年)下半年除了持續精進Ruby on Rails技能，   
+也會開始鑽研JavaScript、以及有趣的前端框架(例如Vue.js)。  
+請各位看倌多多指教～  
+よろしくお願いします！m(_ _)m
+
+![](https://i.imgur.com/euQxZ1R.png)

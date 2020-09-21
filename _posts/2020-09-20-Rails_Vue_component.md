@@ -2,14 +2,17 @@
 title:  "[2020] 第12屆鐵人賽Day 7 Rails專案內加上Vue元件"
 preview: ""
 permalink: "/articles/2020-09-20"
-date:   2020-09-17 09:57:00
+date:   2020-09-18 09:57:00
 layout: post
 tags: 
   - "rail"
   - "vue"    
 ---
 
-經過了三天的Vue簡單起手式，接著我們要回到Rails專案內實作了！（捲起袖子）
+經過了三天的Vue簡單起手式，接著我們要回到Rails專案內實作了。（捲起袖子）  
+今天來了解一下元件的概念！
+
+<!-- more -->
 
 # 元件`component`：堆樂高積木的概念
 
