@@ -25,14 +25,11 @@ html: home.html.erb
 </div>
 ```
 
-如何像下圖所示，
-利用`props`屬性，把`Root`裡面的資料傳給`News`呢？
+如何像下圖所示，利用`props`屬性，把`Root`元件裡的資料，向下傳給內層的`News`元件呢？
 
 ![](https://i.imgur.com/zezvqRT.png)
 
-props的設置有兩種方式，`array`陣列以及javascript的`object`物件。
 
-先來說簡單的`array`:
 
 ## Step1. 在`id`名為`content`的Vue Root掛載點，使用`author="Ting`的方式，將字串透過`author`傳入`News`Vue元件
 
@@ -79,16 +76,17 @@ document.addEventListener('turbolinks:load', () => {
 
 
 
-我的`News`元件有兩個區塊，`message`代表著本日鐵人賽的重點：內容會以鬍子語法傳入`{{message}}`
-而`author`作者這筆資料，我需要使用接收Vue instance傳入資料到`news`這個Vue元件的`props`屬性。
+我的`News`元件有兩個區塊，  
+`message`代表著每一天我的不同鐵人賽的文章重點：內容會以鬍子語法傳入` { { message } }`。  
+而`author`作者這筆資料，我需要接收Vue instance傳入的資料到`news`這個Vue元件的`props`屬性。  
 
 
 news.vue
 ```
 <template>
   <div class="news">
-    <h1>本日重點：{{ message }}</h1>
-    <i>by {{ author }}</i>
+    <h1>本日重點：{ {  message } } </h1>
+    <i>by  { { author } } </i>
   </div>
 </template>
 
@@ -114,6 +112,7 @@ news.vue
 </style>
 ```
 
+以上，我們就可以把原本塞在`Root`的`author`的值傳入給下一層的`News`元件。
 明天來介紹動態接收從Vue instance傳過去的值～
 
 
