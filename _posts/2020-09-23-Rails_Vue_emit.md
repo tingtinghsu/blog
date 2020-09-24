@@ -52,9 +52,9 @@ News.vue
 
 ```
 
-## Step2. 在`id`名為`content`的Vue Root掛載點，接收傳出來的事件
+## Step2. 在Vue Root掛載點，接收傳出來的事件
 
-`<News v-on:news="rootMethod"></News> `接收了子元件傳出的事件方法`news`
+我在`News`元件上使用`<News v-on:news="rootMethod"></News> `語法，讓父層接收了子元件傳出的事件方法`news`
 
 home.html.erb
 ```
@@ -67,7 +67,7 @@ home.html.erb
 </div>
 ```
 
-## Step3. 父元件接受收事件後，執行`rootMethod()`
+## Step3. 父元件接收事件後，執行`rootMethod()`方法
 
 在本日的鐵人賽是透過`console.log`印出`子元件送出事件，傳給父元件`這段話作為例子～
 home.js
