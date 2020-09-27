@@ -27,7 +27,7 @@ tags:
 **Vue和Vuex的相同點**  
 
 左邊`Vue`，和右邊`Vuex`同樣都需要new一個instance出來。  
-在Vuex裡，會把這個實例取名為`Store`，儲存元件中共享的資料狀態。  
+在Vuex裡，會把這個實體取名為`Store`，儲存元件中共享的資料狀態。  
 
 ![](https://i.imgur.com/LsQ5EtX.png)
 
@@ -59,14 +59,14 @@ tags:
 
 
 
-實作需求：
+# 實作需求：
 
 我想透過`Vuex`的狀態管理，在`Root`和`Counter`元件按`增+`或`減-`，都能同步顯示一樣的值。
 
 ![](https://i.imgur.com/uClp2qh.png)
 
 
-Step0. 安裝並引入`Vuex`
+# Step0. 安裝並引入`Vuex`
 
 首先在Rails 6專案裡利用指令`yarn add vuex`安裝
 
@@ -83,7 +83,7 @@ info All dependencies
 ✨  Done in 3.30s.
 ```
 
-Step1. 寫一份`Store.js`的檔案
+# Step1. 寫一份`Store.js`的檔案
 
 並且透過mutations的方式更改sate裡`count`的值
 
@@ -108,7 +108,7 @@ const store = new Vuex.Store({
 export default store;
 ```
 
-Step2. 建立`Counter`元件
+# Step2. 建立`Counter`元件
 
 引入上一步驟的的`store.js`  
 讓`+`,`-`按鈕可以被綁定在methods裡的`increment`與`decrement`函式  
@@ -156,7 +156,7 @@ counter.vue
 </script>
 ```
 
-Step3. 視實作的需求，我們也在其他的元件引入同一份`store.js`
+# Step3. 視實作的需求，我們也在其他的元件引入同一份`store.js`
 
 例如：我想在Root元件也可以顯示`count`的記數，就可以透過`computed`return
 這個store裡面的state值。
@@ -197,7 +197,7 @@ document.addEventListener('turbolinks:load', () => {
 })
 ```
 
-Step4. 首頁的layout掛上`Counter`元件
+# Step4. 首頁的layout掛上`Counter`元件
 
 home.html.erb
 
@@ -226,7 +226,7 @@ home.html.erb
 
 後記：在理解Vuex的mutations時，讓我聯想到Rails專案裡，紀錄`schema`欄位變化的`migration`遷移檔，也是為了讓不同開發者的資料庫能夠一致，多拉出了一個層級，去統一管理資料欄位的變化。（不知道這樣的譬喻恰不恰當~XD 請各位前輩指教）
 
-明天再來講一個大重點：Vue.js data裡的生命週期，就要正式進入Rails專案開發了！
+明天再來講一個大重點：Vue instance的生命週期！
 
 Ref: 
 
