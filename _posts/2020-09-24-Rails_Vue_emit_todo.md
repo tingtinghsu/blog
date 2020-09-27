@@ -9,11 +9,11 @@ tags:
   - "vue"    
 ---
 
-![](https://i.imgur.com/kR9PrEd.png)
-
 經過昨天介紹`$emit`可以傳遞自訂的事件給父層元件之後，今天來利用`$emit`的特性，設計一個~~有`3M`便利貼風格~~的to-do list吧!
 
-欲實現的功能：
+![](https://i.imgur.com/kR9PrEd.png)
+
+實作需求：
 
 - **新增**  
 我想要在`input`欄位裡，讓使用者從`Todos`元件輸入本日代辦事項，
@@ -128,7 +128,9 @@ document.addEventListener('turbolinks:load', () => {
 完成圖：
 ![](https://i.imgur.com/e7l7Jia.gif)
 
-再多講完一篇vue的基礎（Vue的event bus）、就可以來規劃之後Rails互動網站的功能囉！：）（摩拳擦掌）
+如果非父子元件之間傳遞，而是平行階層、或是跨階層的元件資料傳遞，
+我們會透過Vue的event bus來實作，或者是以Vuex進行狀態管理。
+這就是明後兩天要介紹的部份囉～請待下回分解！  
 
 
 Ref: 

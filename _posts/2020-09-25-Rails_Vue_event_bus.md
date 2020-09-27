@@ -187,3 +187,4 @@ Ref:
 * [[Vue] 跟著 Vue 闖蕩前端世界 - 07 組件溝通 event bus](https://dotblogs.com.tw/wasichris/2017/03/05/181549)  
 * [[Vue.js] 跨元件的資料傳遞 Eventbus 簡易使用範例](https://chenuin.blogspot.com/2019/12/vuejs-eventbus.html)  
 * [Use a Global Event Bus](https://laracasts.com/discuss/channels/vue/use-a-global-event-bus)  
+* [JS Object.defineProperty(): (7) Vue.js 資料繫結](https://ithelp.ithome.com.tw/articles/10204588)  
