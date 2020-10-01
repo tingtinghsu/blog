@@ -20,7 +20,7 @@ tags:
 (今天就不掛其他的元件了，把重點focus在理解life cycle hook上)  
 
 大概4醬子的感結～～  
-![](https://i.imgur.com/0P4dfiA.png)
+![](https://i.imgur.com/0nEo5Ip.png)
 
 # 什麼是`axios`?
 
