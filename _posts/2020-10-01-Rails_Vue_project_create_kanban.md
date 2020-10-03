@@ -11,6 +11,8 @@ tags:
 
 話說前幾天聽了[星箭廣播「如何變強」特輯：工程師學習新技術](https://blog.starrocket.io/posts/star-rocket-podcast-ep44-lawrence-lin-talks-about-learning-a-new-technology-react/)，深受啟發。這集的來賓是創業家林宜儒（Lawrence）同時也是一位資深的Rails後端工程師，他分享了自己學習前端框架的心得（以`React`為例）。我覺得很值得跟鐵人賽的朋友們分享！
 
+<!-- more -->
+
 在這集的概念Lawerence也提到：
 - 以終為始（begin with the end in mind）：先確認好目標，然後再以目標為前提去設計達成步驟。
 - 漸進式的學習：他自己是先用Rails把功能做出來，再逐步換成前端的Component。
