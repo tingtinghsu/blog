@@ -36,7 +36,7 @@ end
 
 `column.rb`需要透過給定scope，作為排序的分組：
 
-（例如在我的model裡，同一個`kanban`裡，每個`column`的position是unique的！不然會排序大亂啊～）
+（例如在我的model裡，同一個`kanban`裡，每個`column`position的值是unique的！不然會排序大亂啊～）
 
 `column.rb`
 
@@ -70,7 +70,7 @@ yarn add vuedraggable
 
 application.js
 ```javascript
-import Draggable from 'vuedraggable';
+import draggable from 'vuedraggable';
 
 document.addEventListener("turbolinks:load", function(event){
   let el = document.querySelector('#show-list');
@@ -82,7 +82,7 @@ document.addEventListener("turbolinks:load", function(event){
         kanban_id: el.dataset.kanbanid,
         columns: []
       },
-      components: { List, Draggable }
+      components: { List, draggable }
     });
   }
 })
@@ -107,9 +107,9 @@ columns#index.html.erb
 ```htmlmixed
 <div id="column" class="mt-2 px-3" data-kanbanid="<%= @kanban.id%>" >
   <!-- 綁定v-model: 拖完之後，資料也跟著改變位置 -->  
-  <Draggable v-model="columns" class="flex">
+  <draggable v-model="columns" class="flex">
     <Column v-for="column in columns" :column="column" :key="column.id"></Column>  
-  </Draggable>
+  </draggable>
 </div>
 ```
 
@@ -120,15 +120,15 @@ columns#index.html.erb
 但是眼尖的客倌應該有發現，我在上圖的動畫最後幾秒refresh重整頁面，`column`還是跑回第一列。
 因此我們要寫一個js事件，監聽`column`移動、並紀錄`new position`，把最後會落腳到的位置用ajax往後端打。
 
-## Step 2. 監聽`@change`事件，寫一個callback function`dragColumn`紀錄column移動
+## Step 2. 監聽`@change`事件，寫一個callback function`dragColumn`更新column移動位置
 
 我們需要進一步綁定v-model，因為拖拉後，資料也跟著改變位置
 
 columns#index.html.erb
 ```htmlmixed
-  <Draggable v-model="columns" class="flex" @change="dragColumn">
+  <draggable v-model="columns" class="flex" @change="dragColumn">
     <Column v-for="column in columns" :column="column" :key="column.id"></Column>  
-  </Draggable>
+  </draggable>
 </div>
 ```
 
@@ -146,7 +146,7 @@ document.addEventListener("turbolinks:load", () => {
         kanban_id: el.dataset.kanbanid,
         columns: []
       },
-      components: { Column, Draggable },
+      components: { Column, draggable },
       methods: {
         dragColumn(evt){
           console.log(evt)
@@ -213,15 +213,15 @@ routes.rb
 ## Step4 . MVC: ，controller新增action
 
 接著要為這個`drag action`寫一個controller方法。
-由[acts_as_list](https://github.com/brendon/acts_as_list#methods-that-change-position-and-reorder-list)查到語法，把資料插入在第n個position，我們要使用`insert_at`
+由[acts_as_list](https://github.com/brendon/acts_as_list#methods-that-change-position-and-reorder-list)查到語法，把資料插入在第n個position，我們可以使用`insert_at`
 
 columns_controller
 ```
   def drag
     # byebug
     @column.insert_at(column_params[:position].to_i)
-    # 打到後端後，把移到新位置的資料render回前端
-    # http://localhost:3335/kanbans/2/columns/2.json
+    # 打到後端，把移到新位置的資料render回前端
+    # /kanbans/2/columns/2.json
     render 'show.json'
   end
 ```
