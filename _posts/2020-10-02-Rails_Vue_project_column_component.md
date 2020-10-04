@@ -298,7 +298,14 @@ document.addEventListener("turbolinks:load", () => {
 beforeMount(){
   });
 ```
-裡面打ajax跟資料庫取得資料
+裡面打ajax，用`GET`的動詞跟資料庫取得資料。
+
+而在做這一步前，記得在開頭要引入`ujs`
+
+`import Rails from '@rails/ujs'`
+這可以讓我們可以在不更動原有的controller的情況下，就能用Rails的慣例處理route與action。
+
+
 
 完成圖：
 
