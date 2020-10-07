@@ -1,5 +1,5 @@
 ---
-title:  "[2020] 第12屆鐵人賽Day 23 Rails專案開發 - Vuex狀態管理 (1) beforeMount"
+title:  "[2020] 第12屆鐵人賽Day 23 Rails專案開發 - Vuex狀態管理 (1)"
 preview: ""
 permalink: "/articles/2020-10-06"
 date:   2020-10-03 10:00:00
@@ -172,7 +172,8 @@ beforeMount(){
 
 ```
 
-從我們專案的程式碼截圖`column`改寫，左邊代表原本的`Vue`寫法，右邊是改寫為`Vuex`
+以下是專案的程式碼截圖：
+左邊代表原本的`Vue`寫法，右邊是改寫為`Vuex`
 主要把beforeMounted的code移動到`actions`來，再透過`commit`給`mutation`把資料寫回去：
 
 ![](https://i.imgur.com/EqeZt1o.png)
@@ -198,3 +199,7 @@ Ref:
 * [Vuex中文官網: Getter](https://vuex.vuejs.org/zh/guide/getters.html)  
 
 * [Vuex官網](https://vuex.vuejs.org/) 
+
+* [GoRails: Rails & Vue.js Trello Clone](https://gorails.com/episodes/rails-vuejs-trello-clone-part-1)
+
+* [五倍紅寶石學院: I'm coding it 向Trello致敬](https://campus.5xruby.tw/courses/) 
