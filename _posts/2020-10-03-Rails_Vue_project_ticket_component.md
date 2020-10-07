@@ -9,7 +9,7 @@ tags:
   - "vue"    
 ---
 
-[昨天的鐵人賽]()我們終於開始真正把手上在開發的系統變成，Vue.js x Rails專案了，可喜可賀！
+[昨天的鐵人賽](https://ithelp.ithome.com.tw/articles/10248216)我們終於開始真正把手上在開發的系統變成，Vue.js x Rails專案了，可喜可賀！
 
 今天，我想開給自己兩張票`ticket`，包括明後兩天要製作的`ticket拖拉功能`以及`改寫vuex狀態管理`
 
