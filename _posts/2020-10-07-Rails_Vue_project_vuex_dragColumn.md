@@ -9,7 +9,7 @@ tags:
   - "vue"    
 ---
 
-昨天鐵人在我們kanban專案裡，把`column`改寫為Vuex狀態管理並透過beforeMount的方式從後端得到資料渲染在網頁上！
+昨天鐵人賽我們kanban專案裡，把`column`改寫為Vuex狀態管理並透過beforeMount的方式從後端得到資料渲染在網頁上！
 
 看起來好像前進了一大步，但其實Vuex還有很多東西值得研究...（遠目）
 
@@ -19,11 +19,11 @@ tags:
 
 2. 雖然現在可以把Column跟所屬的Ticket資料渲染在頁面上，
 
-但當我們需要更動column的時候（例如第21天介紹的column拖拉功能）
+但當我們需要更動column的時候（例如第21天介紹的column拖拉功能）如下圖gif顯示：
    
 ![](https://i.imgur.com/kdH0aff.gif)  
   
-如上面gif圖顯示，拖拉完後、新的位置結果也還無法正確存入database，reflash頁面後又回復原來的樣子，並且console會出現錯誤訊息：
+拖拉完後、新的位置結果也還無法正確存入database，reflash頁面後又回復原來的樣子，並且console會出現錯誤訊息：
 
 > [Vue warn] Computed property "columns" was assigned to but it has no setter.
 
@@ -38,14 +38,14 @@ tags:
 影片裡：這張截圖幫助我清楚理解到Vuex的四個部分：
 
 1. State: store裡的資料狀態。
-2. Getter: 相當於vue中的computed屬性，透過getters我們可以得到想要的值。
+2. Getter: 相當於vue中的computed屬性，透過Getters我們可以得到想要的值。
 3. Actions: 發出Commits呼叫Mutation。
-4. Mutations: 更改 state 的方法。
+4. Mutations: 更改 State 的方法。
 
 
 # 介紹：Vuex提供的4個Helper`輔助函式`
 
-為了讓Vue能夠直接的使用Vuex的資料或方法，這裡把4個helper的對應整理如下：
+為了讓Vue能夠直接使用Vuex的資料或方法，這裡把4個helper的對應整理如下：
 
 |  Vuex    |  Vue    | 
 | ---- | ---- |
@@ -144,21 +144,28 @@ columns/index.html.erb
 雖然在本日鐵人賽還沒用到`mapMutation`，
 不過還是來舉個例子介紹一下：
 
-Vue的`mapMutations`
+跟之前的`mapState`等語法類似，
+Vue的`mapMutations`也是簡寫：
+
 ```
 methods:{
- ...mapMutations(['GET_BONUS'])
+ ...mapMutations(['GET_SALARY','GET_BONUS'])
 }
 ```
-等同於以下寫法
+等同於原本落落長的兩句：
 ```
+getSalary(payLoad){
+  this.$store.commit('GET_SALARY',payLoad)
+}
 getBonus(payLoad){
   this.$store.commit('GET_BONUS',payLoad)
 }
 ```
-參數可以在調用方法時寫入。
+`payLoad`參數可以在`調用`方法的時候時寫入。
+
 ```
-<button @click="getBonus({money:50000})">加薪</button>
+<button @click="getSalary({ money: 40000 })">領薪水摟！</button>
+<button @click="getBonus({ money: 60000 })">發年終獎金！</button>
 ```
 
 
@@ -167,7 +174,9 @@ Actions和Mutation的差別：
 - mutations最重要的作用就是為了修改state，所以mutations只能放同步function。
 
 
-最後來一張`dragColumn`method改成Vuex後，devtool中每一條mutation前後狀態的快照，做為今天的end：）
+呼～～Vuex狀態管理真是一門大學問！
+
+最後來一張`dragColumn`method改成Vuex後，devtool中每一條mutation前後狀態的快照，做為今天的ending：）
 ![](https://i.imgur.com/HRKWEMN.gif)
 
 
