@@ -158,7 +158,7 @@ export default {
 <script>
     methods: {
       createTicket(evt){
-        event.preventDefault();
+        evt.preventDefault();
         console.log(this.ticketname)
       },
       dragTicket(evt){

@@ -1,8 +1,8 @@
 ---
-title:  "[2020] 第12屆鐵人賽Day 27 Rails專案開發 - Action Cable即時互動功能"
+title:  "[2020] 第12屆鐵人賽Day 29 Rails專案開發 - Action Cable即時互動功能"
 preview: ""
-permalink: "/articles/2020-10-10"
-date:   2020-10-06 10:00:00
+permalink: "/articles/2020-10-12"
+date:   2020-10-10 10:00:00
 layout: post
 tags: 
   - "rail"
@@ -10,7 +10,7 @@ tags:
 ---
 
 
-本日想實作功能：拖拉的時候，在另一個登入瀏覽器也會同步顯示結果
+本日想實作功能：新增ticket的時候，在另一個登入瀏覽器也會同步顯示結果
 
 ```
 rails g channel column
