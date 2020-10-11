@@ -63,9 +63,9 @@ ticket.vue
 
 如同昨天鐵人賽的文章所示範，只要在`Ticket`元件外層加上`draggable`元件：
 
-column.rb
+column.vue
 
-```htmlmixed
+```html
 <template>
   <div class="column">
     <div class="column-name">{{ column.name }}</div>

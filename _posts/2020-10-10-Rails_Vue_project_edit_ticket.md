@@ -9,7 +9,6 @@ tags:
   - "vue"    
 ---
 
-`CRUD`新增、刪除、修改、顯示功能是一個完整的線上系統不可或缺的功能。
 前天我們完成了`create ticket`，昨天也順便介紹了`v-if`語法；
 今天就延續著介紹以Vue.js實作`CRUD`的編輯功能！
 
@@ -86,7 +85,7 @@ tags:
 ![](https://i.imgur.com/QM0j3gM.png)
 
 在這裡我們為了要把`ticket component`裡面的`ticket id`和`ticket name`送到`Vuex`的同名action裡運用，
-使用了`this.$store.dispatch()`的方式。`dispatch`這個英文字的中譯有`調度`、`分發`的意思，它實際上是一個的觸發方法，  
+使用了`this.$store.dispatch()`的方式。`dispatch`這個英文字的中譯有`調度`、`分發`的意思，它實際上是一個觸發的方法。
 `this.$store.dispatch(actionType, payload)`會傳兩個參數，一個是要觸發Vuex的action的類型，另一個是攜帶的資料（payload），
 
 所以我們在Vue method可以這樣寫：
@@ -121,6 +120,8 @@ updateTicket(evt){
         data,
         dataType: 'json',
         success: result => {
+          // 步驟5會提到！
+          commit("UPDATE_TICKET", result);
           console.log(result);
         },
         error: error => {
@@ -128,15 +129,19 @@ updateTicket(evt){
         }
       });      
     },
+
     dragColumn({ commit, state }, evt) {
-      // 略
+      //略
+    },
+    fetchColumn({ commit }, kanbanid){
+      //略
     }
   }
 ```
 
 ## Step 4. MVC: controller 更新資料庫
 
-因為ticket的內容物已經更新，最後我們透過rails controllerrender新的show.json
+因為ticket的內容已經更新，我們透過rails controllerrender新的show.json
 
 tickets_controller.rb
 ```
@@ -150,6 +155,29 @@ def update
   end
 end
 ```
+
+## Step 5. ajax回傳結果為成功的話，送出commit請Mutation更新state
+
+資料庫更新之後，畫面上也要請mutations進行變更。
+所以我們在Vuex的store裡 `commit("UPDATE_TICKET", result);`，會觸發`UPDATE_TICKET`變更state。
+
+更新ticket的方式，是透過`state.columns`的findIndex，比對傳進來的ticket的`id`和`column_id`，找到這張ticket在哪一欄位、哪一個序號，並且透過`splice`把內容更新上去。
+
+```
+  mutations: {
+    UPDATE_COLUMNS(state, columns){
+      state.columns = columns;
+    },
+
+    UPDATE_TICKET(state, ticket){
+      let column_index = state.columns.findIndex(col => col.id == ticket.column_id)
+      let ticket_index = state.columns[column_index].tickets.findIndex(tkt => tkt.id == ticket.id)
+
+      state.columns[column_index].tickets.splice(ticket_index, 1, ticket)
+    }
+  },
+```
+
 
 編輯ticket，完成！而且重新refresh仍然是更新後的ticket
 
