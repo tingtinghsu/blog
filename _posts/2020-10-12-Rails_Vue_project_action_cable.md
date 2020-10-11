@@ -122,7 +122,7 @@ export default createConsumer()
 ## 2-2 Consumer連線後，會成為Subscriber`訂閱者`：建立 column_channel.js
 
 Consumer連線後成為Subscriber後就會進來這裡。有三個部分：`connected()`、`received(data)`、`disconnected()`
-我們可以在瀏覽器的dev tool裡console分別印出連線狀況，幫助我們debug。
+我們可以在瀏覽器的dev tool裡console分別印出連線狀況，幫助debug。
 
 `app/frontend/channel/column.js`
 ```
@@ -218,8 +218,7 @@ ps.這邊的點我卡了幾個小時，因為一直沒有render出自己要的js
 ```
 
 
-# Step 4. `Subscriber`訂閱者處理收到需要commit的data
-
+# Step 4. `Subscriber`訂閱者處理需要commit的data
 
 ## 4-1. 讓Vuex的`$store`變成全域變數
 
@@ -230,18 +229,18 @@ import $ from 'jquery'
 window.$ = $
 ```
 
-那，為了讓我們可以在`Action Cable`的client端也可以對store做事情，
-如法炮製，在`application.js`這個Vue的掛載點加上這句：
+那麼為了讓我們可以在`Action Cable`的client端也可以對store做事情，
+我們如法炮製，在`application.js`這個Vue的掛載點加上這句：
 
 ```
 window.$store = store;
 ```
 
 
-## 4-2. 收到資料`received(data)`的`Subscriber`訂閱者送出commit，重新渲染自己的頁面
+## 4-2. `Subscriber`訂閱者收到資料`received(data)`
 
-vuex限制`commit`只能傳2個參數，第一個是function名稱，第二個是傳入的所有參數，用object包起來。第二個傳入參數稱為payload。
-所以我們把收到的
+vuex限制`commit`只能傳2個參數，第一個是function名稱，第二個用object包起來的參數（稱為payload）。
+我們把收到的data，利用`window.$store.commit(data.commit, JSON.parse(data.payload)); `重新渲染自己的頁面
 
 `app/frontend/channel/column.js`
 ```
@@ -275,14 +274,16 @@ consumer.subscriptions.create("ColumnChannel", {
 
 1. 這並不是我第一次實做action cable，但是第一次透過結合Vuex狀態管理來做`ActionCable.server.broadcast`，算是一個自己的大突破～～本來預計想做的是拖拉的action cable即時效果（但還沒克服bug）緊急換成實作`刪除ticket`和`修改ticket`的即時互動效果～終於在自己規定的時限內研究出來+把文章寫好。
 2. 後來發現Vue自己也有[actioncable-vue](https://github.com/mclintprojects/actioncable-vue) 的套件，鐵人賽結束後我也會來玩玩看！
+3. 做完action cable功能終於能夠呼應本次鐵人賽的名稱「前端後端交響曲」了～～放煙火！
 
-
+  
+Ref: 
 
 * [Rails Guides: Action Cable](https://guides.rubyonrails.org/action_cable_overview.html)  
 
-* [[Rails] Actioncable 即時通訊](https://guides.rubyonrails.org/action_cable_overview.html)  
+* [Rails Actioncable 即時通訊](https://medium.com/@dd0425/rails-actioncable-%E5%8D%B3%E6%99%82%E9%80%9A%E8%A8%8A-eea02474ff33)  
 
-* [JavaScript | WebSocket 讓前後端沒有距離](https://medium.com/enjoy-life-enjoy-coding/javascript-websocket-%E8%AE%93%E5%89%8D%E5%BE%8C%E7%AB%AF%E6%B2%92%E6%9C%89%E8%B7%9D%E9%9B%A2-34536c333e1b)  
+* [WebSocket 讓前後端沒有距離](https://medium.com/enjoy-life-enjoy-coding/javascript-websocket-%E8%AE%93%E5%89%8D%E5%BE%8C%E7%AB%AF%E6%B2%92%E6%9C%89%E8%B7%9D%E9%9B%A2-34536c333e1b)  
 
 * [TCP 三向交握 (Three-way Handshake)](https://notfalse.net/7/three-way-handshake)  
 
