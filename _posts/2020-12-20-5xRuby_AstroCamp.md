@@ -1,11 +1,11 @@
 ---
 title:  "[2020] AstroCamp紀錄 - 邁向工程師之旅"
 preview: ""
-permalink: "/articles/2020-12-19"
+permalink: "/articles/2020-12-19/my_route_of_becoming_a_ruby_on_rails_developer"
 date:   2020-12-19 10:00:00
 layout: post
 tags: 
-  - "rail"   
+  - "career"   
 ---
 
 # 轉職軟體工程師成功的海歸背包客
