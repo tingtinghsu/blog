@@ -9,13 +9,12 @@ title:               Ting's Square
 tagline:             '程式寫作之路'
 description:         '@tingtingtour 2018-2019 My Ruby on Rails Project'
 url:                 https://github.com/tingtinghsu
-baseurl:             '/blog'
 excerpt_separator:  '<!-- more -->'
 
 # About/contact
 author:
   name:              Ting Ting Hsu
-  url:               https://tingtinghsu.github.io/blog
+  url:               https://tingtinghsu.github.io/
   email:             tingtinghsu.tw[at]gm
 
 # Handling reading
