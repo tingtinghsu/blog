@@ -1,5 +1,5 @@
 ---
-title:  "[2020] AstroCamp紀錄 - 邁向工程師之旅(下)"
+title:  "[2020] AstroCamp 紀錄 - 邁向工程師之旅(下)"
 preview: ""
 permalink: "/articles/2020-12-19/my_route_of_becoming_a_ruby_on_rails_developer_2"
 date:   2020-12-23 10:00:00
@@ -8,7 +8,7 @@ tags:
   - "career"   
 ---
 
-我認為像 Astro Camp 這樣的實體課程，跟線上課程最大、也最重要的差異就是進行分組專題製作及為Demo Day的發表做準備了！因為我自己也是被上一屆參加Demo Day的網站作品**震撼到**，才更有信心加入Astro Camp 進行轉職工程師的計畫。為了準備能讓自己未來面試時能夠驕傲展示的作品，我們每一組無不盡全力準備，在為期一個月的時間裡，每天都從早密集討論、寫code到晚上。
+我認為像 [Astro Camp](https://astro.5xruby.tw/) 這樣的實體課程，跟線上課程最大、也最重要的差異就是進行分組專題製作及為Demo Day的發表做準備了！因為我自己也是被上一屆參加Demo Day的網站作品**震撼到**，才更有信心加入Astro Camp 進行轉職工程師的計畫。為了準備能讓自己未來面試時能夠驕傲展示的作品，我們每一組無不盡全力準備，在為期一個月的時間裡，每天都從早密集討論、寫code到晚上。
 
 <!-- more -->
 
